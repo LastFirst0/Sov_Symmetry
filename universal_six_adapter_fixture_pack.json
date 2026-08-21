@@ -1,0 +1,31 @@
+{
+  "schema": "sov.universal_adapter_integration_fixture_pack",
+  "schema_version": "0.1.0",
+  "framework_id": "framework:integration-neutral",
+  "cases": [
+    {"id":"symmetry-positive","check":"matrix.symmetric.v1","input":[[1,2],[2,4]],"expected":"verified","class":"positive"},
+    {"id":"symmetry-negative","check":"matrix.symmetric.v1","input":[[1,3],[2,4]],"expected":"fail","class":"negative"},
+    {"id":"symmetry-malformed","check":"matrix.symmetric.v1","input":[[1,2,3],[2,4]],"expected":"unverifiable","class":"malformed"},
+    {"id":"symmetry-mutation","check":"matrix.symmetric.v1","input":[[1,2],[9,4]],"expected":"fail","class":"mutation"},
+    {"id":"identity-positive","check":"matrix.identity.v1","input":[[1,0],[0,1]],"expected":"verified","class":"positive"},
+    {"id":"identity-negative","check":"matrix.identity.v1","input":[[1,1],[0,1]],"expected":"fail","class":"negative"},
+    {"id":"identity-malformed","check":"matrix.identity.v1","input":[],"expected":"unverifiable","class":"malformed"},
+    {"id":"identity-mutation","check":"matrix.identity.v1","input":[[1,0],[0,2]],"expected":"fail","class":"mutation"},
+    {"id":"inverse-positive","check":"matrix.inverse.v1","input":[[2,0],[0,4]],"inverse":[[0.5,0],[0,0.25]],"expected":"verified","class":"positive"},
+    {"id":"inverse-negative","check":"matrix.inverse.v1","input":[[2,0],[0,4]],"inverse":[[0.5,0],[0,0.5]],"expected":"fail","class":"negative"},
+    {"id":"inverse-malformed","check":"matrix.inverse.v1","input":[[1,0]],"inverse":[[1,0],[0,1]],"expected":"unverifiable","class":"malformed"},
+    {"id":"inverse-mutation","check":"matrix.inverse.v1","input":[[2,0],[0,4]],"inverse":[[0.6,0],[0,0.25]],"expected":"fail","class":"mutation"},
+    {"id":"partial-positive","check":"relation.partial_order.v1","input":[[1,1,1],[0,1,1],[0,0,1]],"expected":"verified","class":"positive"},
+    {"id":"partial-negative","check":"relation.partial_order.v1","input":[[1,1],[1,1]],"expected":"fail","class":"negative"},
+    {"id":"partial-malformed","check":"relation.partial_order.v1","input":[[1,0.0],[0,1]],"expected":"unverifiable","class":"malformed"},
+    {"id":"partial-mutation","check":"relation.partial_order.v1","input":[[1,1,0],[0,1,1],[0,0,1]],"expected":"fail","class":"mutation"},
+    {"id":"graph-positive","check":"graph.undirected_connected.v1","input":[[0,1,0],[1,0,1],[0,1,0]],"expected":"verified","class":"positive"},
+    {"id":"graph-negative","check":"graph.undirected_connected.v1","input":[[0,0],[0,0]],"expected":"fail","class":"negative"},
+    {"id":"graph-malformed","check":"graph.undirected_connected.v1","input":[[0,1],[0,0]],"expected":"unverifiable","class":"malformed"},
+    {"id":"graph-mutation","check":"graph.undirected_connected.v1","input":[[0,1,0],[1,0,0],[0,0,0]],"expected":"fail","class":"mutation"},
+    {"id":"tensor-positive","check":"tensor.rank3_last_indices_symmetric.v1","input":[[[1,2],[2,3]],[[4,5],[5,6]]],"expected":"verified","class":"positive"},
+    {"id":"tensor-negative","check":"tensor.rank3_last_indices_symmetric.v1","input":[[[1,2],[9,3]]],"expected":"fail","class":"negative"},
+    {"id":"tensor-malformed","check":"tensor.rank3_last_indices_symmetric.v1","input":[[[1,2,3],[2,3,4]]],"expected":"unverifiable","class":"malformed"},
+    {"id":"tensor-mutation","check":"tensor.rank3_last_indices_symmetric.v1","input":[[[1,7],[2,3]]],"expected":"fail","class":"mutation"}
+  ]
+}

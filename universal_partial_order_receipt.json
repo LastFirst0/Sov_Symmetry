@@ -1,0 +1,111 @@
+{
+  "advanced_export": {
+    "advanced_assurance": null,
+    "assurance_status": "not_recorded",
+    "receipt_replay": {
+      "message": "The receipt was replayed from its declared provenance.",
+      "receipt_id": "sov:sha256:9a0f543a90e8cb878ec36550741c8e234deb3393cd8e251f1bfb865e7b3cb0f1",
+      "status": "verified"
+    },
+    "schema": "sov.advanced_evidence_export",
+    "schema_version": "0.1.0",
+    "scope": "Local export only. Any signature, quorum, or Merkle field is evidence only when explicitly recorded; absent fields do not imply trust."
+  },
+  "bundle": {
+    "provenance": {
+      "check": "relation.partial_order.v1",
+      "input": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "receipt_schema": "sov.simple_receipt.v0.1"
+    },
+    "receipt": {
+      "details": {
+        "antisymmetry_pairs": [],
+        "missing_reflexivity": [],
+        "missing_transitivity": [],
+        "predicate": "relation.partial_order.v1"
+      },
+      "next_action": "Inspect the reported relation violations or use the verified relation as a bounded order structure.",
+      "plain_status": "holds in this check",
+      "provenance": {
+        "check": "relation.partial_order.v1",
+        "input": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "receipt_schema": "sov.simple_receipt.v0.1"
+      },
+      "receipt_id": "sov:sha256:9a0f543a90e8cb878ec36550741c8e234deb3393cd8e251f1bfb865e7b3cb0f1",
+      "scope": "Finite binary relations only; this does not establish a physical causal theory or any framework-level interpretation.",
+      "status": "verified",
+      "what_i_checked": "Whether this finite relation is a partial order (reflexive, antisymmetric, and transitive).",
+      "why": "The relation is reflexive, antisymmetric, and transitive."
+    },
+    "schema": "sov.receipt_bundle",
+    "schema_version": "0.1.0"
+  },
+  "receipt": {
+    "details": {
+      "antisymmetry_pairs": [],
+      "missing_reflexivity": [],
+      "missing_transitivity": [],
+      "predicate": "relation.partial_order.v1"
+    },
+    "next_action": "Inspect the reported relation violations or use the verified relation as a bounded order structure.",
+    "plain_status": "holds in this check",
+    "provenance": {
+      "check": "relation.partial_order.v1",
+      "input": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "receipt_schema": "sov.simple_receipt.v0.1"
+    },
+    "receipt_id": "sov:sha256:9a0f543a90e8cb878ec36550741c8e234deb3393cd8e251f1bfb865e7b3cb0f1",
+    "scope": "Finite binary relations only; this does not establish a physical causal theory or any framework-level interpretation.",
+    "status": "verified",
+    "what_i_checked": "Whether this finite relation is a partial order (reflexive, antisymmetric, and transitive).",
+    "why": "The relation is reflexive, antisymmetric, and transitive."
+  }
+}

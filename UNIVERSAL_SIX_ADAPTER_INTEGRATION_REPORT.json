@@ -1,0 +1,227 @@
+{
+  "adapter_count": 6,
+  "case_count": 24,
+  "failed": 0,
+  "fixture_pack_sha256": "18e6a647daa37f66cd6be5ed9f02769fa69ca4693f2655742b8bb75c40e58a49",
+  "passed": 24,
+  "rows": [
+    {
+      "actual": "verified",
+      "adapter": "matrix.symmetric.v1",
+      "class": "positive",
+      "expected": "verified",
+      "id": "symmetry-positive",
+      "pass": true,
+      "receipt_id": "sov:sha256:38b2c892520739e9e602202e2b8a3e78ff4f8ba80b2159d1bf09f0539d07fbd8"
+    },
+    {
+      "actual": "fail",
+      "adapter": "matrix.symmetric.v1",
+      "class": "negative",
+      "expected": "fail",
+      "id": "symmetry-negative",
+      "pass": true,
+      "receipt_id": "sov:sha256:0cff9001666ab202b7950a5e4f1598a61b4747f9666fa6db5724267c5d23e17c"
+    },
+    {
+      "actual": "unverifiable",
+      "adapter": "matrix.symmetric.v1",
+      "class": "malformed",
+      "expected": "unverifiable",
+      "id": "symmetry-malformed",
+      "pass": true,
+      "receipt_id": "sov:sha256:0c979780c30e532bcb96c69812ac99cc70e74c708b37af31bbe1b0773b077dfa"
+    },
+    {
+      "actual": "fail",
+      "adapter": "matrix.symmetric.v1",
+      "class": "mutation",
+      "expected": "fail",
+      "id": "symmetry-mutation",
+      "pass": true,
+      "receipt_id": "sov:sha256:67da3547b8e6e1fc3a2436daf8d3cf48420bf66ef25d867a50fc95b52141700a"
+    },
+    {
+      "actual": "verified",
+      "adapter": "matrix.identity.v1",
+      "class": "positive",
+      "expected": "verified",
+      "id": "identity-positive",
+      "pass": true,
+      "receipt_id": "sov:sha256:b946ecde1bfcf08b7916f9f3d6f781e2f07c5674ea15522294e896daa9548414"
+    },
+    {
+      "actual": "fail",
+      "adapter": "matrix.identity.v1",
+      "class": "negative",
+      "expected": "fail",
+      "id": "identity-negative",
+      "pass": true,
+      "receipt_id": "sov:sha256:604d64246e502c8480fd84c557c6117049e1c9311bb58f7d9fa773dd968f0604"
+    },
+    {
+      "actual": "unverifiable",
+      "adapter": "matrix.identity.v1",
+      "class": "malformed",
+      "expected": "unverifiable",
+      "id": "identity-malformed",
+      "pass": true,
+      "receipt_id": "sov:sha256:024949e7177288e0e54046828c6ca52ddbf00995e6e71c4aa33b6f38bbb19ebd"
+    },
+    {
+      "actual": "fail",
+      "adapter": "matrix.identity.v1",
+      "class": "mutation",
+      "expected": "fail",
+      "id": "identity-mutation",
+      "pass": true,
+      "receipt_id": "sov:sha256:920b02277c4780d9cc790d3e572bc391cdbfbdf00c988c941041669167bf7aae"
+    },
+    {
+      "actual": "verified",
+      "adapter": "matrix.inverse.v1",
+      "class": "positive",
+      "expected": "verified",
+      "id": "inverse-positive",
+      "pass": true,
+      "receipt_id": "sov:sha256:75c65aca8d88d5dab66b239ef6e03e50bd8e3a984fb48c318838fcf343e69ba3"
+    },
+    {
+      "actual": "fail",
+      "adapter": "matrix.inverse.v1",
+      "class": "negative",
+      "expected": "fail",
+      "id": "inverse-negative",
+      "pass": true,
+      "receipt_id": "sov:sha256:ff6b6045acd871df94d4cdc4dade9f8605865721141f33f55ea4f33aa7e48eea"
+    },
+    {
+      "actual": "unverifiable",
+      "adapter": "matrix.inverse.v1",
+      "class": "malformed",
+      "expected": "unverifiable",
+      "id": "inverse-malformed",
+      "pass": true,
+      "receipt_id": "sov:sha256:4fd35336646d8b181de8c9721b6b16d16fa419ff8f60c668475c2c594df8fdf9"
+    },
+    {
+      "actual": "fail",
+      "adapter": "matrix.inverse.v1",
+      "class": "mutation",
+      "expected": "fail",
+      "id": "inverse-mutation",
+      "pass": true,
+      "receipt_id": "sov:sha256:5d66f0ea1bae134a6685259a1f61d9376d413df9bb0876f63a69de3ecb3f90df"
+    },
+    {
+      "actual": "verified",
+      "adapter": "relation.partial_order.v1",
+      "class": "positive",
+      "expected": "verified",
+      "id": "partial-positive",
+      "pass": true,
+      "receipt_id": "sov:sha256:9a0f543a90e8cb878ec36550741c8e234deb3393cd8e251f1bfb865e7b3cb0f1"
+    },
+    {
+      "actual": "fail",
+      "adapter": "relation.partial_order.v1",
+      "class": "negative",
+      "expected": "fail",
+      "id": "partial-negative",
+      "pass": true,
+      "receipt_id": "sov:sha256:7318feb51fdd587f9c6511f1830ef5a93f2b59cbad9a5c232e537291b934fb85"
+    },
+    {
+      "actual": "unverifiable",
+      "adapter": "relation.partial_order.v1",
+      "class": "malformed",
+      "expected": "unverifiable",
+      "id": "partial-malformed",
+      "pass": true,
+      "receipt_id": "sov:sha256:7b19f122994b55b0541ec441ddcb0fd356e4c6bf5c57c3131eb253d80b7a3ccb"
+    },
+    {
+      "actual": "fail",
+      "adapter": "relation.partial_order.v1",
+      "class": "mutation",
+      "expected": "fail",
+      "id": "partial-mutation",
+      "pass": true,
+      "receipt_id": "sov:sha256:4f0d42dda0eb43e772da29ec91572aaa54c3c58ca33574d5582134a39a94dae5"
+    },
+    {
+      "actual": "verified",
+      "adapter": "graph.undirected_connected.v1",
+      "class": "positive",
+      "expected": "verified",
+      "id": "graph-positive",
+      "pass": true,
+      "receipt_id": "sov:sha256:ea970603ae3a42d06a62eba748e8ce4394b0a14cbc11fc4cb7040108c6daa955"
+    },
+    {
+      "actual": "fail",
+      "adapter": "graph.undirected_connected.v1",
+      "class": "negative",
+      "expected": "fail",
+      "id": "graph-negative",
+      "pass": true,
+      "receipt_id": "sov:sha256:4eca46b9fc9dbd8d1e2aed9fb8a39d6e203f25abfa9f37a1e03e3f381cc874f4"
+    },
+    {
+      "actual": "unverifiable",
+      "adapter": "graph.undirected_connected.v1",
+      "class": "malformed",
+      "expected": "unverifiable",
+      "id": "graph-malformed",
+      "pass": true,
+      "receipt_id": "sov:sha256:249ea9b5f977ed1463b746ec57d77176d9470877f9e8a4d15dbc077b9be78136"
+    },
+    {
+      "actual": "fail",
+      "adapter": "graph.undirected_connected.v1",
+      "class": "mutation",
+      "expected": "fail",
+      "id": "graph-mutation",
+      "pass": true,
+      "receipt_id": "sov:sha256:a4df0fd5f94259419999307b85f709be620c541f6d138d27533c55a57d68c024"
+    },
+    {
+      "actual": "verified",
+      "adapter": "tensor.rank3_last_indices_symmetric.v1",
+      "class": "positive",
+      "expected": "verified",
+      "id": "tensor-positive",
+      "pass": true,
+      "receipt_id": "sov:sha256:fedf9e03307088890092b59bc8f71c4a1e135f395ff9fe0701399c6e2b008ab9"
+    },
+    {
+      "actual": "fail",
+      "adapter": "tensor.rank3_last_indices_symmetric.v1",
+      "class": "negative",
+      "expected": "fail",
+      "id": "tensor-negative",
+      "pass": true,
+      "receipt_id": "sov:sha256:a57da4810e3954ac414d3110af0273c426fe11cff88f6bdf3ee474f56c0ca5e0"
+    },
+    {
+      "actual": "unverifiable",
+      "adapter": "tensor.rank3_last_indices_symmetric.v1",
+      "class": "malformed",
+      "expected": "unverifiable",
+      "id": "tensor-malformed",
+      "pass": true,
+      "receipt_id": "sov:sha256:cd9f464061d963be341d877c486ac484d694d48f0e04ca94f5bcf762b824cf39"
+    },
+    {
+      "actual": "fail",
+      "adapter": "tensor.rank3_last_indices_symmetric.v1",
+      "class": "mutation",
+      "expected": "fail",
+      "id": "tensor-mutation",
+      "pass": true,
+      "receipt_id": "sov:sha256:a47b88caa433f0d245cf1648e6e14dde6f67e4a62183da740ec2e1aa1bd52316"
+    }
+  ],
+  "schema": "sov.universal_adapter_integration_report",
+  "schema_version": "0.1.0"
+}

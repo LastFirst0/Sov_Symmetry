@@ -1,0 +1,504 @@
+{
+  "manifold_name": "Sovereign Universal Comparative Genomics & Longevity Manifold",
+  "total_registered_species": 9,
+  "species_profiles": [
+    {
+      "taxon_id": 1299,
+      "scientific_name": "Deinococcus radiodurans",
+      "common_name": "Radiotolerant Extremophile",
+      "ncbi_assembly": "GCF_000008565.1",
+      "max_lifespan_years": 999.0,
+      "senescence_type": "EXTENDED",
+      "cancer_resistance_index": 1.0,
+      "regeneration_capacity_index": 0.95,
+      "dna_repair_amplification_score": 1.0,
+      "key_adaptations": [
+        "PprA and RecA mediated chromosome shatter reassembly",
+        "Mn2+/Fe2+ antioxidant metabolite shields protecting proteome",
+        "Resistance to 10,000+ Gy ionizing radiation and severe desiccation"
+      ],
+      "ortholog_genes": {
+        "RECA": "ATGGACGAGAACAAGAAG",
+        "PPRA": "ATGTCGATCTACCCCGCC",
+        "DRA0047": "ATGGCCTCCACGCTCTCC"
+      },
+      "e8_root_index": 40,
+      "e8_root_vector": [
+        0.5,
+        0.5,
+        0.5,
+        -0.5,
+        -0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "monster_crt_coordinates": [
+        41,
+        8,
+        15
+      ],
+      "poincare_depth": 1.0985,
+      "poincare_vector": [
+        0.1845,
+        0.0857,
+        -0.0705,
+        -0.1981,
+        -0.2123,
+        0.2486,
+        0.2202,
+        0.0945
+      ],
+      "evolutionary_adaptation_index": 0.9875,
+      "distance_to_human_manifold": 2.0,
+      "longevity_archetype": "Peto's Paradox & Replicative DNA Repair Amplification"
+    },
+    {
+      "taxon_id": 308579,
+      "scientific_name": "Turritopsis dohrnii",
+      "common_name": "Immortal Jellyfish",
+      "ncbi_assembly": "GCA_027922465.2",
+      "max_lifespan_years": 9999.0,
+      "senescence_type": "REVERSIBLE",
+      "cancer_resistance_index": 0.95,
+      "regeneration_capacity_index": 1.0,
+      "dna_repair_amplification_score": 0.98,
+      "key_adaptations": [
+        "Life cycle reversal via transdifferentiation",
+        "POLD1 and POLA1 copy number expansions",
+        "Constitutive TERT / shelterin capping",
+        "PRC2-driven epigenetic H3K27me3 clearing"
+      ],
+      "ortholog_genes": {
+        "POLD1": "ATGGATGGAGACGCCGGC",
+        "TERT": "ATGCCGCGCGCTCCCCGC",
+        "EZH2": "ATGGGCCAGACTGGGAAG",
+        "ATG5": "ATGACAGATGACAAAGAT"
+      },
+      "e8_root_index": 40,
+      "e8_root_vector": [
+        -0.5,
+        -0.5,
+        0.5,
+        -0.5,
+        0.5,
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "monster_crt_coordinates": [
+        1,
+        41,
+        33
+      ],
+      "poincare_depth": 1.0985,
+      "poincare_vector": [
+        -0.2565,
+        -0.2623,
+        0.0718,
+        -0.2458,
+        0.0526,
+        -0.1379,
+        -0.1245,
+        -0.1117
+      ],
+      "evolutionary_adaptation_index": 0.9745,
+      "distance_to_human_manifold": 2.4495,
+      "longevity_archetype": "Cellular Transdifferentiation & Reprogramming"
+    },
+    {
+      "taxon_id": 8296,
+      "scientific_name": "Ambystoma mexicanum",
+      "common_name": "Axolotl Salamander",
+      "ncbi_assembly": "GCF_002915635.1",
+      "max_lifespan_years": 25.0,
+      "senescence_type": "EXTENDED",
+      "cancer_resistance_index": 0.95,
+      "regeneration_capacity_index": 1.0,
+      "dna_repair_amplification_score": 0.82,
+      "key_adaptations": [
+        "Scar-free whole limb, spinal cord, and heart regeneration",
+        "Blastema progenitor dedifferentiation dynamics",
+        "Profound resistance to carcinogenic transformation"
+      ],
+      "ortholog_genes": {
+        "SOX2": "ATGTACAACATGATGGAG",
+        "TGFB1": "ATGCCGCCCTCCGGGCTG",
+        "COL1A1": "ATGCTCAGCTTTGTGGAT"
+      },
+      "e8_root_index": 40,
+      "e8_root_vector": [
+        -0.5,
+        0.5,
+        -0.5,
+        0.5,
+        0.5,
+        0.5,
+        -0.5,
+        -0.5
+      ],
+      "monster_crt_coordinates": [
+        2,
+        25,
+        10
+      ],
+      "poincare_depth": 1.0985,
+      "poincare_vector": [
+        -0.0905,
+        0.2417,
+        -0.1187,
+        0.2248,
+        0.2543,
+        0.1388,
+        -0.184,
+        -0.0304
+      ],
+      "evolutionary_adaptation_index": 0.9105,
+      "distance_to_human_manifold": 2.0,
+      "longevity_archetype": "Constitutive Stemness & Whole-Body Morphallaxis"
+    },
+    {
+      "taxon_id": 6087,
+      "scientific_name": "Hydra vulgaris",
+      "common_name": "Freshwater Hydra",
+      "ncbi_assembly": "GCF_022522855.1",
+      "max_lifespan_years": 9999.0,
+      "senescence_type": "NEGLIGIBLE",
+      "cancer_resistance_index": 0.9,
+      "regeneration_capacity_index": 1.0,
+      "dna_repair_amplification_score": 0.85,
+      "key_adaptations": [
+        "Continuous interstitial stem cell (I-cell) self-renewal",
+        "Constitutive FoxO transcription factor activity",
+        "Zero age-dependent mortality or fertility decline",
+        "Whole-body morphallactic regeneration"
+      ],
+      "ortholog_genes": {
+        "FOXO": "ATGGCGGAGGCGCCGCAG",
+        "PIWI": "ATGGATCCTACCCGACCA",
+        "WNT3": "ATGCTGAGACTCCTCCTG",
+        "NANOS": "ATGTCGTCTCTGAATGAA"
+      },
+      "e8_root_index": 20,
+      "e8_root_vector": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "monster_crt_coordinates": [
+        19,
+        44,
+        31
+      ],
+      "poincare_depth": 1.0985,
+      "poincare_vector": [
+        -0.2787,
+        -0.0379,
+        0.1383,
+        0.0215,
+        0.0364,
+        -0.1159,
+        0.2161,
+        0.2997
+      ],
+      "evolutionary_adaptation_index": 0.905,
+      "distance_to_human_manifold": 2.0,
+      "longevity_archetype": "Constitutive Stemness & Whole-Body Morphallaxis"
+    },
+    {
+      "taxon_id": 27602,
+      "scientific_name": "Balaena mysticetus",
+      "common_name": "Bowhead Whale",
+      "ncbi_assembly": "GCF_000787275.1",
+      "max_lifespan_years": 211.0,
+      "senescence_type": "EXTENDED",
+      "cancer_resistance_index": 0.98,
+      "regeneration_capacity_index": 0.35,
+      "dna_repair_amplification_score": 0.99,
+      "key_adaptations": [
+        "ERCC1, PCNA, and UHRF1 DNA repair duplications",
+        "Enhanced CIRBP cold-shock chaperone expression",
+        "Resolution of Peto's Paradox with 1000x human cell mass",
+        "Resistance to metabolic insulin resistance"
+      ],
+      "ortholog_genes": {
+        "ERCC1": "ATGGACCCTGGGAAGGAC",
+        "PCNA": "ATGTTCGAGGCGCGCCTG",
+        "LAMTOR1": "ATGGGGTGCCTGCGCTCG",
+        "XRCC1": "ATGCCCGAGATACGCCCT"
+      },
+      "e8_root_index": 40,
+      "e8_root_vector": [
+        -0.5,
+        -0.5,
+        -0.5,
+        0.5,
+        -0.5,
+        -0.5,
+        0.5,
+        -0.5
+      ],
+      "monster_crt_coordinates": [
+        38,
+        27,
+        4
+      ],
+      "poincare_depth": 1.0985,
+      "poincare_vector": [
+        -0.1445,
+        -0.1825,
+        -0.1544,
+        -0.0502,
+        -0.1779,
+        -0.1241,
+        0.2314,
+        -0.2622
+      ],
+      "evolutionary_adaptation_index": 0.8265,
+      "distance_to_human_manifold": 1.4142,
+      "longevity_archetype": "Peto's Paradox & Replicative DNA Repair Amplification"
+    },
+    {
+      "taxon_id": 10181,
+      "scientific_name": "Heterocephalus glaber",
+      "common_name": "Naked Mole-Rat",
+      "ncbi_assembly": "GCF_000247695.1",
+      "max_lifespan_years": 37.0,
+      "senescence_type": "NEGLIGIBLE",
+      "cancer_resistance_index": 1.0,
+      "regeneration_capacity_index": 0.4,
+      "dna_repair_amplification_score": 0.88,
+      "key_adaptations": [
+        "High-molecular-mass hyaluronan (HAS2)",
+        "Split 28S ribosomal RNA high-fidelity translation",
+        "Early contact inhibition via p16/p27 pathways",
+        "Suppressed mitochondrial ROS leakage"
+      ],
+      "ortholog_genes": {
+        "HAS2": "ATGCATTGTGAGAGGTTT",
+        "CDKN2A": "ATGGAGCCCGGCGCGGGC",
+        "SIRT1": "ATGGCGGACGAGGTGGCG",
+        "SOD2": "ATGTTGAGCCGGGCAGTG"
+      },
+      "e8_root_index": 40,
+      "e8_root_vector": [
+        -0.5,
+        -0.5,
+        0.5,
+        -0.5,
+        -0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "monster_crt_coordinates": [
+        54,
+        25,
+        44
+      ],
+      "poincare_depth": 1.0985,
+      "poincare_vector": [
+        -0.2535,
+        -0.1736,
+        0.1254,
+        -0.1792,
+        -0.2078,
+        0.0552,
+        0.1617,
+        0.188
+      ],
+      "evolutionary_adaptation_index": 0.802,
+      "distance_to_human_manifold": 2.0,
+      "longevity_archetype": "High-Fidelity Translation & HMW Hyaluronan"
+    },
+    {
+      "taxon_id": 6574,
+      "scientific_name": "Arctica islandica",
+      "common_name": "Ocean Quahog (Ming the Clam)",
+      "ncbi_assembly": "GCA_019054845.1",
+      "max_lifespan_years": 507.0,
+      "senescence_type": "EXTENDED",
+      "cancer_resistance_index": 0.95,
+      "regeneration_capacity_index": 0.3,
+      "dna_repair_amplification_score": 0.92,
+      "key_adaptations": [
+        "Extreme resistance to oxidative protein unfolding",
+        "High sphingomyelin membrane saturation resisting lipid peroxidation",
+        "Ultra-stable proteasomal degradation flux",
+        "Long-term metabolic arrest capabilities"
+      ],
+      "ortholog_genes": {
+        "HSP90": "ATGCCTGAGGAAACCCAG",
+        "CAT": "ATGGACGACCACAGGAAG",
+        "GPX4": "ATGTGTGCTGCTCGGCTC",
+        "PRDX1": "ATGTCCCCCGCTCTCTCC"
+      },
+      "e8_root_index": 40,
+      "e8_root_vector": [
+        -0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        -0.5,
+        0.5
+      ],
+      "monster_crt_coordinates": [
+        8,
+        41,
+        11
+      ],
+      "poincare_depth": 1.0985,
+      "poincare_vector": [
+        -0.1176,
+        0.2309,
+        0.1191,
+        0.1473,
+        0.1068,
+        0.207,
+        -0.2463,
+        0.179
+      ],
+      "evolutionary_adaptation_index": 0.7755,
+      "distance_to_human_manifold": 2.0,
+      "longevity_archetype": "Extreme Proteostatic Stability & Anti-Lipid Peroxidation"
+    },
+    {
+      "taxon_id": 9606,
+      "scientific_name": "Homo sapiens",
+      "common_name": "Human (Reference Baseline)",
+      "ncbi_assembly": "GCF_000001405.40",
+      "max_lifespan_years": 122.5,
+      "senescence_type": "STANDARD",
+      "cancer_resistance_index": 0.6,
+      "regeneration_capacity_index": 0.2,
+      "dna_repair_amplification_score": 0.7,
+      "key_adaptations": [
+        "Long-lived primate baseline with progressive cellular senescence"
+      ],
+      "ortholog_genes": {
+        "POLD1": "ATGGATGGAGACGCCGGC",
+        "TERT": "ATGCCGCGCGCTCCCCGC",
+        "EZH2": "ATGGGCCAGACTGGGAAG",
+        "SIRT1": "ATGGCGGACGAGGTGGCG"
+      },
+      "e8_root_index": 20,
+      "e8_root_vector": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "monster_crt_coordinates": [
+        25,
+        2,
+        6
+      ],
+      "poincare_depth": 1.0985,
+      "poincare_vector": [
+        -0.1143,
+        0.0204,
+        0.0804,
+        0.2995,
+        0.0053,
+        0.0089,
+        0.2712,
+        -0.2582
+      ],
+      "evolutionary_adaptation_index": 0.54,
+      "distance_to_human_manifold": 0.0,
+      "longevity_archetype": "Standard Mammalian Senescent Baseline"
+    },
+    {
+      "taxon_id": 10090,
+      "scientific_name": "Mus musculus",
+      "common_name": "House Mouse",
+      "ncbi_assembly": "GCF_000001635.27",
+      "max_lifespan_years": 4.0,
+      "senescence_type": "STANDARD",
+      "cancer_resistance_index": 0.2,
+      "regeneration_capacity_index": 0.25,
+      "dna_repair_amplification_score": 0.45,
+      "key_adaptations": [
+        "Standard mammalian rapid life-history strategy"
+      ],
+      "ortholog_genes": {
+        "POLD1": "ATGGATGGGGACAGCGGC",
+        "TERT": "ATGCCGCGCGCTCCCCGC",
+        "EZH2": "ATGGGCCAGACTGGGAAG"
+      },
+      "e8_root_index": 40,
+      "e8_root_vector": [
+        -0.5,
+        -0.5,
+        -0.5,
+        0.5,
+        -0.5,
+        0.5,
+        -0.5,
+        -0.5
+      ],
+      "monster_crt_coordinates": [
+        39,
+        26,
+        29
+      ],
+      "poincare_depth": 1.0985,
+      "poincare_vector": [
+        -0.066,
+        -0.1937,
+        -0.0571,
+        0.2364,
+        -0.3184,
+        0.119,
+        0.0438,
+        -0.1774
+      ],
+      "evolutionary_adaptation_index": 0.3125,
+      "distance_to_human_manifold": 2.0,
+      "longevity_archetype": "Standard Mammalian Senescent Baseline"
+    }
+  ],
+  "top_translational_recommendations": [
+    {
+      "source_organism": "Turritopsis dohrnii",
+      "archetype": "Cellular Transdifferentiation & Reprogramming",
+      "target_mechanism": "PRC2 H3K27me3 pulsed reset & continuous TERT shelterin capping",
+      "human_application": "Cyclic cellular rejuvenation without oncogenesis"
+    },
+    {
+      "source_organism": "Balaena mysticetus",
+      "archetype": "Peto's Paradox & Replicative DNA Repair Amplification",
+      "target_mechanism": "Duplicated ERCC1, PCNA, and UHRF1 multi-tier DNA repair",
+      "human_application": "Eliminating mutational clonal hematopoiesis and solid tumor initiation"
+    },
+    {
+      "source_organism": "Heterocephalus glaber",
+      "archetype": "High-Fidelity Translation & HMW Hyaluronan",
+      "target_mechanism": "HMW Hyaluronan HAS2 secretion & 28S ribosomal translation fidelity",
+      "human_application": "Complete cancer resistance and extracellular matrix elasticity preservation"
+    },
+    {
+      "source_organism": "Arctica islandica",
+      "archetype": "Extreme Proteostatic Stability & Anti-Lipid Peroxidation",
+      "target_mechanism": "Oxidative protein unfolding resistance & saturated sphingomyelin membranes",
+      "human_application": "Neurodegenerative aggregate prevention (Alzheimer's/Parkinson's)"
+    },
+    {
+      "source_organism": "Hydra vulgaris",
+      "archetype": "Constitutive Stemness & Whole-Body Morphallaxis",
+      "target_mechanism": "Constitutive FoxO stem cell pool maintenance",
+      "human_application": "Reversing hematopoietic and mesenchymal stem cell depletion"
+    }
+  ]
+}

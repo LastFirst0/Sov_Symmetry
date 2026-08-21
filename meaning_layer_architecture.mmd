@@ -1,0 +1,34 @@
+flowchart TB
+    X[Input / phenomenon / question] --> O[Canonical object + immutable ID]
+    O --> R[Typed relation graph]
+    R --> G[Registered geometry]
+    G --> T[Deterministic transformation]
+    T --> V[Invariant and schema validation]
+    V --> P[Proof / provenance record]
+    P --> E[Explanation / visualization / action]
+    E --> F[Ground truth and feedback]
+    F --> X
+
+    subgraph Geometry[Geometry vocabulary]
+      E8[E8: discrete roots and Weyl reflections]
+      H[Hopf: S3 to S2 fibered projection]
+      FS[Fubini-Study: projective distance]
+      M[Mobius: compact state update]
+      AP[Amplitude-phase encoding]
+    end
+    G --> E8
+    G --> H
+    G --> FS
+    G --> M
+    G --> AP
+
+    subgraph Runtime[Runtime surfaces]
+      L[Logos: language and inference]
+      N[Monad: state transition]
+      C[Colony: routing and consensus]
+      U[UI / API / MCP / games / hardware]
+    end
+    T --> L
+    T --> N
+    P --> C
+    E --> U

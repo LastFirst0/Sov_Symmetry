@@ -1,0 +1,41 @@
+import { describe, expect, it } from "vitest";
+import { appRouter } from "../../server/routers";
+
+describe("persisted research-artifact API boundary", () => {
+  it("keeps evidence and review history public while routing stage, independent decision, and publication through protected mutations", () => {
+    const procedures = appRouter._def.procedures;
+    expect(Object.keys(procedures).sort()).toEqual(["auth.me", "corpusSources.list", "exports.all", "exports.bundle", "exports.mine", "exports.record", "exports.signingKey", "exports.timeline", "externalAdapterReview.assign", "externalAdapterReview.assignments", "externalAdapterReview.decide", "externalAdapterReview.events", "externalAdapterReview.status", "keyLifecycle.activate", "keyLifecycle.approve", "keyLifecycle.cancel", "keyLifecycle.list", "keyLifecycle.request", "materialReleaseApprovals.approve", "materialReleaseApprovals.list", "materialReleaseApprovals.preview", "materialReleaseEvidence.list", "ownerNotifications.list", "ownerNotifications.refresh", "ownerNotifications.update", "ownerProbe", "publication.decide", "publication.list", "publication.publish", "publication.rationaleTemplates", "publication.reviews", "publication.stage", "researchArtifacts.history", "researchArtifacts.list", "reviewerInvitations.accept", "reviewerInvitations.compareExportReceipts", "reviewerInvitations.create", "reviewerInvitations.exportExpiring", "reviewerInvitations.exportHistory", "reviewerInvitations.exportReceiptDetail", "reviewerInvitations.list", "reviewerInvitations.printSummary", "reviewerInvitations.revoke", "reviewerMemberships.list", "reviewerMemberships.syncConfigured", "reviewerMemberships.update", "reviewerOperations.status", "reviewerProbe", "savedViews.list", "savedViews.remove", "savedViews.save", "signingKeyHistory.list", "signingKeyHistory.lookup", "submissionGuidance.profile", "submissionGuidance.profiles", "testPlanner.plan", "testPlanner.templates"]);
+    expect(procedures["researchArtifacts.list"]?._def.type).toBe("query");
+    expect(procedures["researchArtifacts.history"]?._def.type).toBe("query");
+    expect(procedures["corpusSources.list"]?._def.type).toBe("query");
+    expect(procedures["publication.list"]?._def.type).toBe("query");
+    expect(procedures["publication.reviews"]?._def.type).toBe("query");
+    expect(procedures["publication.stage"]?._def.type).toBe("mutation");
+    expect(procedures["publication.decide"]?._def.type).toBe("mutation");
+    expect(procedures["publication.publish"]?._def.type).toBe("mutation");
+    expect(procedures["savedViews.list"]?._def.type).toBe("query");
+    expect(procedures["savedViews.save"]?._def.type).toBe("mutation");
+    expect(procedures["savedViews.remove"]?._def.type).toBe("mutation");
+    expect(procedures["reviewerOperations.status"]?._def.type).toBe("query");
+    expect(procedures["submissionGuidance.profiles"]?._def.type).toBe("query");
+    expect(procedures["signingKeyHistory.lookup"]?._def.type).toBe("query");
+    expect(procedures["externalAdapterReview.status"]?._def.type).toBe("query");
+    expect(procedures["externalAdapterReview.assignments"]?._def.type).toBe("query");
+    expect(procedures["externalAdapterReview.events"]?._def.type).toBe("query");
+    expect(procedures["externalAdapterReview.assign"]?._def.type).toBe("mutation");
+    expect(procedures["externalAdapterReview.decide"]?._def.type).toBe("mutation");
+    expect(procedures["reviewerInvitations.list"]?._def.type).toBe("query");
+    expect(procedures["reviewerInvitations.create"]?._def.type).toBe("mutation");
+    expect(procedures["reviewerInvitations.revoke"]?._def.type).toBe("mutation");
+    expect(procedures["reviewerInvitations.accept"]?._def.type).toBe("mutation");
+    expect(procedures["reviewerInvitations.exportExpiring"]?._def.type).toBe("mutation");
+    expect(procedures["reviewerInvitations.exportHistory"]?._def.type).toBe("query");
+    expect(procedures["reviewerInvitations.printSummary"]?._def.type).toBe("query");
+    expect(procedures["reviewerInvitations.exportReceiptDetail"]?._def.type).toBe("query");
+    expect(procedures["reviewerInvitations.compareExportReceipts"]?._def.type).toBe("query");
+    expect(procedures["materialReleaseEvidence.list"]?._def.type).toBe("query");
+    expect(procedures["materialReleaseApprovals.list"]?._def.type).toBe("query");
+    expect(procedures["materialReleaseApprovals.preview"]?._def.type).toBe("query");
+    expect(procedures["materialReleaseApprovals.approve"]?._def.type).toBe("mutation");
+  });
+});

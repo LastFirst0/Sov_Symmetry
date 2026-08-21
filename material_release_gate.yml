@@ -1,0 +1,84 @@
+name: Material Release Gate
+
+on:
+  push:
+    tags:
+      - "material-release-*"
+  workflow_dispatch:
+    inputs:
+      material_sha:
+        description: "Exact 40-character dashboard commit proposed for material release"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  verify-unified-replay:
+    name: Require matching unified replay
+    runs-on: ubuntu-latest
+    outputs:
+      material_sha: ${{ steps.material.outputs.sha }}
+      replay_run_id: ${{ steps.gate.outputs.replay_run_id }}
+      replay_url: ${{ steps.gate.outputs.replay_url }}
+      artifact_name: ${{ steps.gate.outputs.artifact_name }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Resolve exact material commit
+        id: material
+        env:
+          REQUESTED_SHA: ${{ inputs.material_sha }}
+        run: |
+          set -euo pipefail
+          if [ -n "${REQUESTED_SHA:-}" ]; then material_sha="$REQUESTED_SHA"; else material_sha="$(git rev-list -n 1 "$GITHUB_SHA")"; fi
+          [[ "$material_sha" =~ ^[a-f0-9]{40}$ ]] || { echo "MATERIAL_RELEASE_SHA_INVALID" >&2; exit 1; }
+          echo "sha=$material_sha" >> "$GITHUB_OUTPUT"
+      - name: Locate matching successful unified replay
+        id: gate
+        env:
+          GH_TOKEN: ${{ github.token }}
+          MATERIAL_SHA: ${{ steps.material.outputs.sha }}
+        run: |
+          set -euo pipefail
+          gh api "repos/${GITHUB_REPOSITORY}/actions/workflows/full_platform_end_to_end_replay.yml/runs?head_sha=${MATERIAL_SHA}&per_page=100" > replay-runs.json
+          node -e 'import("./tools/assert-material-release-replay.mjs").then(({selectMatchingUnifiedReplay}) => { const result = selectMatchingUnifiedReplay(JSON.parse(require("fs").readFileSync("replay-runs.json", "utf8")), process.env.MATERIAL_SHA); require("fs").writeFileSync("selected-replay.json", JSON.stringify(result)); })'
+          replay_run_id="$(node -p 'JSON.parse(require("fs").readFileSync("selected-replay.json", "utf8")).id')"
+          gh api "repos/${GITHUB_REPOSITORY}/actions/runs/${replay_run_id}/artifacts?per_page=100" > replay-artifacts.json
+          node tools/assert-material-release-replay.mjs replay-runs.json replay-artifacts.json "$MATERIAL_SHA" | tee material-release-gate.json
+          echo "replay_run_id=$replay_run_id" >> "$GITHUB_OUTPUT"
+          echo "replay_url=$(node -p 'JSON.parse(require("fs").readFileSync("selected-replay.json", "utf8")).html_url')" >> "$GITHUB_OUTPUT"
+          echo "artifact_name=full-platform-end-to-end-replay-$replay_run_id" >> "$GITHUB_OUTPUT"
+      - name: Upload release-gate evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: material-release-gate-${{ steps.material.outputs.sha }}
+          path: material-release-gate.json
+          if-no-files-found: error
+
+  record-material-release-evidence:
+    name: Record verified material release evidence
+    needs: verify-unified-replay
+    if: startsWith(github.ref, 'refs/tags/material-release-')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Preserve verified tag evidence without publishing notes
+        env:
+          REPLAY_URL: ${{ needs.verify-unified-replay.outputs.replay_url }}
+          MATERIAL_SHA: ${{ needs.verify-unified-replay.outputs.material_sha }}
+          ARTIFACT_NAME: ${{ needs.verify-unified-replay.outputs.artifact_name }}
+        run: |
+          set -euo pipefail
+          printf 'Material commit: `%s`\n\nRequired unified replay: %s\n\nRetained replay artifact: `%s`\n' "$MATERIAL_SHA" "$REPLAY_URL" "$ARTIFACT_NAME" > release-notes.md
+          cat release-notes.md
+      - name: Upload verified material-release evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: material-release-evidence-${{ github.ref_name }}
+          path: release-notes.md
+          if-no-files-found: error

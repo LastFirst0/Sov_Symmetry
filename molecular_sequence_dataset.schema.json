@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "sov.molecular_sequence_dataset.v0.1",
+  "title": "Sovereign molecular sequence dataset v0.1",
+  "type": "object",
+  "required": ["schema", "schema_version", "dataset_id", "source_manifest_id", "task", "sequence_alphabet", "splits"],
+  "properties": {
+    "schema": {"const": "sov.molecular_sequence_dataset"},
+    "schema_version": {"const": "0.1.0"},
+    "dataset_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9._:-]*$"},
+    "source_manifest_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9._:-]*$"},
+    "task": {"type": "object", "required": ["task_type", "label_semantics"], "properties": {"task_type": {"const": "binary_sequence_classification"}, "label_semantics": {"type": "string", "minLength": 1}}, "additionalProperties": false},
+    "sequence_alphabet": {"type": "array", "minItems": 4, "uniqueItems": true, "items": {"enum": ["A", "C", "G", "T", "N"]}},
+    "splits": {"type": "array", "minItems": 3, "items": {"type": "object", "required": ["name", "records_sha256", "record_count"], "properties": {"name": {"enum": ["train", "validation", "test"]}, "records_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}, "record_count": {"type": "integer", "minimum": 1}}, "additionalProperties": false}}
+  },
+  "additionalProperties": false
+}

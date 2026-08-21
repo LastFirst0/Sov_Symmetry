@@ -1,0 +1,11 @@
+{
+  "artifacts": [
+    "sample.json",
+    "result.json",
+    "EXPERIMENT_REPORT.md"
+  ],
+  "design_sha256": "53db2d012a320f3435d36b647c6397fa3147c8dc3996cd84abb73842f402cb51",
+  "sample_sha256": "1984e98e7636f39469df0bc96e06ad8ec44d0e7bb43843ca7ed25215e983bf4a",
+  "schema": "sov.hierarchy_recovery_experiment_manifest",
+  "schema_version": "0.1.0"
+}

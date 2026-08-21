@@ -1,0 +1,31 @@
+{
+  "schema": "sov.program_dashboard.v1",
+  "source_of_truth": [
+    "SOVEREIGN_ENGINE_DECISION_COMPLETE_90_DAY_PORTFOLIO.md",
+    "RESEARCH_REGISTER.md",
+    "ADR_INDEX.md",
+    "REPOSITORY_EVIDENCE_MATRIX.md",
+    "CANONICAL_EQUATION_REGISTRY.json",
+    "GU_HYPOTHESIS_FALSIFICATION_REGISTER.md"
+  ],
+  "metrics": {
+    "claim_coverage": {"definition": "priority claims with class, source, status, and test-or-obligation / total priority claims"},
+    "core_fixture_pass_rate": {"definition": "passing registered core fixtures / executed registered core fixtures"},
+    "unverifiable_obligations": {"definition": "open missing-definition or missing-evidence obligations"},
+    "adr_readiness": {"definition": "accepted or explicitly deferred ADRs / ADRs required by active work packages"},
+    "release_bundle_completeness": {"definition": "present required release evidence artifacts / required release evidence artifacts"}
+  },
+  "workstreams": [
+    {"id": "WS-A", "name": "Meaning and ontology", "status": "active", "next": "WP-02"},
+    {"id": "WS-B", "name": "Tensor and geometry kernel", "status": "planned", "next": "WP-05"},
+    {"id": "WS-C", "name": "Verification and evidence", "status": "active", "next": "WP-04"},
+    {"id": "WS-D", "name": "Runtime and intelligence", "status": "deferred", "next": "WP-13 after core gate"},
+    {"id": "WS-E", "name": "Embodiment and UX", "status": "planned", "next": "WP-13"},
+    {"id": "WS-F", "name": "API and developer platform", "status": "planned", "next": "WP-11"},
+    {"id": "WS-G", "name": "Program automation", "status": "active", "next": "WP-01/WP-11 policy integration"},
+    {"id": "WS-H", "name": "Scientific validation", "status": "active", "next": "WP-02/WP-10/WP-12"}
+  ],
+  "status_vocabulary": ["queued", "active", "blocked", "review", "complete"],
+  "result_vocabulary": ["verified", "fail", "unverifiable"],
+  "claim_classes": ["standard", "transcript_mapping", "repository_observation", "software_contract", "gu_hypothesis"]
+}

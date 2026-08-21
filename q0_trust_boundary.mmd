@@ -1,0 +1,10 @@
+flowchart LR
+  A[Core Contract request<br/>canonical IDs + policies] --> B[Verifier response envelopes<br/>exact DSSE payload binding]
+  B --> C[Pure local Q0 aggregator<br/>sort • bind • group • threshold]
+  C --> D{Decision}
+  D -->|threshold_verified / failed / unverifiable| E[Quorum decision record]
+  D -->|contested| F[Preserve all classes<br/>equivocation evidence]
+  E --> G[Local audit adapter<br/>optional checkpoint reference]
+  F --> G
+  H[(Network discovery<br/>leader election<br/>replicated consensus)] -. excluded from Q0 .-> C
+  I[(Physical truth<br/>GU interpretation)] -. never inferred .-> D

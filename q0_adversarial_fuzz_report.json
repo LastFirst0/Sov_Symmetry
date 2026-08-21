@@ -1,0 +1,15 @@
+{
+  "schema": "sov.quorum.adversarial_fuzz_report",
+  "version": "0.1.0",
+  "seed": 5860677705129615185,
+  "counts": {
+    "duplicate_identity_cases": 1650,
+    "equivocation_cases": 2000,
+    "order_cases": 1000,
+    "binding_mutations": 500,
+    "signature_mutations": 500,
+    "invalid_policy_cases": 100
+  },
+  "failures": [],
+  "total_cases": 5750
+}

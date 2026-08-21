@@ -1,0 +1,13 @@
+{
+  "details": {
+    "mismatches": [],
+    "predicate": "matrix.symmetric.v1"
+  },
+  "next_action": "Use the result as evidence for this matrix symmetry check only; inspect the mismatches if it fails.",
+  "plain_status": "holds in this check",
+  "receipt_id": "sov:sha256:38b2c892520739e9e602202e2b8a3e78ff4f8ba80b2159d1bf09f0539d07fbd8",
+  "scope": "Exact finite-matrix equality only; this receipt does not prove a physical theory or a broader tensor claim.",
+  "status": "verified",
+  "what_i_checked": "Whether the matrix equals its transpose (A\u1d40 = A).",
+  "why": "Every off-diagonal pair matches its transpose partner."
+}

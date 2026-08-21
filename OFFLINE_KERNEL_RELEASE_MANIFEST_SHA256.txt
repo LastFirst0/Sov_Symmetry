@@ -1,0 +1,1 @@
+2413cd992bf87f75c760da5014189fd62a99e39169660cd786f19a2245cbcaf2  dist/offline-kernel-v0.1/RELEASE_MANIFEST.json

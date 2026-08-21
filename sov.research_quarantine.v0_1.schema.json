@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sovereign-engine.local/schemas/sov.research_quarantine.v0_1.schema.json",
+  "title": "Sovereign Engine Research Quarantine Packet v0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "schema_version", "quarantine_id", "category", "claim_text", "claim_level", "lifecycle_state", "source_refs", "normalized_statement", "assumptions", "falsifier", "oracle_plan", "promotion_target", "owner_role", "review_due"],
+  "properties": {
+    "schema": {"const": "sov.research.quarantine"},
+    "schema_version": {"const": "0.1.0"},
+    "quarantine_id": {"type": "string", "pattern": "^rq:sha256:[0-9a-f]{64}$"},
+    "category": {"enum": ["gu_physics", "gu_representation", "celestial_narrative", "semantic_mapping", "performance", "consensus_protocol", "other_experimental"]},
+    "claim_text": {"type": "string", "minLength": 12, "maxLength": 2000},
+    "claim_level": {"enum": ["mathematical", "software", "physical", "semantic", "performance"]},
+    "lifecycle_state": {"enum": ["intake", "normalized", "specified", "challenged", "supported_bounded", "falsified", "parked", "retired"]},
+    "source_refs": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 64,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["source_id", "authority_tier", "locator", "retrieved_utc"],
+        "properties": {
+          "source_id": {"type": "string", "pattern": "^[a-z][a-z0-9_.:-]{2,255}$"},
+          "authority_tier": {"enum": ["accepted_contract", "canonical_evidence", "repository", "approved_research", "historical_drive", "transcript", "dashboard"]},
+          "locator": {"type": "string", "minLength": 1, "maxLength": 2048},
+          "retrieved_utc": {"type": "string", "format": "date-time"},
+          "content_hash": {"type": "string", "pattern": "^(sov:)?sha256:[0-9a-f]{64}$"}
+        }
+      }
+    },
+    "normalized_statement": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["statement", "defined_terms", "missing_terms", "convention_profile"],
+      "properties": {
+        "statement": {"type": "string", "minLength": 12, "maxLength": 10000},
+        "defined_terms": {"type": "array", "maxItems": 128, "items": {"type": "string", "minLength": 1, "maxLength": 256}},
+        "missing_terms": {"type": "array", "maxItems": 128, "items": {"type": "string", "minLength": 1, "maxLength": 256}},
+        "convention_profile": {"type": "string", "pattern": "^convention:[a-z0-9][a-z0-9_.-]*\\.v[0-9]+$"}
+      }
+    },
+    "assumptions": {"type": "array", "maxItems": 128, "uniqueItems": true, "items": {"type": "string", "minLength": 1, "maxLength": 512}},
+    "falsifier": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "description", "contrary_outcome"],
+      "properties": {
+        "kind": {"enum": ["formal_contradiction", "analytic_counterexample", "reference_disagreement", "numerical_threshold", "empirical_observation", "protocol_attack", "semantic_counterexample"]},
+        "description": {"type": "string", "minLength": 12, "maxLength": 4000},
+        "contrary_outcome": {"type": "string", "minLength": 12, "maxLength": 4000}
+      }
+    },
+    "oracle_plan": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 8,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["tier", "oracle_id", "independence_basis", "expected_predicate", "disagreement_rule"],
+        "properties": {
+          "tier": {"enum": ["O0", "O1", "O2", "O3", "O4", "O5", "O6"]},
+          "oracle_id": {"type": "string", "minLength": 3, "maxLength": 512},
+          "independence_basis": {"type": "string", "minLength": 12, "maxLength": 2000},
+          "expected_predicate": {"type": "string", "minLength": 3, "maxLength": 2000},
+          "disagreement_rule": {"enum": ["higher_tier_wins", "mark_unverifiable", "record_counterexample_then_review"]}
+        }
+      }
+    },
+    "promotion_target": {"enum": ["remain_quarantined", "standard_kernel_candidate", "experimental_adapter", "documentation_only", "retired"]},
+    "owner_role": {"enum": ["scientific_review_lead", "mathematical_software_lead", "verification_lead", "reliability_lead", "systems_lead", "program_architect"]},
+    "review_due": {"type": "string", "format": "date-time"},
+    "evidence_ids": {"type": "array", "maxItems": 128, "items": {"type": "string", "pattern": "^sov:sha256:[0-9a-f]{64}$"}}
+  }
+}

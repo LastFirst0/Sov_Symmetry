@@ -1,0 +1,134 @@
+{
+  "project_info": {
+    "title": "Geometry becomes an auditable meaning system",
+    "created": 1786900218.891,
+    "last_updated": 1786900782.738,
+    "total_slides": 12
+  },
+  "slides": [
+    {
+      "id": "cover",
+      "state": "edited",
+      "pageNum": 1
+    },
+    {
+      "id": "four_systems",
+      "state": "edited",
+      "pageNum": 2
+    },
+    {
+      "id": "arena",
+      "state": "edited",
+      "pageNum": 3
+    },
+    {
+      "id": "observer",
+      "state": "edited",
+      "pageNum": 4
+    },
+    {
+      "id": "tensor_vocab",
+      "state": "edited",
+      "pageNum": 5
+    },
+    {
+      "id": "curvature_chain",
+      "state": "edited",
+      "pageNum": 6
+    },
+    {
+      "id": "gauge_d2",
+      "state": "edited",
+      "pageNum": 7
+    },
+    {
+      "id": "spinor_hypothesis",
+      "state": "edited",
+      "pageNum": 8
+    },
+    {
+      "id": "trusted_core",
+      "state": "edited",
+      "pageNum": 9
+    },
+    {
+      "id": "api_contracts",
+      "state": "edited",
+      "pageNum": 10
+    },
+    {
+      "id": "dev_spine",
+      "state": "edited",
+      "pageNum": 11
+    },
+    {
+      "id": "promise",
+      "state": "edited",
+      "pageNum": 12
+    }
+  ],
+  "outline": [
+    {
+      "id": "cover",
+      "title": "Geometry becomes an auditable meaning system",
+      "summary": "A reconstruction of the Geometric Unity transcript and Sovereign Engine repository, from tensor calculus and bundles to verifiable software operations."
+    },
+    {
+      "id": "four_systems",
+      "title": "The project is four systems at once",
+      "summary": "Explain the runtime, knowledge-kernel, translation-platform, and embodied-learning identities of Sovereign Engine.",
+      "image_plan": "/home/ubuntu/projects/sov-e4e91854/meaning_planes_chart.png - Bar chart showing the five interlocking planes/systems of the meaning layer"
+    },
+    {
+      "id": "arena",
+      "title": "GU changes the arena, not just the equation",
+      "summary": "Show X4, the ten independent metric components, and the resulting Y14 metric-bundle count, with a clear boundary between mathematics and physical claims."
+    },
+    {
+      "id": "observer",
+      "title": "The observer is a relationship package",
+      "summary": "Explain base point, fiber, section, connection, pullback, and observation map as one structured package."
+    },
+    {
+      "id": "tensor_vocab",
+      "title": "Tensor calculus supplies the physical vocabulary",
+      "summary": "Map metric, connection, curvature, torsion, and contortion to their physical meanings and Engine analogues."
+    },
+    {
+      "id": "curvature_chain",
+      "title": "Curvature becomes a testable chain",
+      "summary": "Present the chain from connection to Riemann, Ricci, scalar curvature, and Einstein tensor, including Bianchi conservation."
+    },
+    {
+      "id": "gauge_d2",
+      "title": "Gauge geometry explains the transcript’s D² language",
+      "summary": "Show A, F, D, D², and the Bianchi identity as executable geometric invariants."
+    },
+    {
+      "id": "spinor_hypothesis",
+      "title": "Spinors and rolled-up complexes are hypotheses, not magic",
+      "summary": "Explain the Dirac operator and even/odd complex packaging while marking three-generation claims as unresolved GU hypotheses."
+    },
+    {
+      "id": "trusted_core",
+      "title": "The Engine’s trusted core is small",
+      "summary": "Define the deterministic kernel: canonical objects, typed indices, operations, invariant registry, evidence replay, and explicit statuses."
+    },
+    {
+      "id": "api_contracts",
+      "title": "APIs turn equations into contracts",
+      "summary": "Summarize the proposed API surface for manifolds, metrics, connections, curvature, forms, spinors, and claims."
+    },
+    {
+      "id": "dev_spine",
+      "title": "Development follows a staged verification spine",
+      "summary": "Present the T0–T7 implementation sequence from canonical AST through tensor kernel, provenance, adapters, and GU hypothesis modules.",
+      "image_plan": "/home/ubuntu/projects/sov-e4e91854/source_surface_chart.png - Bar chart displaying the staged verification spine and artifact inventory of the repository"
+    },
+    {
+      "id": "promise",
+      "title": "The meaning layer’s final promise",
+      "summary": "Close with the project’s defensible promise: inspectable representations, transformations, assumptions, and evidence—not an unsupported theory-of-everything claim."
+    }
+  ]
+}

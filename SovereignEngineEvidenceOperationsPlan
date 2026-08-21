@@ -1,0 +1,312 @@
+# Sovereign Engine: Evidence Operations, Reality Trace, and Legacy-to-Universal Comparison Plan
+
+## Goal
+
+Extend the completed offline universal kernel into an **evidence-operations product**: people should be able to move from an experienced situation and a practical decision question to a declared claim, data/provenance, a bounded check or external analysis record, independent review, and an explicit limitation. This plan adds signed release-artifact verification, a real external-adapter review workflow, an approved external-analysis-receipt explorer, a reality-facing control surface, and a source-grounded old-versus-new kernel comparison.
+
+The product must not present mathematics, code, or provenance as separate abstractions. Every primary journey will show: **situation → stated relationship → evidence and assumptions → evaluation/review → what can responsibly be decided or communicated next**. A `verified` receipt still means only that the declared predicate held for the declared input; it is never an automatic conclusion about physical reality, a theory, policy, or scientific truth.
+
+## Verified starting point
+
+| Observed fact | Source | Consequence for the plan |
+|---|---|---|
+| The current kernel accepts finite declared predicates and returns `verified`, `fail`, or `unverifiable`. | `PLAIN_LANGUAGE_KERNEL_GUIDE.md`; `UNIVERSAL_FRAMEWORK_ADAPTER_CONTRACT_v0.1.md` | The UI must always expose the predicate, input, scope, explanation, non-claim, and next action. |
+| Framework labels are provenance only and cannot select evaluation semantics. | `UNIVERSAL_FRAMEWORK_ADAPTER_CONTRACT_v0.1.md`, §§5–21 | Review and explorer filters may display origin, but neither runtime dispatch nor approval can privilege a framework. |
+| The assurance layer provides local audit attachments and fixture-only offline Ed25519 DSSE verification. | `sov_evidence_geometry_core/assurance.py`, lines 16–55 | Build a release-manifest verifier by extending this local pattern, without adding production key custody. |
+| The eight-gate scorecard specifies concrete intent, semantics, evidence, reference, neutrality, assurance, review, and release requirements. | `EXTERNAL_ADAPTER_EIGHT_GATE_SCORECARD_v0.1.md` | Build the adapter UI as a persisted workflow state machine rather than a generic approval form. |
+| The legacy design was a geometry-native AI/P2P runtime centered on E8, Hopf, Riemann-Bloch, server, and consensus aspirations. | `ARCHITECTURE.md`, lines 1–97 | The comparison must separate legacy intentions from demonstrated implementation and must not claim the current kernel replaces those runtime ambitions. |
+| The supplied panoramic hero has a dark left text-safe field and geometric detail on the right. | `/home/ubuntu/upload/sovereign-hero-field.png` | Use it as a responsive command-console hero; preserve the left text field and do not crop away the right geometry on narrow screens. |
+
+> **Boundary:** a structural receipt, a valid empirical packet, an approved external analysis record, or a signed release artifact establishes only its stated scope. None establishes a theory or real-world truth by itself.
+
+## Product architecture: Reality Trace
+
+The dashboard will add a cross-cutting **Reality Trace** that binds every view to a human question and a decision boundary.
+
+| Trace stage | Human question | Persisted record | Allowed result |
+|---|---|---|---|
+| Situation | “What happened and what needs deciding?” | Scenario, decision context, owner, impact | Concrete question; not a conclusion. |
+| Claim | “What exact relation must hold?” | Claim class, predicate, assumptions, non-claims | Bounded check specification. |
+| Evidence | “Which data and transformations support it?” | Dataset IDs/hashes, provenance, access, uncertainty | Completeness or explicit missing evidence. |
+| Evaluation | “What was actually evaluated?” | Structural or external analysis receipt | Scoped result with method/input binding. |
+| Review | “Who verified the scope and evidence?” | Gate decisions, signed immutable review events | Admit, block, quarantine, approve, reject, or revision request. |
+| Decision support | “What can I safely do or say next?” | Plain-language finding, limitation, next evidence action | Constrained support; never automated real-world judgment. |
+
+The first scenario gallery will make four practical pathways concrete: **data handoff integrity**, **simulation/model constraint checks**, **measurement-study evidence packaging**, and **cross-team claim review**. Each will make clear where mathematics enters, what software actually executes, what evidence is still absent, and what a person can responsibly decide next.
+
+## Workstream A — Signed release-artifact verification
+
+Create a local/offline signed-release contract around `RELEASE_MANIFEST.json`:
+
+| Planned artifact | Purpose |
+|---|---|
+| `RELEASE_ATTESTATION.dsse.json` | DSSE envelope over canonical release ID, manifest SHA-256, release boundary, source revision, matrix result, and file-list digest. |
+| `policies/release_key_policy.v0.1.json` | Active/revoked public keys, permitted payload type, policy version, and scope; never a private key. |
+| `release_verification_report.json` | Terminal status, policy/signer IDs, checked hashes, reason code, and scope limitation. |
+| `sov_kernel.py verify-release` | Offline verifier with deterministic JSON output and exit codes. |
+| Signed-release guide | One-command verification, key rollover/revocation, failure recovery, and non-claims. |
+
+The verifier will return `verified` only when bundle file digests, manifest binding, DSSE payload, signature, and public-key policy all match; `fail` for a malformed or tampered input; and `unverifiable` for unsigned historical releases, unavailable material, unknown policy versions, or unsupported schemes. The existing unsigned v0.1 bundle will remain **unverifiable**, not be retroactively portrayed as verified.
+
+Implementation steps are: define canonical statement/policy/reason codes; extend existing Ed25519 DSSE functions with test-only signing fixtures; implement the CLI and report; test altered file/manifest/signature, unknown/revoked key, payload mismatch, malformed data, unsigned bundle, and policy rollover; then add this evidence to the release matrix and dashboard feed. No remote KMS, GitHub signing token, cloud key, public transparency service, or production private key is introduced.
+
+## Workstream B — External adapter review workflow
+
+Turn the current `candidate`/`quarantine` validator into a review system that cannot auto-admit code. Persist `adapter_submission`, immutable `submission_revision`, `gate_evidence`, `review_decision`, `review_comment`, `admission_report`, and `release_decision` records. Valid states are `draft → submitted → schema_validating → evidence_pending | reviewing → blocked | quarantined | admitted | rejected`, with `revision_requested` as a branch; every transition records actor, reason, timestamp, old/new state, and artifact hash.
+
+| Role | May do | May not do |
+|---|---|---|
+| Submitter | Submit manifest, fixture/evidence references, and revisions; answer comments. | Self-admit or replace reviewed evidence. |
+| Semantic reviewer | Assess scope, semantics, non-claims, and neutrality. | Alone approve implementation/release. |
+| Implementation reviewer | Assess evaluator, fixtures, replay, tamper, and reproducibility evidence. | Convert theory language into a predicate. |
+| Release steward | Confirm all eight gates, hashes, version, rollback point, and publish the release decision. | Alter a submitted revision without a new immutable revision. |
+
+The UI will provide a candidate queue; step-by-step submission wizard; eight-gate matrix; evidence/hash cards; reviewer assignment; immutable event timeline; revision diff; and public-safe summary of predicate, scope, version, decision, and non-claims. Gate 4 will visibly compare provenance labels. Gate 7 will link the signed release verification report. Runtime registry admission remains a separate reviewed source-code change.
+
+## Workstream C — Approved external analysis-receipt ingestion and explorer
+
+Accept an external analysis receipt only as a **versioned external record** that is structurally valid, packet-linked, complete in method/provenance/uncertainty fields, and approved through review. Never run an external scientific method silently, invent values, infer links, or call approval “truth.” Lifecycle: `draft → submitted → schema_valid → lineage_valid → pending_review → approved | rejected | quarantined | superseded`. The default explorer displays only approved records.
+
+| Explorer component | User value | Mandatory caveat |
+|---|---|---|
+| Filter rail/table | Filter by claim class, method/version, dataset hash, access/license, uncertainty, evidence date, and review status. | Filters organize declared metadata, not validity. |
+| Coverage dashboard | Shows inventory by method, review state, access, and uncertainty declaration. | Counts are not support strength. |
+| Detail / Reality Trace | Displays claim → packet → data hashes → method → uncertainty → reviewers → limitations. | Lineage is not causal/scientific proof. |
+| Provenance graph | Traverses explicit packet, dataset, activity, agent, receipt, adapter, and release links. | Missing edges remain visibly missing. |
+| Comparison workspace | Compares methods, data identity, assumptions, uncertainty, and disposition. | Similar records are not automatically comparable. |
+| Export/replay panel | Downloads canonical records, hashes, verifier reports, and a plain-language summary. | Metadata replay is not re-running external science. |
+
+Start with metadata, hashes, locators, licenses, and access conditions. Do not ingest raw/restricted source data unless a separate storage, consent, access-control, and retention policy is approved.
+
+## Workstream D — System-control and exploration components
+
+Prioritize these dashboard additions, using the supplied hero as the consistent visual field: dark left for readable controls/status; right-side geometry retained as contextual, non-semantic background.
+
+| Priority | Component | Real-world value | Evidence guardrail |
+|---|---|---|---|
+| P0 | Reality Trace / Claim Composer | Converts “what happened?” into a checkable relationship and decision context. | Requires scope, assumptions, class, and non-claims before a run/review. |
+| P0 | Release Root of Trust | Shows whether a downloadable artifact is verifiable and why. | Renders only generated verifier status/reason code. |
+| P0 | Adapter Review Queue | Shows where extension work is blocked and who must act. | Enforces all eight gates and immutable events. |
+| P0 | Approved Analysis Explorer | Lets people find, compare, and trace approved analysis records. | Shows uncertainty, access, lineage, approval, and limitation everywhere. |
+| P1 | Assumption/Change Impact | Reveals explicit dependencies affected by a data, method, policy, or adapter revision. | Computes only recorded links. |
+| P1 | Evidence Gap Board | Shows missing fixtures, uncertainty, reviews, provenance, or signatures. | Describes missing evidence, not negative proof. |
+| P1 | Scenario Gallery | Links mathematical checks to engineering, measurement, handoff, and review actions. | Includes a “does not establish” card on every scenario. |
+| P2 | Cross-scale Model Workspace | Navigates declared representations and linked receipts across scales. | Deferred until a typed multiscale-relation contract exists; no “holographic” claim encoded as fact. |
+| P2 | External Research Task Queue | Optional structured research workflow using Manus API v2. | Produces reviewable drafts only; never signs, approves, or verifies releases. |
+
+## Workstream E — Full legacy-versus-universal kernel report
+
+Produce `LEGACY_TO_UNIVERSAL_KERNEL_COMPARISON_v0.1.md` from repository evidence and release artifacts. Inventory relevant legacy modules/docs, classify each statement as **implemented, partial, planned, archival, or unverified**, then compare it to the isolated current package. The report will include a bridge map: legacy mathematical objects that could become neutral adapters only after a precise finite predicate/fixtures/reference evaluator/non-claim; archival-only material; and items that require empirical rather than structural evidence.
+
+| Axis | Legacy geometry-native kernel | Current universal kernel | Required treatment |
+|---|---|---|---|
+| Ontology | E8/Hopf/Riemann-Bloch geometry drives semantics. | Theory labels are provenance only; finite predicates are generic. | Explain neutrality; do not call legacy mathematics disproven. |
+| Primary job | Intended AI runtime, semantic engine, P2P/consensus, and model-serving environment. | Offline deterministic claim/receipt verifier. | State clearly that the new kernel is not a runtime replacement. |
+| Inputs | Corpora, geometry states, inference/node context. | Typed finite objects plus empirical packets. | Map only concrete overlaps; label missing bridges. |
+| Evaluation | Runtime/geometric logic mixed with servers/fallback paths. | Code-owned predicates and fail-closed outcomes. | Identify reproducibility gaps without overstating test coverage. |
+| Evidence | Broad architecture and geometric claims. | Fixtures, replay, hashes, audit, DSSE fixtures, matrix. | Separate tested contracts from aspirations. |
+| Extensibility | Theory-specific modules. | Eight-gate neutral adapters. | Compare admission standards and their limits. |
+| Operations | REST/Ollama/MCP/P2P/consensus ambitions. | Explicitly offline; no distributed consensus or production custody. | Publish deferred capabilities rather than imply completion. |
+
+The comparison will answer practical questions: “what can I trust before I share a result?”, “what changed in my model/data?”, “what must be reviewed before this supports a decision?”, and “which legacy ideas are ready for a bounded test rather than a broad interpretation?”
+
+## Workstream F — Research, content gaps, and reusable building blocks
+
+1. Evaluate open-source patterns—not mandatory dependencies—for future compatibility: Sigstore/Cosign/SLSA for signed-artifact ecosystems; AiiDA Explorer/Data Provenance Explorer patterns for trace/filter UX. Review license, maintenance, offline fit, and threat model before adoption.
+2. Conduct a task-based information-architecture audit for release verification, adapter submission, gate review, evidence discovery, uncertainty interpretation, and trace-back to data.
+3. Produce a content-gap report centered on user outcomes: what the kernel is for, why a receipt changes work, how to review evidence, why uncertainty/provenance matter, and what no status can prove. Use public SERP sampling unless a target domain and SEO exports are supplied.
+4. Defer a quantitative 300-keyword workbook until the user provides target country/worldwide scope and a data source (connected SEO tool, export, or public-data fallback). Do not invent volume, difficulty, CPC, traffic, or competitor metrics.
+5. Assess Manus API v2 only as an optional research-task integration using structured output, explicit authorization, stored task IDs, webhook verification, and review-before-ingestion. It remains outside signing, release verification, and final approval.
+
+## Delivery sequence and gates
+
+| Batch | Outputs | Exit criteria |
+|---|---|---|
+| A. Baseline and comparison | Current/legacy inventory, evidence table, comparison report, bridge map. | Every observed comparison claim has a source; unverified legacy assertions are labeled. |
+| B. Release root of trust | DSSE attestation/policy/fixtures, verifier CLI, report, docs, matrix gate. | Valid signature verifies; file/manifest/signature/policy tampering has correct terminal status; no private key enters the repository. |
+| C. Dashboard release view | Generated feed extension, Root of Trust detail/export/error states. | No unsupported green status; accessibility, desktop, and mobile tests pass. |
+| D. Adapter review | DB/API/state machine, eight-gate review UI, roles, audit history. | Invalid transitions, self-admission, stale reviews, missing evidence, duplicate reviewer, and theory-level leakage are blocked. |
+| E. Receipt explorer | Metadata validation, review lifecycle, filters, detail/graph/comparison/export. | Pending/rejected records hidden by default; lineage/uncertainty gaps visible; no external analysis is claimed to execute. |
+| F. Reality Trace | Claim Composer, scenario gallery, gap board, impact view, hero integration. | Every journey identifies context, check, evidence, limitation, and next action; comprehension testing distinguishes a check from a conclusion. |
+| G. Research strategy | OSS memo, UI backlog, content-gap report, optional keyword workbook. | Research claims cited/qualified; quantitative search data has declared market/source. |
+| H. Final release | Full matrix, tamper campaign, migration tests, regenerated bundle/feed/dashboard, comparison review. | Signed release verifies; UI mirrors generated artifacts; open risks/deferred scope are published. |
+
+## Validation requirements
+
+Release-verifier tests will cover valid, unsigned, altered file, altered manifest, altered signature, unknown/revoked key, payload mismatch, malformed data, unsupported policy, and key rollover. Backend tests will cover role/transition rules, append-only event ordering, revision conflict, gate completeness, evidence/hash mismatch, and quarantine. Explorer tests will cover schema/lineage/uncertainty gaps, status filtering, comparison mismatch, and no-data/unavailable states. Dashboard tests will be component, interaction, accessibility, desktop/mobile, and fail-closed feed tests. Product tests will ask users to state what was checked, what remains unknown, and their next evidence action.
+
+## Required decisions before production-facing execution
+
+Core implementation can begin with test keys, metadata-only ingestion, and a steward-reviewed MVP. Before real release signing or external-user rollout, the program needs: **(1)** a named release-key/rollover owner, and **(2)** a choice between internal-steward-only review and independently authenticated external submitters. A quantitative keyword workbook additionally needs target country/worldwide scope and SEO data source. These decisions do not block the planned comparison, local signing fixtures, review-schema, or reality-trace work.
+
+---
+
+## Prior completed ecosystem build plan (archival context)
+
+## Goal
+
+Turn the completed **offline, theory-agnostic universal kernel** into a coherent ecosystem that people can understand, use, extend, verify, and govern. The outcome is not a larger opaque “engine.” It is a documented and reproducible platform with a small kernel at its center, supported by explicit claim workflows, adapter packages, empirical-evidence tooling, scripts, release artifacts, user guidance, and dashboards.
+
+The active kernel already has a bounded public receipt model, six finite structural adapters, replayable provenance, local audit evidence, offline Ed25519 fixtures, durable quorum/audit components, a command-line workflow, a shared six-adapter integration fixture pack, and a reproducible release matrix. The current evidence baseline is **41 focused Python tests and 4 Rust tests**, according to `EMPIRICAL_PACKET_INTEGRATION_MATRIX.log`. This plan treats that as an observed offline baseline, not a production-service claim.
+
+## Guiding decisions
+
+| Decision | Plan position | Why it matters |
+|---|---|---|
+| Kernel identity | Preserve the kernel as theory-agnostic and structural. | No framework label may change evaluator behavior or confer credibility. |
+| Public experience | Keep the front door simple: claim → declared input/evidence → named check → readable receipt → next action. | Users should not need to understand DSSE, Merkle trees, or tensor notation to learn the outcome. |
+| Advanced assurance | Expose replay, hashes, audit attachments, signatures, quorum evidence, and Merkle material as optional inspectable layers. | Evidence becomes available without misleading users about operational guarantees. |
+| Empirical work | Maintain empirical claims as a companion layer with external-method bindings. | Structural validation must never be presented as scientific validation. |
+| Third-party work | Admit external adapters through the published eight-gate process. | Adapter admission is a governance and reproducibility test, not theory endorsement. |
+| Documentation | Publish one canonical documentation hierarchy with generated indexes and archival labels. | Existing documents are numerous; their roles and currentness need to be discoverable. |
+| Operational scope | Keep network consensus, production key management, public transparency, and empirical inference outside the current offline release. | This prevents overclaiming and keeps the trusted core small. |
+
+## Target ecosystem architecture
+
+```text
+People and research contributors
+        │
+        ├─ Plain-language guides, tutorials, dashboards, example journeys
+        ├─ Claim templates and empirical packet builder
+        └─ Third-party adapter starter kit and scorecard
+        │
+Documentation and developer platform
+        │
+        ├─ Canonical docs site + API reference + release notes
+        ├─ CLI, examples, validators, fixture and release scripts
+        └─ Registry of admitted adapters, schemas, fixtures, receipts, and limitations
+        │
+Offline universal kernel
+        │
+        ├─ Core receipt / canonicalization / replay / public outcomes
+        ├─ Structural adapter registry and universal claim packet contract
+        ├─ Empirical packet shape/provenance/uncertainty validator
+        └─ Optional local assurance: audit, Merkle, DSSE fixtures, quorum evidence
+        │
+Explicitly separate follow-on programs
+        ├─ External statistical or scientific analysis execution
+        ├─ Live key lifecycle and remote trust distribution
+        ├─ Public or replicated transparency services
+        ├─ Distributed network quorum service
+        └─ Formal theorem bridges and empirical validation campaigns
+```
+
+## Workstream portfolio
+
+### Wave E0 — Normalize the ecosystem surface
+
+Create a single artifact catalog and ownership map. Classify every existing project document as one of: **canonical specification**, **current implementation guide**, **release evidence**, **tutorial/example**, **archival research**, **superseded**, or **generated output**. The catalog will provide title, version, status, audience, owner role, source path, dependencies, and replacement link where relevant.
+
+Create a canonical `docs/` hierarchy in the repository with a machine-readable documentation manifest. Initial sections should be `start-here`, `concepts`, `how-to`, `reference`, `assurance`, `adapters`, `empirical-evidence`, `governance`, `research-archive`, and `release-evidence`. Historical Geometric Unity material remains accessible only below `research-archive`, with the existing theory-neutral archival notice retained at every entry point.
+
+**Acceptance gate:** no active top-level guide presents a theory-specific ontology as kernel semantics; every canonical document has a status, audience, and source of truth; all archive material has an archival-context banner.
+
+### Wave E1 — Public claim and receipt experience
+
+Standardize the public interface across the CLI, dashboard, documentation, and examples. Build a claim journey library with at least one worked example for each of the six current structural adapters: matrix symmetry, identity, inverse, finite partial order, graph connectivity, and tensor last-index symmetry. Each journey will include valid input, deliberate mutation, plain-language outcome explanation, receipt view, replay step, and stated non-claim.
+
+Package the existing `sov_kernel.py` behavior into a documented command reference with stable command examples. Add a sample-gallery generator that takes fixture packets and renders Markdown/JSON receipt examples, so tutorial receipts are never manually rewritten. Update the dashboard’s Invariant Lab to load these generated examples and their receipt metadata rather than curated constants.
+
+**Acceptance gate:** every public adapter has one generated valid example, one fail example, one unverifiable example, and a synchronized CLI/dashboard/documentation journey.
+
+### Wave E2 — Developer and adapter kit
+
+Create an adapter starter kit under a dedicated template directory. The kit will include a namespaced schema, pure evaluator skeleton, fixture pack, mutation harness, fixture-manifest generator, neutrality test, replay test, non-claims template, review templates, and release manifest script. It will be aligned with `THIRD_PARTY_FRAMEWORK_ADAPTER_SPEC_v0.1.md` and the eight-gate scorecard.
+
+Add a code-owned adapter registry with metadata fields for adapter ID, version, object schema, predicate ID, claimed domain, status, release manifest, test report, and non-claims. The registry must reject unadmitted adapters by default. It must not import callbacks from untrusted packet data or use framework provenance as a dispatch key.
+
+Build a `validate-adapter-package` script that runs the eight gates in an isolated local workspace and emits a machine-readable admission report. Add a “candidate” state that records evidence without making the adapter generally available.
+
+**Acceptance gate:** a sample neutral adapter can be generated from the starter kit, run through all eight gates, and produce a manifest, scorecard, and reproducible report. A deliberately framework-conditioned implementation must fail the neutrality gate.
+
+### Wave E3 — Empirical evidence companion
+
+Promote the empirical packet parser into a documented package boundary with JSON Schema, canonical test fixtures, CLI support, sample packet generator, and an evidence-status report. Preserve the current rule: the parser verifies packet structure, provenance fields, uncertainty description, and analysis binding; it returns `unverifiable` for the empirical statement until an external analysis receipt exists.
+
+Add a versioned **analysis receipt** specification. It will identify the external method/protocol, software or environment identity, exact input dataset IDs/hashes, declared parameters, output schema, assumptions, execution result, limitations, and review state. The receipt must distinguish method execution from scientific interpretation. It must reject absent or inconsistent links back to the empirical packet.
+
+Add an **empirical packet builder** to the dashboard and CLI. The builder will be form-driven and progressive: target quantity → data identity/access/license → provenance activity → uncertainty → method binding → non-claims. It must surface missing evidence as “not ready for analysis” rather than guessing defaults. The first external analysis connector should be a static, documented protocol placeholder—not a live inference service—until a validated method is selected.
+
+**Acceptance gate:** valid, incomplete, inconsistent-lineage, missing-uncertainty-basis, and mismatched-analysis-receipt fixtures have deterministic outcomes. Generated packet examples and the builder produce schema-identical outputs.
+
+### Wave E4 — Assurance and release operations
+
+Consolidate local assurance into a documented evidence bundle format that references receipt provenance, replay output, optional audit event/checkpoint/inclusion proof, optional offline Ed25519 fixture result, and optional durable quorum record. The bundle must label every absent layer as absent and every local-only component as local-only.
+
+Split release automation into deterministic jobs: formatting/static validation, Python tests, Rust tests, shared fixture-manifest verification, adapter package validation, empirical packet validation, release-bundle build, clean-install smoke test, checksum generation, and documentation link/manifest validation. Preserve a fail-closed policy: an unknown schema, missing fixture manifest, invalid documentation manifest, unsupported adapter, or failed replay blocks a release artifact.
+
+Create a release dashboard data feed generated from these artifacts. It should display the latest verified offline release evidence, test counts, fixture hashes, adapter statuses, and explicitly blocked operational work. It must not use static “production-ready” language.
+
+**Acceptance gate:** a clean environment can run one release command and reproduce all generated evidence; a one-character fixture, receipt, packet, adapter, or documentation-manifest mutation fails the appropriate gate.
+
+### Wave E5 — Documentation, learning, and communication system
+
+Create five documentation levels:
+
+| Audience | Deliverables |
+|---|---|
+| General reader | What the kernel does, the three outcomes, claim process, common misconceptions, and examples. |
+| Research contributor | Claim packet guide, empirical evidence workflow, non-claims policy, archive rules, and research register. |
+| Adapter author | Starter kit, eight-gate scorecard, schema/predicate conventions, fixture/oracle guide, and release instructions. |
+| Advanced auditor | Canonicalization, replay, audit attachments, DSSE fixture status, quorum/Merkle boundaries, and manifest verification. |
+| Maintainer/release steward | Ownership map, CI gates, change control, incident/failure policy, artifact retention, and release checklist. |
+
+Turn existing scripts and slides into a maintained communication pipeline: every named architecture deck has a source outline, speaker script, evidence/version stamp, and generated notes. The dashboard’s 90-second tour should point to the appropriate documentation tier and record only browser-local completion until a privacy-reviewed analytics policy exists.
+
+**Acceptance gate:** a newcomer can complete the symmetry example and correctly distinguish `holds`, `fail`, and `unverifiable`; an adapter author can produce a candidate package without reading kernel internals; an auditor can independently replay a published bundle.
+
+### Wave E6 — Governance, research, and archival controls
+
+Operationalize change control through ADRs and registry policies. Every proposed adapter, empirical method binding, evidence schema, public claim, and documentation promotion must have an owner, version, test/evidence target, non-claims, and approval state. Add an archive intake workflow that preserves theory-specific research provenance while forbidding it from becoming a runtime evaluator branch without admission.
+
+Add a claim/limitation register to the documentation site. It will distinguish **tested contract**, **mathematical definition**, **formal reference**, **empirical packet**, **external analysis receipt**, **research hypothesis**, and **interpretation**. The display wording will be generated from the class, not hand-authored per page.
+
+**Acceptance gate:** every externally visible claim has a claim class, source/evidence link, scope, owner, and limitation; the release steward can block publication when any required field is missing.
+
+## Cross-cutting script catalog
+
+| Script or command | Purpose | Required output |
+|---|---|---|
+| `sov_kernel.py check/replay` | Public structural check and replay | Receipt/bundle JSON with scope and next action. |
+| `build_offline_kernel_release_bundle.py` | Reproducible offline bundle | Immutable manifest and checksums. |
+| `run_offline_kernel_release.sh` | Integrated release evidence | Toolchain/test/fixture summary. |
+| `generate-sample-gallery` | Build user examples from fixtures | Markdown/JSON receipt examples. |
+| `validate-adapter-package` | Eight-gate candidate validation | Admission report and scorecard result. |
+| `generate-fixture-manifest` | Freeze adapter or empirical fixtures | Manifest and SHA-256 list. |
+| `validate-empirical-packet` | Parse and validate packet boundary | Typed status and errors. |
+| `validate-analysis-receipt` | Bind a method result to packet evidence | Receipt-link report or typed failure. |
+| `build-docs-manifest` | Validate source-of-truth documentation | Documentation catalog and broken-link report. |
+| `build-release-dashboard-feed` | Convert evidence to UI-safe status data | Versioned dashboard JSON. |
+
+## Dependency order and first three delivery batches
+
+| Batch | Work packages | Dependency | Exit artifact |
+|---|---|---|---|
+| B1: Foundation catalog | E0, documentation manifest, generated sample-gallery contract | Existing docs and fixtures | Canonical doc catalog, archive labels, sample-source map. |
+| B2: Extensibility | E2 adapter starter kit and validator; E3 empirical schema/analysis-receipt contract | B1 documentation hierarchy | Candidate adapter report; empirical packet + analysis receipt fixture packs. |
+| B3: Product/release integration | E1 journeys, E4 release jobs/feed, E5 documentation/dashboard integration | B1 + B2 stable formats | Updated dashboard, full release evidence bundle, learning and auditor paths. |
+
+## Testing and release policy
+
+Every new schema, adapter, packet, script, and document manifest will have success, invalid-input, unsupported-version, replay, and one-field tamper fixtures. Tests will run in the isolated core boundary without importing legacy experimental modules. Cross-language parity remains limited to the existing shared fixture boundary until Rust coverage is extended for the new adapter/packet representations; no claim of cross-language support may be made beforehand.
+
+Documentation is also a release artifact: broken canonical links, missing status labels, unclassified theory-specific material, generated example drift, or a mismatch between a displayed test status and a current matrix must fail the documentation/release gate.
+
+## Explicit non-goals for this ecosystem build
+
+This plan does not deploy a live peer-to-peer consensus network, operate public transparency infrastructure, manage production keys, ingest confidential datasets, execute statistical inference automatically, certify FAIR compliance, establish any theory of reality, or treat archival research as admitted kernel semantics. Those future programs require their own operational, legal, scientific, security, and governance decisions.
+
+## Risks and controls
+
+| Risk | Trigger | Control | Residual boundary |
+|---|---|---|---|
+| Documentation sprawl | Multiple contradictory guides remain active | Canonical manifest, status labels, archive banners, CI link validation | Historical sources remain accessible but clearly non-canonical. |
+| Theory lock-in returns through adapters | Framework label affects dispatch or documentation wording | Neutrality tests, code-owned registry, provenance-only framework IDs | Semantics still need independent review. |
+| Empirical overclaiming | Packet/analysis result presented as a proof | Distinct claim classes, external-analysis boundary, non-claim templates | Scientific validity depends on method and domain evidence. |
+| Starter kit creates low-quality adapters | Candidate lacks meaningful fixtures/review | Eight gates and quarantine status | Admission review costs time and expertise. |
+| Dashboard status drifts from artifacts | Curated UI constants replace evidence feed | Generate dashboard feed from manifests; tests against artifact fixtures | UI remains an evidence viewer, not a source of truth. |
+| Offline assurance is mistaken for production trust | Local Merkle/DSSE results are marketed as service guarantees | “local-only” labels, release boundary pages, blocked operational roadmap | Production trust services remain separate work. |
+
+## Completion criteria
+
+The ecosystem build is complete when the documentation manifest is canonical; each public adapter has synchronized generated examples; an external candidate can be admitted or quarantined by the eight-gate validator; empirical packets and analysis receipts are versioned and fail closed; release evidence produces the dashboard data; all documentation tiers are navigable; and the full suite has current, reproducible verification artifacts. At that point, additional research adapters and empirical methods become governed content additions rather than new architecture work.

@@ -1,0 +1,109 @@
+{
+  "schema": "sov.simulation.v1",
+  "fixture": {
+    "manifold": "X4",
+    "metric": "diag(-1,1,1,1)",
+    "connection": "Levi-Civita",
+    "gauge_potential": [
+      0.25,
+      -0.5,
+      0.75,
+      1.0
+    ],
+    "tolerance": 1e-12
+  },
+  "outputs": {
+    "christoffel_max_abs": 0.0,
+    "riemann_max_abs": 0.0,
+    "ricci_max_abs": 0.0,
+    "scalar_curvature": 0.0,
+    "einstein_max_abs": 0.0,
+    "torsion_max_abs": 0.0,
+    "gauge_curvature_max_abs": 0.0
+  },
+  "status": "verified",
+  "checks": [
+    {
+      "id": "manifold.dimension.v1",
+      "result": true,
+      "residual": 0.0,
+      "tolerance": 1e-12,
+      "note": "X4 fixture has four coordinates"
+    },
+    {
+      "id": "metric.symmetry.v1",
+      "result": true,
+      "residual": 0.0,
+      "tolerance": 1e-12,
+      "note": ""
+    },
+    {
+      "id": "metric.inverse.v1",
+      "result": true,
+      "residual": 0.0,
+      "tolerance": 1e-12,
+      "note": ""
+    },
+    {
+      "id": "connection.metric_compatibility.v1",
+      "result": true,
+      "residual": 0.0,
+      "tolerance": 1e-12,
+      "note": "constant metric"
+    },
+    {
+      "id": "connection.torsion_free.v1",
+      "result": true,
+      "residual": 0.0,
+      "tolerance": 1e-12,
+      "note": ""
+    },
+    {
+      "id": "curvature.definition.v1",
+      "result": true,
+      "residual": 0.0,
+      "tolerance": 1e-12,
+      "note": ""
+    },
+    {
+      "id": "curvature.ricci.v1",
+      "result": true,
+      "residual": 0.0,
+      "tolerance": 1e-12,
+      "note": ""
+    },
+    {
+      "id": "curvature.einstein.v1",
+      "result": true,
+      "residual": 0.0,
+      "tolerance": 1e-12,
+      "note": ""
+    },
+    {
+      "id": "einstein.bianchi.v1",
+      "result": true,
+      "residual": 0.0,
+      "tolerance": 1e-12,
+      "note": "flat fixture makes covariant divergence zero"
+    },
+    {
+      "id": "gauge.curvature.v1",
+      "result": true,
+      "residual": 0.0,
+      "tolerance": 1e-12,
+      "note": "constant abelian A"
+    },
+    {
+      "id": "gauge.bianchi.v1",
+      "result": true,
+      "residual": 0.0,
+      "tolerance": 1e-12,
+      "note": ""
+    }
+  ],
+  "limitations": [
+    "This is a flat numerical fixture, not a validation of Geometric Unity physics.",
+    "The Bianchi checks are zero here because the chosen connection and gauge field are flat.",
+    "A non-flat fixture is required to test nonzero curvature, contractions, and residual behavior."
+  ]
+}

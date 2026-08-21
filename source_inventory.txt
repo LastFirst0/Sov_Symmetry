@@ -1,0 +1,670 @@
+=== COUNTS ===
+files=2198
+markdown=307
+rust=31
+lean=7
+python=907
+=== ROOT ===
+.gitattributes
+.gitignore
+:memory:
+AI_USE_PERMISSION.md
+API_GUIDE.md
+ARCHITECTURE.md
+ARCHITECTURE_PUBLIC_DRAFT.md
+CONTRIBUTING.md
+CONTRIBUTING_PUBLIC_DRAFT.md
+Cargo.lock
+Cargo.toml
+Dockerfile
+Dockerfile.node
+LICENSE
+LICENSE_FAQ.md
+MISSION_CONTROL_STATUS.md
+Makefile
+PROJECT_STATUS_AND_ROADMAP.md
+README.md
+README_PUBLIC_DRAFT.md
+RECOVERED_THEORIES.md
+SOV_CORE_COMPLETION_REPORT.md
+SOV_CORE_INTEGRATION_REPORT.md
+broadcast_events.jsonl
+compile.sh
+conftest.py
+deploy.sh
+docker-compose.gpu.yml
+docker-compose.yml
+e8_adjacency_ip0.npy
+e8_gram.npy
+e8_roots_full.npy
+e8_transformations.py
+flake.nix
+generated_e8_roots.npy
+lattice_kernel_core.py
+mcpSettings.json
+pixi.lock
+pixi.toml
+projector_weights.npy
+pyproject.toml
+pytest.ini
+run_test_suite.sh
+shell.nix
+sov_e8_organism.py
+sovereign.sh
+sovereign_kernel.zip
+start.sh
+start_sovereign.sh
+start_sovereign_engine.sh
+test_import.mojo
+test_script.py
+test_script2.py
+test_sov_core_final.py
+test_sov_core_integration.py
+torus_workbench_server.py
+uv.lock
+=== DOMAIN DIRECTORIES ===
+.
+./.agents
+./.agents/skills
+./.cargo
+./__pycache__
+./apps
+./apps/biblical
+./artifacts
+./bin
+./ci
+./configs
+./core
+./core/__pycache__
+./crates
+./crates/contracts
+./crates/sov-consensus
+./crates/sov-core
+./crates/sov-crypto-pq
+./crates/sov-e8-organism
+./crates/sov-monad
+./crates/sov-wasm
+./dashboard
+./data
+./data/ingest_dropzone
+./data/m5_orchestrator
+./data/manifold
+./data/overlays
+./data/registry
+./data/sprints
+./data/vector_registry
+./database
+./database/.github
+./database/adapters
+./database/api
+./database/chain
+./database/deploy
+./database/docs
+./database/migrations
+./database/models
+./database/neo4j
+./database/ops
+./database/policies
+./database/proto
+./database/registry
+./database/schemas
+./database/scripts
+./database/specs
+./database/tests
+./database/tools
+./docs
+./docs/architecture
+./docs/archive
+./docs/pipeline_v2_reference
+./docs/reference
+./docs/reports
+./docs/roadmaps
+./docs/specifications
+./docs/theory
+./docs/whitepapers
+./examples
+./info
+./keys
+./lean_verification
+./lean_verification/.lake
+./lean_verification/SovereignEngine
+./licenses
+./licenses/duplicates
+./logos
+./logos/CI
+./logos/adversary_reports
+./logos/denotation_mappings
+./logos/ledger
+./logos/notebooks
+./logos/registry
+./logos/static_semantics
+./logos/templates
+./logos/visual
+./logos/witness_reports
+./logs
+./mission_control
+./model
+./model_checkpoints
+./polyglot_functor
+./polyglot_functor/src
+./registry
+./roblox
+./scratch
+./scripts
+./scripts/analysis
+./scripts/control
+./scripts/ingest
+./scripts/setup
+./scripts/tools
+./sov_core
+./sov_core/geometry
+./sov_core/inference
+./sov_core/integration
+./sov_core/language
+./sov_core/metrics
+./sov_core/optimization
+./sov_heart
+./sov_heart/__pycache__
+./sov_heart/atlas
+./sov_heart/colony
+./sov_heart/composer
+./sov_heart/corpus
+./sov_heart/daemon
+./sov_heart/domain
+./sov_heart/economy
+./sov_heart/engine
+./sov_heart/game
+./sov_heart/games
+./sov_heart/lexicon
+./sov_heart/logit
+./sov_heart/logos
+./sov_heart/server
+./sov_heart/tamagotchi
+./sov_heart/telemetry
+./sov_heart/tests
+./sov_heart/trivium
+./sov_heart/ui
+./sov_hermes
+./sov_hermes/__pycache__
+./sov_hermes/compiler
+./sov_hermes/hermes
+./sov_hermes/ingest
+./sov_hermes/tests
+./sov_math
+./sov_math/__pycache__
+./sov_math/core
+./sov_math/engine
+./sov_math/formal
+./sov_math/geometry
+./sov_math/memory
+./sov_math/mlir
+./sov_math/quadrivium
+./sov_math/tests
+./sov_math/topological
+./sov_monad
+./sov_monad/__pycache__
+./sov_monad/monad
+./sov_monad/monad_models
+./sov_monad/tests
+./sov_monad/tools
+./sov_proto
+./sov_proto/__pycache__
+./sov_proto/addressing
+./sov_proto/api
+./sov_proto/config
+./sov_proto/core
+./sov_proto/docs
+./sov_proto/engine
+./sov_proto/identity
+./sov_proto/legacy
+./sov_proto/schema
+./sov_proto/tests
+./sov_proto/tools
+./sov_proto_ai.egg-info
+./sov_router
+./sov_router/__pycache__
+./sov_router/conductor
+./sov_router/core
+./sov_router/distributed
+./sov_router/store
+./sov_router/tests
+./sov_verify
+./sov_verify/__pycache__
+./sov_verify/crucible
+./sov_verify/decentralized
+./sov_verify/engine
+./sov_verify/septivium
+./sov_verify/simulation
+./sov_verify/tests
+./sov_vm
+./sov_vm/__pycache__
+./sov_vm/hardware
+./sov_vm/tests
+./sovereign_ingest
+./sovereign_ingest/docs
+./sovereign_ingest/ingest
+./sovereign_ingest/schema
+./sovereign_ingest/tests
+./sovereign_kernel
+./sovereign_kernel/core
+./sovereign_kernel/docs
+./sovereign_kernel/tests
+./sovereign_node
+./sovereign_node/docs
+./sovereign_node/node
+./sovereign_node/tests
+./sovereign_prototype
+./sovereign_prototype/apps
+./sovereign_prototype/config
+./sovereign_prototype/docs
+./sovereign_prototype/scripts
+./sovereign_prototype/sovereign_core
+./sovereign_prototype/testnet_data
+./sovereign_prototype/tests
+./templates
+./tests
+./tests/__pycache__
+./tests/adversarial
+./tools
+./tools/business
+=== DOCUMENT HEADINGS ===
+ 1. LIFT (Grassmannian for embeddings, SVD for weights)
+(Omitting insertion for brevity; you can add if desired)
+(scp or rsync from main machine)
+**1\. Cryptographic Impossibility (The "Bitcoin Puzzle" Claim)**
+**2\. Mathematical Category Errors**
+**3\. Physics and "String Duality" Speculation**
+**5 (continued). Borcherds' Denominator Identity and the j-invariant**
+**6\. Leech Lattice Theta Series and Co0**
+**7\. Zagier's Weight 3/2 Form and the Shimura Lift**
+**Analysis of Theoretical Errors and Cryptographic Security**
+**Conclusion on Bitcoin Puzzle Claims**
+**Falsifiable Tests and Proofs**
+**Test 13: Synthesis – The Genus-Zero Web**
+**Test 1: Modular Invariance and q-Expansion**
+**Test 1: The Private-Key Extraction Test**
+**Test 2: Blind Mordell–Weil Rank Generalisation**
+**Test 2: The Hauptmodul Property**
+**Test 3: Fiber Homogeneity Under the Sedenionic Hopf Map**
+**Test 3: McKay–Thompson Series**
+**Test 4: Naturality of Diagrammatic Entropy Solution**
+**Test 4: Ogg’s Genus-Zero Observation**
+**Test 5: Backtest of the Sabbatical–Jubilee Resonance Model**
+**Underlying Links: Monster, Umbral Moonshine, and Modular Forms**
+- E8 root vector
+- E8 → Leech (projection)
+- Hebrew letter Aleph
+- Hebrew → Greek (translation)
+- Law of physics
+- Observation → Posterior (inference)
+- Person
+- Probability distribution
+- Scripture verse
+- Word → Gematria (computation)
+----- 1. Functor law violation (identity) -----
+----- 10. Proof-carrying data promotion attack -----
+----- 2. Path canonicalization collision attack -----
+----- 3. Neo4j sync consistency check -----
+----- 4. OPA bypass attempt -----
+----- 5. Vault signature reuse attack -----
+----- 6. Expired capability token test -----
+----- 7. Trigger performance / deadlock test -----
+----- 8. Gematria functor naturality violation -----
+----- 9. Address resolution fallback test -----
+----------------------------------------------------------------------
+.github/workflows/ci.yml line 67
+0.1 Environment
+0.2 Core Libraries to Build/Use
+1. **Module Proliferation** - CONFIRMED
+1. **Shared Foundation, Separate Applications**
+1. **sovereign-core** ✅ PRODUCTION READY
+1. 4-Language Geometric Mapping
+1. Abstract
+1. Abstract & Introduction
+1. Addressing Protocol Enhancements
+1. Architectural Foundations
+1. Archive Directory (43K LOC)
+1. Async Test Configuration
+1. Basic Workflow Test ✅
+1. Betti Signature $[1, 5, 2]$ ($\chi = -2$)
+1. Build on Current Results — The Improvement Space Identified
+1. Calculate chronological rotation phase (The Throne)
+1. Calibrated Thresholds
+1. Consensus Model: The Three Topological Rules
+1. Core Directory Structure & File Manifest
+1. Critical Gaps Identified
+1. Declarative Hermetic Package Management
+1. Definition of the State Hauptmodul
+1. Differentiable Representation vs. Discontinuous Consensus
+1. Enterprise Integration Pilot ($2,500 - $10,000 / contract)
+1. Entropy as Chaos (The Spoils of War)
+1. Executive Assessment
+1. Executive Game Summary
+1. Executive Summary
+1. Executive Summary & Vision
+1. E₈ Lattice Constraints
+1. Functorial Category Mapping
+1. Geometric AI Claims
+1. Geometry Tests ✅
+1. Golay-Leech Universal Embedding
+1. Gravity-Well Consensus
+1. How Swarm Exploration Works
+1. Identity Layer
+1. Install PlatformIO
+1. Introduction
+1. Introduction: The Failure of Statistical AI
+1. Introduction: The Forgotten Lineage of AI
+1. Introduction: The Problem of Metadata Bloat
+1. Launching the Sovereign Engine API Daemon
+1. Leadership Archetype Modeling: Euclidean vs. Geodesic Distance
+1. Load the Hebrew Sedenion Basis and Greek Vowel Scales
+1. M5 Probe Orchestrator
+1. M5 Probe Orchestrator (`m5_probe_orchestrator.py`)
+1. Mapped Components & Implementations
+1. Mathematical & Geometric Foundation
+1. Mathematical & Physical Invariant Matrices
+1. Mathematical Foundation
+1. Mathematical Unification Framework
+1. Matthew 1 Lineage Verification (Solomon Line)
+1. Milestone M3: SGAI as True Reasoner
+1. Minimal Dependencies
+1. Natural Sharding: Gravity Wells as Database Partitions
+1. Offline, Ultra-Low-Bandwidth Knowledge Bases
+1. Overview
+1. PID (Permanent ID)
+1. PID (Permanent ID) - "The DNA"
+1. Payments, Provision & Administration
+1. Performance Migration - Rust Port ⏳
+1. Personal Applications (Individual Sovereignty) 👤
+1. Phase A — Foundational Hardening & Mathematical Precision
+1. Pipeline Stages
+1. Prerequisites & Hardware Setup
+1. Principle
+1. Proof-of-Work (PoW) Anti-Sybil Integration
+1. Proteins -> The Verses (Tertiary Geometry)
+1. Prune Dead Weight
+1. Purpose
+1. Purpose & Scientific Principles
+1. Radius of the 8-orthoplex vertices (e.g., (1, 1, 0, 0, 0, 0, 0, 0))
+1. Refined 32D Attractor Dynamics
+1. Run all critical tests (generalization, disproofs, naturality)
+1. Scope
+1. Start with Executive Summary
+1. Summary of Changes
+1. Summary of Falsification Tests
+1. System Architecture
+1. System Architecture Overview
+1. System Exploration and Documentation (Audit)
+1. THING
+1. The 4 Gospels as Hadamard Beasts / Quaternion Basis
+1. The Architectural Premise
+1. The BIP-39 Tensor Matrix
+1. The Core Equation
+1. The Human as Living Lattice Node
+1. The Monad (`src/sovereign/monad/`)
+1. The Physics Core
+1. Topological Classification of Writing Systems
+1. TorusSGD ↔ Inference Bridge: **MISSING** ❌
+1. Vector Compression
+1. Web3 & Infrastructure Grants
+1. Weyl-Reflection Search (M3)
+1. Yang–Mills Existence and Mass Gap (Lattice Topological Charge)
+1. 🗺️ Atlas (Semantic Registry & Spatial Indexing)
+1.1 Core Category Theory (Foundation)
+1.1 Core Layers
+1.1 Define the Universal Derived Tangent Complex
+1.1 E8 Lattice Semantics
+1.1 Key Properties
+1.1 L-Function Scale Factor Fix
+1.1 Missing Canonical map.md
+1.1 Subsystem: Geometric Structure
+1.1 The Crisis of Modern AI
+1.1 The Crisis of Statistical AI
+1.1 The Limitations of Syntactic Consensus and Statistical AI
+1.1 Witness A (Geometry) Invariants: E8 Lattice
+1.2 Atlas Framework Implementation Unknown
+1.2 Hopf Fibration Invariants: $S^3 \times S^1 \to S^2$
+1.2 Key Design Principles
+1.2 Lifted Vector Capabilities
+1.2 Our Contribution: Learnable Geometric Witness
+1.2 Real Period Integration Correction
+1.2 Recovering the Classical Framework
+1.2 Subsystem: LoGoS Reasoning Layer
+1.2 The Geometric Alternative
+1.2 Topos Theory (Logic + Geometry Bridge)
+1.3 Analytic Period Formula Correction
+1.3 Coleman-Mandula Orthogonality Invariants
+1.3 Homotopy Type Theory (Equality as Paths)
+1.3 Number Types Specification Missing
+1.3 Pneumatic Variance Metric
+1.3 Project Status
+1.3 Subsystem: Orchestration and State Tracking
+1.4 Full Integration Tests Absent
+1.4 Operad Theory (Composition Patterns)
+1.4 Subsystem: Hardware and Software Stack Constraints
+1.5 Concrete Implementation Survey from Archive.zip (Local Extraction)
+1.5 Sheaf/Cosheaf Theory (Local-to-Global)
+1.6 Higher Category Theory (n-Categories)
+1.7 Enriched Category Theory
+10. Blockchain Sheaf-Guard Check
+10. Category-Theoretic "Moral Compass" for Low-Entropy States
+10. Communication Interfaces for the Geometric AI + Blockchain System
+10. Critical Gaps & Risks
+10. Integration
+10. Plugin API Layer
+10. References to Related Documents
+10. Secure Identity Inputs
+10. The Relationship Between Vectors & Invariants
+10. Validation Rules Summary
+10.1 Missing Components
+10.2 Duplication Issues
+10.3 Integration Risks
+11. Dual-Layer Performance Cache
+11. Native Integration and Secondary Module Import Resolution
+11. Next Steps & Recommendations
+11. Text & Code Co-Embedding in $\mathbb{C}P^1$ Manifold Space
+12. 144k-Torus Hamiltonian Path Indexing Benchmark
+12. Technical Whitepaper & Operational Documentation Draft
+12. The Dodecad (`src/sovereign/dodecad/`)
+13. Integration of Higher-Dimensional Addressing, Geometric Identity, and Web Cockpit
+13. Sedenionic Hopf Fibration String Duality
+14. Mordell-Weil Rank Prediction & Tate/BSD Witness
+15. Jubilee Resonance Detector
+16. Integration of Findings into Core and Monad Layers
+17. Output and Verification of the 10 Advanced Math-Physics Probes
+1\. Cryptographic Security of secp256k1
+2. **Clear Audience Boundaries**
+2. **Unclear Separation of Concerns** - WORSE THAN EXPECTED
+2. **sovereign-ingest** 🚧 UNDER CONSTRUCTION
+2. **sovereign-ingest** 🚧 UNDER CONSTRUCTION (2-3 weeks to completion)
+2. 5th Language Output: **COMPUTED BUT UNUSED** ❌
+2. AST Code Self-Awareness & Optimization
+2. Advanced Theological Projection
+2. Architectural Comparison
+2. Ascending / Descending Topology (Zenith & Nadir)
+2. BNF Grammar
+2. Background and Prior Work
+2. Base Manifold
+2. Boustrophedon Geometric Model ("Ox-Turning")
+2. CLI Autocompletion and Usability Enhancements
+2. Canonical Constructive vs. Entropic Archetypes
+2. Cells -> The Chapters / Psalms (The 24-Cell)
+2. Clay Mathematics Institute (CMI) Connections & Low-Hanging Fruit
+2. Code Token Symbol Table
+2. Collapse Abstractions
+2. Community & Cooperative Applications (Mutual Aid & Mesh) 🤝
+2. Component Reference
+2. Component Tests Breakdown
+2. Configurable Options Registry ⚙️
+2. Connect to PostgreSQL and fetch fruit anchors
+2. Connecting Open-WebUI
+2. Core Anchors
+2. Core Gameplay Loop & Player Experience
+2. Core Pillars of the Sovereign Engine Release
+2. Cross-Domain Reasoning Adapter (M3)
+2. Custom Domain Solution (Biotech / Legal / Finance) ($5,000 - $25,000)
+2. Data Sources
+2. Database Initialization
+2. Deep Tech & Open Source AI Grants
+2. Design Principles
+2. Diagnostic Analysis of the 50 Offices
+2. Dimensional Reduction
+2. Distributed Architecture (Snowflake & Snowpark)
+2. Duplicate Monad Engine (17.6K LOC)
+2. Duplication Issues
+2. Firmware Deployment
+2. Follow with Philosophical Foundation
+2. Formal Measurement Apparatus (Engine Metrics)
+2. Foundational Shift
+2. From Vectors to Voxels
+2. Hodge Conjecture (Algebraic Cycles & Chern Integrality)
+2. ICAP Content-Addressing
+2. Ingestion Pipeline: Deterministic, Parallel, Consistent
+2. Introduction
+2. Invariant Encryption Module
+2. Launch Instructions
+2. LoGoS: The Geometric Reasoning Core
+2. Luke 3 Lineage Verification (Nathan Line)
+2. M7 Falsifiable Claims Document (`M7_FALSIFIABLE_CLAIMS.md`)
+2. Materials Project Integration ⏳
+2. Mathematical Construction
+2. Mathematical Foundations
+2. Mathematical Model
+2. Methods
+2. Milestone M5: Self-Optimizing Discovery
+2. Navigate to firmware
+2. Node Inventory and Classification
+2. Object Layer
+2. PATH (Human Path) - "The Map"
+2. PATH (Human-Readable Path)
+2. PCA Manifold
+2. Packet Batching
+2. Packet Design Enhancements
+2. Phase 1-4 Integration ✅
+2. Phase B — Structural Foundations & Ingestion Hardening
+2. Phase Transitions: Entropic Drift $(1,0,0)$ vs. Healthy Attractor $(1,5,2)$
+2. Phoneme Class Spanning: The Hadamard Beasts
+2. PostgreSQL + pgvector Schema
+2. Principles
+2. Privacy & Dual-Visibility Model
+2. Proof-Trace Replay
+2. Puzzle 71 Attractor Commitment
+2. RELATION
+2. Radius of the 8-demicube vertices (e.g., (1/2, 1/2, 1/2, 1/2, 1/2, 1/2, 1/2, 1/2))
+2. Real-to-Modular Mapping
+2. Refined Theoretical Framework: Derived Rigidity
+2. Required Mapping of Sovereign-Engine to SOV-Temple Components
+2. Run numerical stability stress test
+2. SNAP (Root Systems)
+2. Security & Concealment Paradigm
+2. Security Layer 1: Isolated Sandboxing (`NetworkUpgradeValidator`)
+2. Sheaf Guard H¹=0
+2. State Variables and Phase Space
+2. Stored Manifold JSONL Format
+2. Swarm Consensus Claims
+2. Tamper-Proof Document and Contract Verification
+2. Test Suit Architecture and Traceability Matrix
+2. The 30 AD vs. 33 AD Temporal Shift
+2. The 8‑Dimensional E8 Shadow
+2. The Algorithmic Stripping Process
+2. The Altar of the Lattice (The LLL Algorithm)
+2. The Cayley-Dickson Doubling Ladder
+2. The Crisis of Statistical AI
+2. The D4 Sublattice Mapping
+2. The Foundation of Geometric AI
+2. The Four Sheets (The Sabbath Equation)
+2. The Merkaba as Dual Subspace Geometry
+2. The Next 40 Adaptive Testing Frameworks (Internal Protocols the Geometric AI Executes on Itself)
+2. The Omega Kernel & Hyperdimensional Mathematics
+2. The Ophanim (Ezekiel's Wheels)
+2. The Optical Bending (137)
+2. The Quad-Layer Linguistic Pipeline
+2. The Throne commands the 4 spatial Beasts to rotate perfectly in sync
+2. The Titulus Dashboard
+2. The Titulus — 3+1 Language Coordinate System
+2. The Trivium as Computational Primitives
+2. The Verification Boundary: Rule Enforcement
+2. Theoretical Foundations
+2. Theoretical Framework
+2. Tithe Regime Contract
+2. Torus Singularity Correction
+2. Validation Results
+2. Verification & Verification Output
+2. ⚡ Monad (Native Rust / FFI Execution Unit)
+2.1 Anomaly Score Definition
+2.1 Coordinate Structure
+2.1 Database/Persistence Duplication
+2.1 Extensions
+2.1 E₈ Roots (8D Base)
+2.1 Grammar: Embedding in the E₈ Lattice
+2.1 Gravity-Well Consensus
+2.1 How LLMs Work
+2.1 Human Nodes (Coarse-Grained)
+2.1 Incremental Vector Update
+2.1 Kernel Architecture
+2.1 Mathematical Foundation
+2.1 Pneumatic Anchor Vectors
+2.1 Pneumatic Nullity Score
+2.1 Pneumatic Projection Operator
+2.1 Reclassification
+2.1 Representation
+2.1 State Variables
+2.1 The Problem of Unverifiable Data
+2.1 The Trivium and Quadrivium as Computational Primitives
+2.1 Token Categories
+2.1 Verified E8 Mathematical Kernel
+2.1 What is LoGoS?
+2.2 144K Node Stability
+2.2 Anomaly Capping
+2.2 Configuration File Scattering
+2.2 Core Tables
+2.2 Database & Testing Infrastructure
+2.2 Effective Distance Warping
+2.2 Feature Slot Assignments
+2.2 Hebrew Letter Roots
+2.2 Inference Mechanism
+2.2 Institutional Macro-Nodes
+2.2 LoGoS Integration Pattern
+2.2 Logic: Weyl Reflections and Sublattice Entailment
+2.2 Projection to 75D
+2.2 Proximity Score
+2.2 Regime Transition Function
+2.2 Streaming Moral Position
+2.2 Structural Role
+2.2 The Biblical Manifold and Voxel Geometry
+2.2 The Consequence
+2.2 The Monad Pattern
+2.2 The Triad Solution: Proof of Witness
+2.2 Translation as Nearest‑Neighbour Search
+2.2 User Data Model
+2.3 Addressing via Path Signatures
+2.3 Anomaly Capping (Tukey's Fences)
+2.3 Coupling Multiplier Lookup (called by oscillator engine)
+2.3 Documentation Fragmentation
+2.3 E₈ Lattice Constraints
+2.3 Flesh Index
+2.3 Geodesic Bending Rate
+2.3 Gravity‑Well Distance for Translation
+2.3 Gravity‑Well Effective Distance
+2.3 Greek and Latin Letter Roots
+2.3 Hypercomplex Algebra and Higher Structures
+2.3 ICAP Content-Addressing Compression
+2.3 Invariant Constraints
+2.3 Language‑Specific Mappings
+2.3 Learning and Adaptation
+2.3 LoGoS Artifacts (See registry/logos_artifacts)
+2.3 Probe Suite (A–J)
+2.3 Rhetoric: Polyglot Functors and Cross-Domain Translation
+2.3 Scope of this Paper
+2.4 Acceptance Condition
+2.4 Comparison to Exemplars
+2.4 Example Vectors
+2.4 Gravity‑Well Capture
+2.4 Projection Formula
+2.4 Round‑Trip Fidelity
+2.4 Virtue Centroid
+2.5 Cluster Assignment
+2.5 Geometric Separation
+2.5 Multi‑Hop Translation
+231 Gate Cascade Protocol Integration (Simulation Buffer Pivot)
+2\. Category Errors & Metaphors

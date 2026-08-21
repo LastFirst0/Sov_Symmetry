@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sovereign-engine.local/schemas/sov.core_conformance.v0_1.schema.json",
+  "title": "Sovereign Engine Core Conformance Fixture v0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "schema_version", "fixture_id", "category", "input", "expected"],
+  "properties": {
+    "schema": {"const": "sov.core.conformance"},
+    "schema_version": {"const": "0.1.0"},
+    "fixture_id": {"type": "string", "pattern": "^fixture:core-v0\\.1:[a-z0-9_.-]+$"},
+    "category": {"enum": ["valid_object", "invalid_request", "unverifiable_result", "failed_predicate", "tamper", "determinism"]},
+    "input": {"type": "object", "minProperties": 1},
+    "expected": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["outcome"],
+      "properties": {
+        "outcome": {"enum": ["accepted", "request_error", "verified", "fail", "unverifiable", "tamper_detected", "determinism_failure"]},
+        "error_code": {"type": "string", "pattern": "^E_[A-Z0-9_]+$"},
+        "reason_codes": {"type": "array", "items": {"type": "string", "pattern": "^(VERIFIED|E_[A-Z0-9_]+)$"}},
+        "canonical_id": {"type": "string", "pattern": "^sov:sha256:[0-9a-f]{64}$"}
+      }
+    }
+  }
+}

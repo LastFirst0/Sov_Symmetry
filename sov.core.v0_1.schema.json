@@ -1,0 +1,364 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sovereign-engine.local/schemas/sov.core.v0_1.schema.json",
+  "title": "Sovereign Engine Core Contract v0.1",
+  "type": "object",
+  "oneOf": [
+    {"$ref": "#/$defs/object_envelope"},
+    {"$ref": "#/$defs/evidence_record"}
+  ],
+  "$defs": {
+    "object_id": {
+      "type": "string",
+      "pattern": "^sov:sha256:[0-9a-f]{64}$"
+    },
+    "semver_v0_1": {
+      "const": "0.1.0"
+    },
+    "identifier": {
+      "type": "string",
+      "pattern": "^[A-Za-z_][A-Za-z0-9_]*$",
+      "maxLength": 128
+    },
+    "reason_code": {
+      "type": "string",
+      "pattern": "^(VERIFIED|E_[A-Z0-9_]+)$",
+      "maxLength": 128
+    },
+    "assumption_id": {
+      "type": "string",
+      "pattern": "^assumption:[a-z0-9][a-z0-9_.-]*\\.v[0-9]+$"
+    },
+    "operation_id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9_.-]*\\.v[0-9]+$"
+    },
+    "predicate_id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9_.-]*\\.v[0-9]+$"
+    },
+    "signature": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["positive", "negative", "zero"],
+      "properties": {
+        "positive": {"type": "integer", "minimum": 0, "maximum": 256},
+        "negative": {"type": "integer", "minimum": 0, "maximum": 256},
+        "zero": {"type": "integer", "minimum": 0, "maximum": 256}
+      }
+    },
+    "scalar": {
+      "oneOf": [
+        {"$ref": "#/$defs/integer_scalar"},
+        {"$ref": "#/$defs/rational_scalar"},
+        {"$ref": "#/$defs/float64_scalar"},
+        {"$ref": "#/$defs/symbol_scalar"}
+      ]
+    },
+    "integer_scalar": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "value"],
+      "properties": {
+        "kind": {"const": "integer"},
+        "value": {"type": "string", "pattern": "^-?(0|[1-9][0-9]*)$", "maxLength": 1024}
+      }
+    },
+    "rational_scalar": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "numerator", "denominator"],
+      "properties": {
+        "kind": {"const": "rational"},
+        "numerator": {"type": "string", "pattern": "^-?(0|[1-9][0-9]*)$", "maxLength": 1024},
+        "denominator": {"type": "string", "pattern": "^[1-9][0-9]*$", "maxLength": 1024}
+      }
+    },
+    "float64_scalar": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "ieee754_be_hex"],
+      "properties": {
+        "kind": {"const": "float64"},
+        "ieee754_be_hex": {"type": "string", "pattern": "^(?!7ff[0-9a-f]{13}$)(?!fff[0-9a-f]{13}$)(?!8000000000000000$)[0-9a-f]{16}$"}
+      }
+    },
+    "symbol_scalar": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "name"],
+      "properties": {
+        "kind": {"const": "symbol"},
+        "name": {"$ref": "#/$defs/identifier"}
+      }
+    },
+    "convention_profile": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "curvature_sign", "metric_signature_order", "index_notation", "scalar_policy", "coordinate_basis", "unit_policy", "tolerance_policy"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^convention:[a-z0-9][a-z0-9_.-]*\\.v[0-9]+$"},
+        "curvature_sign": {"enum": ["RhoSigmaMuNu_v1", "MinusRhoSigmaMuNu_v1"]},
+        "metric_signature_order": {"enum": ["positive_negative_zero", "negative_positive_zero"]},
+        "index_notation": {"enum": ["einstein_ascii_v1"]},
+        "scalar_policy": {"enum": ["exact_only", "exact_or_float64"]},
+        "coordinate_basis": {"enum": ["coordinate_basis_required"]},
+        "unit_policy": {"enum": ["dimensionless_only", "declared_dimension_vector"]},
+        "tolerance_policy": {"type": "string", "pattern": "^tolerance:[a-z0-9][a-z0-9_.-]*\\.v[0-9]+$"}
+      }
+    },
+    "slot": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["variance", "label"],
+      "properties": {
+        "variance": {"enum": ["covariant", "contravariant"]},
+        "label": {"$ref": "#/$defs/identifier"}
+      }
+    },
+    "symmetry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "slots"],
+      "properties": {
+        "kind": {"enum": ["symmetric", "antisymmetric"]},
+        "slots": {"type": "array", "minItems": 2, "maxItems": 8, "items": {"type": "integer", "minimum": 0, "maximum": 15}, "uniqueItems": true}
+      }
+    },
+    "sparse_component": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["indices", "value"],
+      "properties": {
+        "indices": {"type": "array", "minItems": 0, "maxItems": 16, "items": {"type": "integer", "minimum": 0, "maximum": 255}},
+        "value": {"$ref": "#/$defs/scalar"}
+      }
+    },
+    "component_encoding": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["mode", "components"],
+          "properties": {
+            "mode": {"const": "sparse_exact"},
+            "components": {"type": "array", "maxItems": 100000, "items": {"$ref": "#/$defs/sparse_component"}}
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["mode", "expression"],
+          "properties": {
+            "mode": {"const": "symbolic"},
+            "expression": {"$ref": "#/$defs/expression"}
+          }
+        }
+      ]
+    },
+    "expression": {
+      "oneOf": [
+        {"$ref": "#/$defs/scalar"},
+        {"$ref": "#/$defs/expression_symbol"},
+        {"$ref": "#/$defs/expression_apply"},
+        {"$ref": "#/$defs/expression_sum"},
+        {"$ref": "#/$defs/expression_product"}
+      ]
+    },
+    "expression_symbol": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["node", "name"],
+      "properties": {
+        "node": {"const": "symbol"},
+        "name": {"$ref": "#/$defs/identifier"}
+      }
+    },
+    "expression_apply": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["node", "operator", "arguments"],
+      "properties": {
+        "node": {"const": "apply"},
+        "operator": {"enum": ["add", "multiply", "negate", "divide", "derivative", "contract", "raise_index", "lower_index"]},
+        "arguments": {"type": "array", "minItems": 1, "maxItems": 16, "items": {"$ref": "#/$defs/expression"}}
+      }
+    },
+    "expression_sum": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["node", "terms"],
+      "properties": {
+        "node": {"const": "sum"},
+        "terms": {"type": "array", "minItems": 2, "maxItems": 1024, "items": {"$ref": "#/$defs/expression"}}
+      }
+    },
+    "expression_product": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["node", "factors"],
+      "properties": {
+        "node": {"const": "product"},
+        "factors": {"type": "array", "minItems": 2, "maxItems": 1024, "items": {"$ref": "#/$defs/expression"}}
+      }
+    },
+    "manifold_content": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "dimension", "orientation_mode"],
+      "properties": {
+        "name": {"$ref": "#/$defs/identifier"},
+        "dimension": {"type": "integer", "minimum": 1, "maximum": 256},
+        "orientation_mode": {"enum": ["declared", "not_declared"]},
+        "signature": {"$ref": "#/$defs/signature"}
+      }
+    },
+    "chart_content": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["manifold_id", "name", "coordinates"],
+      "properties": {
+        "manifold_id": {"$ref": "#/$defs/object_id"},
+        "name": {"$ref": "#/$defs/identifier"},
+        "coordinates": {"type": "array", "minItems": 1, "maxItems": 256, "uniqueItems": true, "items": {"$ref": "#/$defs/identifier"}}
+      }
+    },
+    "tensor_content": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["manifold_id", "chart_id", "name", "slots", "components"],
+      "properties": {
+        "manifold_id": {"$ref": "#/$defs/object_id"},
+        "chart_id": {"$ref": "#/$defs/object_id"},
+        "name": {"$ref": "#/$defs/identifier"},
+        "slots": {"type": "array", "minItems": 0, "maxItems": 16, "items": {"$ref": "#/$defs/slot"}},
+        "symmetries": {"type": "array", "maxItems": 32, "items": {"$ref": "#/$defs/symmetry"}},
+        "units": {"type": "array", "minItems": 0, "maxItems": 16, "items": {"type": "integer", "minimum": -128, "maximum": 128}},
+        "components": {"$ref": "#/$defs/component_encoding"}
+      }
+    },
+    "metric_content": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["manifold_id", "chart_id", "name", "signature", "components", "nondegeneracy"],
+      "properties": {
+        "manifold_id": {"$ref": "#/$defs/object_id"},
+        "chart_id": {"$ref": "#/$defs/object_id"},
+        "name": {"$ref": "#/$defs/identifier"},
+        "signature": {"$ref": "#/$defs/signature"},
+        "components": {"$ref": "#/$defs/component_encoding"},
+        "nondegeneracy": {"enum": ["assumed", "fixture_verified"]},
+        "inverse_metric_id": {"$ref": "#/$defs/object_id"}
+      }
+    },
+    "form_content": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["manifold_id", "chart_id", "name", "degree", "coefficient_algebra", "components"],
+      "properties": {
+        "manifold_id": {"$ref": "#/$defs/object_id"},
+        "chart_id": {"$ref": "#/$defs/object_id"},
+        "name": {"$ref": "#/$defs/identifier"},
+        "degree": {"type": "integer", "minimum": 0, "maximum": 256},
+        "coefficient_algebra": {"enum": ["real", "complex", "abelian_lie"]},
+        "components": {"$ref": "#/$defs/component_encoding"}
+      }
+    },
+    "connection_content": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "manifold_id", "chart_id", "coefficients"],
+      "properties": {
+        "kind": {"enum": ["affine", "levi_civita", "gauge"]},
+        "manifold_id": {"$ref": "#/$defs/object_id"},
+        "chart_id": {"$ref": "#/$defs/object_id"},
+        "metric_id": {"$ref": "#/$defs/object_id"},
+        "bundle_ref": {"type": "string", "pattern": "^bundle:[a-z0-9][a-z0-9_.-]*\\.v[0-9]+$"},
+        "coefficients": {"$ref": "#/$defs/component_encoding"},
+        "properties": {"type": "array", "maxItems": 8, "items": {"enum": ["metric_compatible_assumed", "torsion_free_assumed", "flat_assumed"]}}
+      }
+    },
+    "orientation_content": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["manifold_id", "chart_id", "handedness"],
+      "properties": {
+        "manifold_id": {"$ref": "#/$defs/object_id"},
+        "chart_id": {"$ref": "#/$defs/object_id"},
+        "handedness": {"enum": ["positive", "negative"]}
+      }
+    },
+    "canonical_body": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["schema", "schema_version", "object_kind", "convention_profile", "assumptions", "content"],
+      "properties": {
+        "schema": {"const": "sov.core.object"},
+        "schema_version": {"$ref": "#/$defs/semver_v0_1"},
+        "object_kind": {"enum": ["manifold", "chart", "tensor", "metric", "form", "connection", "orientation"]},
+        "convention_profile": {"$ref": "#/$defs/convention_profile"},
+        "assumptions": {"type": "array", "maxItems": 64, "uniqueItems": true, "items": {"$ref": "#/$defs/assumption_id"}},
+        "content": {}
+      },
+      "allOf": [
+        {"if": {"properties": {"object_kind": {"const": "manifold"}}}, "then": {"properties": {"content": {"$ref": "#/$defs/manifold_content"}}}},
+        {"if": {"properties": {"object_kind": {"const": "chart"}}}, "then": {"properties": {"content": {"$ref": "#/$defs/chart_content"}}}},
+        {"if": {"properties": {"object_kind": {"const": "tensor"}}}, "then": {"properties": {"content": {"$ref": "#/$defs/tensor_content"}}}},
+        {"if": {"properties": {"object_kind": {"const": "metric"}}}, "then": {"properties": {"content": {"$ref": "#/$defs/metric_content"}}}},
+        {"if": {"properties": {"object_kind": {"const": "form"}}}, "then": {"properties": {"content": {"$ref": "#/$defs/form_content"}}}},
+        {"if": {"properties": {"object_kind": {"const": "connection"}}}, "then": {"properties": {"content": {"$ref": "#/$defs/connection_content"}}}},
+        {"if": {"properties": {"object_kind": {"const": "orientation"}}}, "then": {"properties": {"content": {"$ref": "#/$defs/orientation_content"}}}}
+      ]
+    },
+    "object_envelope": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "canonical_body"],
+      "properties": {
+        "id": {"$ref": "#/$defs/object_id"},
+        "canonical_body": {"$ref": "#/$defs/canonical_body"}
+      }
+    },
+    "residual": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "value"],
+      "properties": {
+        "kind": {"enum": ["exact_zero", "float64_abs", "float64_rel"]},
+        "value": {"$ref": "#/$defs/scalar"}
+      }
+    },
+    "predicate_result": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["predicate_id", "outcome", "reason_code"],
+      "properties": {
+        "predicate_id": {"$ref": "#/$defs/predicate_id"},
+        "outcome": {"enum": ["pass", "fail", "unverifiable"]},
+        "reason_code": {"$ref": "#/$defs/reason_code"},
+        "residual": {"$ref": "#/$defs/residual"}
+      }
+    },
+    "evidence_record": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["schema", "schema_version", "id", "operation_id", "input_ids", "output_ids", "convention_profile_id", "assumption_ids", "verification_scope", "predicate_results", "status", "reason_codes", "canonical_body_hash"],
+      "properties": {
+        "schema": {"const": "sov.core.evidence"},
+        "schema_version": {"$ref": "#/$defs/semver_v0_1"},
+        "id": {"$ref": "#/$defs/object_id"},
+        "operation_id": {"$ref": "#/$defs/operation_id"},
+        "input_ids": {"type": "array", "minItems": 1, "maxItems": 64, "items": {"$ref": "#/$defs/object_id"}},
+        "output_ids": {"type": "array", "minItems": 0, "maxItems": 64, "items": {"$ref": "#/$defs/object_id"}},
+        "convention_profile_id": {"type": "string", "pattern": "^convention:[a-z0-9][a-z0-9_.-]*\\.v[0-9]+$"},
+        "assumption_ids": {"type": "array", "maxItems": 64, "uniqueItems": true, "items": {"$ref": "#/$defs/assumption_id"}},
+        "verification_scope": {"enum": ["schema", "exact_symbolic", "exact_analytic", "numerical_fixture", "differential_reference", "formal_anchor"]},
+        "predicate_results": {"type": "array", "minItems": 1, "maxItems": 64, "items": {"$ref": "#/$defs/predicate_result"}},
+        "status": {"enum": ["verified", "fail", "unverifiable"]},
+        "reason_codes": {"type": "array", "minItems": 1, "maxItems": 16, "uniqueItems": true, "items": {"$ref": "#/$defs/reason_code"}},
+        "limitations": {"type": "array", "maxItems": 32, "items": {"type": "string", "pattern": "^limitation:[a-z0-9][a-z0-9_.-]*\\.v[0-9]+$"}},
+        "canonical_body_hash": {"$ref": "#/$defs/object_id"}
+      }
+    }
+  }
+}

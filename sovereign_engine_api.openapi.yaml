@@ -1,0 +1,483 @@
+openapi: 3.0.3
+info:
+  title: Sovereign Engine Meaning Layer API
+  version: 1.0.0
+  description: >-
+    Deterministic geometry and tensor meaning-layer contracts for Sovereign Engine.
+    The API represents manifolds, metrics, connections, differential forms,
+    curvature, spinor operators, claims, provenance, and invariant evidence.
+    It does not assert that unresolved Geometric Unity physical hypotheses are true.
+  contact:
+    name: Sovereign Engine meaning-layer team
+servers:
+  - url: https://api.sovereign-engine.example/v1
+    description: Placeholder production endpoint
+  - url: http://localhost:8000/v1
+    description: Local development endpoint
+tags:
+  - name: Manifolds
+  - name: Metrics
+  - name: Connections
+  - name: Curvature
+  - name: Forms
+  - name: Spinors
+  - name: Claims
+paths:
+  /manifolds:
+    post:
+      tags: [Manifolds]
+      operationId: registerManifold
+      summary: Register a typed manifold
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ManifoldCreate'
+      responses:
+        '201':
+          description: Manifold registered
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CreatedResource'
+        '400':
+          $ref: '#/components/responses/InvalidRequest'
+        '409':
+          $ref: '#/components/responses/IdentityCollision'
+        '422':
+          $ref: '#/components/responses/InsufficientProvenance'
+  /metrics:
+    post:
+      tags: [Metrics]
+      operationId: defineMetric
+      summary: Define a metric tensor
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/MetricCreate'
+      responses:
+        '201':
+          description: Metric registered
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ValidationResource'
+        '400':
+          $ref: '#/components/responses/InvalidRequest'
+        '422':
+          description: Metric is symbolically defined but nondegeneracy cannot be established
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ValidationResource'
+  /connections/levi-civita:
+    post:
+      tags: [Connections]
+      operationId: buildLeviCivitaConnection
+      summary: Build a Levi-Civita connection from a metric
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/LeviCivitaCreate'
+      responses:
+        '201':
+          description: Connection derived
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ConnectionResource'
+        '400':
+          $ref: '#/components/responses/InvalidRequest'
+        '404':
+          $ref: '#/components/responses/NotFound'
+  /connections/torsion:
+    post:
+      tags: [Connections]
+      operationId: computeTorsionAndContortion
+      summary: Compute torsion and optional contortion
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/TorsionRequest'
+      responses:
+        '200':
+          description: Torsion result
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/OperationResult'
+        '400':
+          $ref: '#/components/responses/InvalidRequest'
+        '422':
+          $ref: '#/components/responses/TypeMismatch'
+  /curvature/riemann:
+    post:
+      tags: [Curvature]
+      operationId: computeRiemannCurvature
+      summary: Compute Riemann curvature and registered contractions
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RiemannRequest'
+      responses:
+        '200':
+          description: Curvature result
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/OperationResult'
+        '400':
+          $ref: '#/components/responses/InvalidRequest'
+        '404':
+          $ref: '#/components/responses/NotFound'
+  /forms/operate:
+    post:
+      tags: [Forms]
+      operationId: operateOnForm
+      summary: Apply a registered differential-form operation
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/FormOperationRequest'
+      responses:
+        '200':
+          description: Form operation result
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/OperationResult'
+        '400':
+          $ref: '#/components/responses/InvalidRequest'
+        '422':
+          $ref: '#/components/responses/TypeMismatch'
+  /gauge/curvature:
+    post:
+      tags: [Forms, Curvature]
+      operationId: computeGaugeCurvature
+      summary: Compute F = dA + A wedge A and the Bianchi check
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/GaugeCurvatureRequest'
+      responses:
+        '200':
+          description: Gauge curvature result
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/OperationResult'
+        '400':
+          $ref: '#/components/responses/InvalidRequest'
+        '422':
+          $ref: '#/components/responses/TypeMismatch'
+  /spinors/dirac:
+    post:
+      tags: [Spinors]
+      operationId: constructDiracOperator
+      summary: Construct a symbolic Dirac operator
+      description: >-
+        Returns a typed symbolic operator and Clifford obligations. It does not
+        claim a physical spectrum or validate a Geometric Unity generation count.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/DiracRequest'
+      responses:
+        '200':
+          description: Dirac operator result
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/OperationResult'
+        '400':
+          $ref: '#/components/responses/InvalidRequest'
+        '422':
+          $ref: '#/components/responses/TypeMismatch'
+  /claims/evaluate:
+    post:
+      tags: [Claims]
+      operationId: evaluateClaim
+      summary: Evaluate a mathematical, software, or physical claim
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ClaimEvaluationRequest'
+      responses:
+        '200':
+          description: Claim classification
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ClaimEvaluationResponse'
+        '400':
+          $ref: '#/components/responses/InvalidRequest'
+        '422':
+          $ref: '#/components/responses/InsufficientProvenance'
+components:
+  responses:
+    InvalidRequest:
+      description: Invalid request or schema violation
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/ErrorResponse'
+    NotFound:
+      description: Referenced resource was not found
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/ErrorResponse'
+    IdentityCollision:
+      description: Canonical identity already exists with conflicting content
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/ErrorResponse'
+    InsufficientProvenance:
+      description: Required source or evidence metadata is missing
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/ErrorResponse'
+    TypeMismatch:
+      description: Manifold, rank, variance, degree, bundle, or convention mismatch
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/ErrorResponse'
+  schemas:
+    ResourceId:
+      type: string
+      pattern: '^sha256:[a-f0-9]{64}$'
+      example: sha256:0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef
+    Provenance:
+      type: object
+      required: [source, claimType]
+      properties:
+        source:
+          type: string
+        claimType:
+          type: string
+          enum: [standard, transcriptMapping, guHypothesis, repositoryObservation, softwareContract]
+        lines:
+          type: array
+          items: {type: integer, minimum: 1}
+        uri:
+          type: string
+          format: uri
+        note:
+          type: string
+    ManifoldCreate:
+      type: object
+      required: [name, dimension, signature, coordinates, orientation, provenance]
+      properties:
+        name: {type: string, minLength: 1}
+        dimension: {type: integer, minimum: 1}
+        signature:
+          type: array
+          minItems: 1
+          items: {type: integer, minimum: 0}
+        coordinates:
+          type: array
+          minItems: 1
+          items: {type: string, minLength: 1}
+        orientation:
+          type: string
+          enum: [declared, not_declared, inherited]
+        provenance: {$ref: '#/components/schemas/Provenance'}
+    MetricCreate:
+      type: object
+      required: [manifoldId, name, components, symmetry, nondegenerate, signature, inverse, provenance]
+      properties:
+        manifoldId: {$ref: '#/components/schemas/ResourceId'}
+        name: {type: string, example: g}
+        components: {type: string, example: g_mu_nu(x)}
+        symmetry: {type: string, enum: [symmetric]}
+        nondegenerate: {type: boolean}
+        signature:
+          type: array
+          items: {type: integer, minimum: 0}
+        inverse:
+          type: string
+          enum: [derive_symbolically, supplied]
+        provenance: {$ref: '#/components/schemas/Provenance'}
+    LeviCivitaCreate:
+      type: object
+      required: [metricId, coordinateChart, derive]
+      properties:
+        metricId: {$ref: '#/components/schemas/ResourceId'}
+        coordinateChart: {type: string}
+        derive: {type: string, enum: [christoffel_formula_v1]}
+    TorsionRequest:
+      type: object
+      required: [connectionId, compute]
+      properties:
+        connectionId: {$ref: '#/components/schemas/ResourceId'}
+        referenceConnectionId: {$ref: '#/components/schemas/ResourceId'}
+        compute:
+          type: array
+          minItems: 1
+          items: {type: string, enum: [torsion, contortion]}
+    RiemannRequest:
+      type: object
+      required: [connectionId, representation, convention]
+      properties:
+        connectionId: {$ref: '#/components/schemas/ResourceId'}
+        representation: {type: string, enum: [coordinate_components, differential_forms, symbolic_ast]}
+        convention: {type: string, example: curvature_sign_v1}
+        contractions:
+          type: array
+          items:
+            type: string
+            enum: [ricci, scalar_curvature, einstein_tensor]
+    FormOperationRequest:
+      type: object
+      required: [operation, inputs]
+      properties:
+        operation:
+          type: string
+          enum: [exterior_derivative, wedge, covariant_derivative, hodge_star, contraction]
+        inputs:
+          type: array
+          minItems: 1
+          items: {$ref: '#/components/schemas/ResourceId'}
+        connectionId: {$ref: '#/components/schemas/ResourceId'}
+        metricId: {$ref: '#/components/schemas/ResourceId'}
+        orientationId: {$ref: '#/components/schemas/ResourceId'}
+    GaugeCurvatureRequest:
+      type: object
+      required: [connectionFormId, bracketConvention, computeBianchi]
+      properties:
+        connectionFormId: {$ref: '#/components/schemas/ResourceId'}
+        bracketConvention: {type: string, example: adjoint_wedge_v1}
+        computeBianchi: {type: boolean, default: true}
+    DiracRequest:
+      type: object
+      required: [manifoldId, metricId, spinStructureId, connectionId, operator, representation]
+      properties:
+        manifoldId: {$ref: '#/components/schemas/ResourceId'}
+        metricId: {$ref: '#/components/schemas/ResourceId'}
+        spinStructureId: {$ref: '#/components/schemas/ResourceId'}
+        connectionId: {$ref: '#/components/schemas/ResourceId'}
+        operator: {type: string, enum: [gamma_mu_nabla_mu, rolled_up_complex]}
+        representation: {type: string, enum: [symbolic, numerical_fixture]}
+        boundaryConditions: {type: string}
+    ClaimEvaluationRequest:
+      type: object
+      required: [claim, requestedLevel]
+      properties:
+        claim: {type: string, minLength: 1}
+        expressionIds:
+          type: array
+          items: {$ref: '#/components/schemas/ResourceId'}
+        evidenceIds:
+          type: array
+          items: {$ref: '#/components/schemas/ResourceId'}
+        requestedLevel:
+          type: string
+          enum: [mathematical, software, physical]
+    CreatedResource:
+      type: object
+      required: [id, schema, status]
+      properties:
+        id: {$ref: '#/components/schemas/ResourceId'}
+        schema: {type: string}
+        status: {type: string, enum: [created]}
+        validation: {$ref: '#/components/schemas/ValidationSummary'}
+    ConnectionResource:
+      type: object
+      required: [connectionId, evidenceId, validation]
+      properties:
+        connectionId: {$ref: '#/components/schemas/ResourceId'}
+        evidenceId: {$ref: '#/components/schemas/ResourceId'}
+        validation: {$ref: '#/components/schemas/ValidationSummary'}
+    ValidationResource:
+      type: object
+      required: [id, validation]
+      properties:
+        id: {$ref: '#/components/schemas/ResourceId'}
+        validation: {$ref: '#/components/schemas/ValidationSummary'}
+    ValidationSummary:
+      type: object
+      required: [status, checks]
+      properties:
+        status: {$ref: '#/components/schemas/ResultStatus'}
+        checks:
+          type: array
+          items: {type: string}
+        residuals:
+          type: object
+          additionalProperties: {type: number}
+    OperationResult:
+      type: object
+      required: [operationId, status, evidenceId]
+      properties:
+        operationId: {type: string}
+        status: {$ref: '#/components/schemas/ResultStatus'}
+        evidenceId: {$ref: '#/components/schemas/ResourceId'}
+        outputIds:
+          type: array
+          items: {$ref: '#/components/schemas/ResourceId'}
+        expressions:
+          type: array
+          items: {type: string}
+        predicates:
+          type: array
+          items:
+            $ref: '#/components/schemas/PredicateResult'
+        limitations:
+          type: array
+          items: {type: string}
+    PredicateResult:
+      type: object
+      required: [id, result]
+      properties:
+        id: {type: string}
+        result: {type: boolean}
+        residual: {type: number}
+        tolerance: {type: number}
+    ClaimEvaluationResponse:
+      type: object
+      required: [status, level, reasonCodes, supportedSubclaims, unsupportedSubclaims]
+      properties:
+        status: {$ref: '#/components/schemas/ResultStatus'}
+        level: {type: string, enum: [mathematical, software, physical]}
+        reasonCodes:
+          type: array
+          items: {type: string}
+        supportedSubclaims:
+          type: array
+          items: {type: string}
+        unsupportedSubclaims:
+          type: array
+          items: {type: string}
+    ResultStatus:
+      type: string
+      enum: [verified, fail, unverifiable]
+    ErrorResponse:
+      type: object
+      required: [code, message]
+      properties:
+        code: {type: string}
+        message: {type: string}
+        details:
+          type: object
+          additionalProperties: true
+        evidenceId: {$ref: '#/components/schemas/ResourceId'}

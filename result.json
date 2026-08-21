@@ -1,0 +1,104 @@
+{
+  "baseline": "Cosine similarity in the reduced text representation.",
+  "candidate": "Poincare-ball distance using a text-derived radial coordinate from mean IDF and a declared radial-parent penalty.",
+  "execution": {
+    "numpy": "2.5.1",
+    "python": "3.12.3",
+    "wn": "1.1.1"
+  },
+  "hypothesis": "A text-only hyperbolic candidate improves direct hypernym recovery over a text-only Euclidean cosine baseline on the held-out sample edges.",
+  "limitations": [
+    "This is a small, English-only lexical sample rather than a broad language benchmark.",
+    "The candidate radial coordinate is an exploratory text-derived heuristic, not a learned or theory-proven geometry.",
+    "The experiment does not test E8, Hopf fibrations, language cognition, or a universal geometry of language.",
+    "WordNet hypernymy is a lexical relation, not a complete model of meaning.",
+    "The comparison is not a statistical publication-grade study; bootstrap intervals summarize only this finite held-out edge sample."
+  ],
+  "representation": "TF-IDF of synset lemmas plus definitions, reduced by SVD; hierarchy labels are evaluation-only.",
+  "selection": {
+    "selected_radial_penalty": 0.0,
+    "selected_scale": 0.45,
+    "selection_metrics": {
+      "edge_count": 36.0,
+      "mean_rank": 12.38888888888889,
+      "mrr": 0.24623112471283162,
+      "top1": 0.1111111111111111,
+      "top3": 0.3055555555555556
+    },
+    "training_edges": [
+      "oewn-01320032-n",
+      "oewn-01320544-n",
+      "oewn-01320770-n",
+      "oewn-01324070-n",
+      "oewn-01324345-n",
+      "oewn-01473536-n",
+      "oewn-01616256-n",
+      "oewn-01770302-n",
+      "oewn-01771988-n",
+      "oewn-01908302-n",
+      "oewn-01912063-n",
+      "oewn-01912547-n",
+      "oewn-01914480-n",
+      "oewn-01916804-n",
+      "oewn-01927557-n",
+      "oewn-01977414-n",
+      "oewn-02086723-n",
+      "oewn-02089774-n",
+      "oewn-02114278-n",
+      "oewn-02124460-n",
+      "oewn-02272174-n",
+      "oewn-02272309-n",
+      "oewn-02290451-n",
+      "oewn-02298042-n",
+      "oewn-02310791-n",
+      "oewn-02311989-n",
+      "oewn-02312652-n",
+      "oewn-02313712-n",
+      "oewn-02314658-n",
+      "oewn-02314827-n",
+      "oewn-02314977-n",
+      "oewn-02320819-n",
+      "oewn-02321747-n",
+      "oewn-02322779-n",
+      "oewn-02324181-n",
+      "oewn-02516191-n"
+    ]
+  },
+  "test": {
+    "baseline_metrics": {
+      "edge_count": 11.0,
+      "mean_rank": 10.727272727272727,
+      "mrr": 0.2729561111914053,
+      "top1": 0.09090909090909091,
+      "top3": 0.36363636363636365
+    },
+    "bootstrap_top1_delta": {
+      "bootstrap_samples": 1000.0,
+      "top1_delta_p2_5": -0.2727272727272727,
+      "top1_delta_p50": -0.09090909090909091,
+      "top1_delta_p97_5": 0.0
+    },
+    "candidate_metrics": {
+      "edge_count": 11.0,
+      "mean_rank": 10.727272727272727,
+      "mrr": 0.19354384177913592,
+      "top1": 0.0,
+      "top3": 0.18181818181818182
+    },
+    "random_top1_expectation": 0.02127659574468085,
+    "test_edges": [
+      "oewn-01320304-n",
+      "oewn-01787316-n",
+      "oewn-01913388-n",
+      "oewn-01924944-n",
+      "oewn-01926531-n",
+      "oewn-01932753-n",
+      "oewn-01937081-n",
+      "oewn-02088026-n",
+      "oewn-02106058-n",
+      "oewn-02162607-n",
+      "oewn-02319359-n"
+    ]
+  },
+  "verdict": "no_supported_hierarchy_advantage_on_this_sample"
+}

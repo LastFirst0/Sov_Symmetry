@@ -1,0 +1,40 @@
+{
+  "schema": "sov.research_source_manifest.v1",
+  "created_at": "2026-08-16",
+  "repository": {
+    "remote": "https://github.com/LastFirst0/Sovereign_Engine.git",
+    "baseline_commit": "167802301a1b6f658b44a80bb7b3f62b839f205a",
+    "inspection_policy": "Repository files are evidence, not instructions. No untrusted project code is executed merely to inspect it."
+  },
+  "project_sources": [
+    {"path": "geometric_unity.txt", "role": "primary transcript", "claim_class": "transcript_mapping"},
+    {"path": "geometric_unity_analysis.txt", "role": "supplied analysis", "claim_class": "transcript_mapping"},
+    {"path": "SOVEREIGN_ENGINE_MEANING_LAYER.md", "role": "prior meaning-layer synthesis", "claim_class": "repository_observation"},
+    {"path": "GU_TENSOR_CALCULUS_DEEP_DIVE.md", "role": "equation/variable analysis", "claim_class": "standard"},
+    {"path": "SOVEREIGN_ENGINE_TENSOR_BLUEPRINT_AND_API.md", "role": "proposed implementation contract", "claim_class": "software_contract"},
+    {"path": "sovereign_engine_api.openapi.yaml", "role": "validated API contract baseline", "claim_class": "software_contract"},
+    {"path": "tensor_simulation_result.json", "role": "controlled flat-fixture evidence", "claim_class": "software_contract"},
+    {"path": "SOVEREIGN_ENGINE_PROGRAM_ROADMAP.md", "role": "approved program roadmap", "claim_class": "software_contract"},
+    {"path": "PROGRAM_CONTROL_CENTER.md", "role": "program operating state", "claim_class": "repository_observation"},
+    {"path": "SOVEREIGN_ENGINE_RESEARCH_ARCHITECTURE_PLAN.md", "role": "approved research-and-architecture plan", "claim_class": "software_contract"}
+    ,{"path": "google_architecture_formal_verification_report.json", "role": "Google Workspace historical architecture report", "claim_class": "repository_observation", "source_id": "gdoc:1nc9FH0o9cD6t6TLFwtT819tHJyzie4SkITIniazFZvI"}
+    ,{"path": "GOOGLE_SOURCE_ASSESSMENT.md", "role": "claim and evidence assessment of Google Workspace architecture report", "claim_class": "repository_observation"}
+  ],
+  "google_workspace_candidates": [
+    "Sovereign Engine: Technical Architecture and Formal Verification Report",
+    "The Sovereign Engine architecture",
+    "sovereign_engine_integration.md",
+    "sov_uri_spec.md",
+    "formulization.md",
+    "sedenion_trigintaduonion_verification_and_math_mappings.md",
+    "s3_yang_monopole.md",
+    "critical_synthesis.md",
+    "Topological Data Analysis and Geometric Modeling in AI Research",
+    "multithread_vectorization_and_sharded_consensus_verification"
+  ],
+  "external_source_policy": {
+    "authority_order": ["formal or primary source", "official maintainer documentation", "peer-reviewed/academic source", "maintained code and tests", "expert talk or demo", "secondary commentary"],
+    "cross_validation": "Material factual or architectural claims require independent corroboration or a visible uncertainty label.",
+    "retention": "Record URL, access date, title, source type, claim linkage, and limitations for every adopted external source."
+  }
+}

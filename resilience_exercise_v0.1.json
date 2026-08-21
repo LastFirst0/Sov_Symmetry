@@ -1,0 +1,29 @@
+{
+  "schema": "sov.resilience_exercise",
+  "schema_version": "0.1.0",
+  "executed_at": "2026-08-19T03:33:01Z",
+  "key_rotation": {
+    "old_key_fingerprint": "c8cbcd10b120a01acaf2fa38cb79550e1064f9b705db1520e18d3eb6e33fc932",
+    "new_key_fingerprint": "4ae1ae137b5de0f541a48f589dbb87ca4034727d0b9e0f6dfb7857d265c1ffa0",
+    "new_key_expiry": "2026-11-17T00:00:00Z",
+    "request_status": "activated",
+    "continuity_evidence": "A saved pre-rotation bundle signed by the retired key and a saved post-rotation bundle signed by the active key both verified against their embedded public JWKs and their retained database descriptors. No private key material is stored in the database.",
+    "pre_rotation_bundle": {"key_fingerprint": "c8cbcd10b120a01acaf2fa38cb79550e1064f9b705db1520e18d3eb6e33fc932", "signature_valid": true, "retained_status": "retired"},
+    "post_rotation_bundle": {"key_fingerprint": "4ae1ae137b5de0f541a48f589dbb87ca4034727d0b9e0f6dfb7857d265c1ffa0", "signature_valid": true, "retained_status": "active"},
+    "scope": "This proves cryptographic receipt-verification continuity across the controlled rotation. It does not alter or interpret research evidence content."
+  },
+  "legacy_runtime_adapter": {
+    "adapter": "legacy_runtime_connectivity.v0.1",
+    "positive_control_status": "verified",
+    "negative_control_status": "fail",
+    "negative_control_evidence": "The declared disconnected graph produced unreachable vertex indexes [2, 3].",
+    "scope": "The adapter converts opaque candidate graph data into one finite connectivity predicate. It does not validate the legacy runtime, its ontology, or any scientific theory."
+  },
+  "independent_empirical_replay": {
+    "packet_id": "empirical:example:length:1",
+    "packet_validation_status": "unverifiable",
+    "analysis_receipt_status": "unverifiable",
+    "reason_codes": ["E_EMPIRICAL_ANALYSIS_EXTERNAL", "E_EMPIRICAL_INTERPRETATION_EXTERNAL"],
+    "scope": "The replay confirmed declared lineage and execution metadata in a clean environment while correctly withholding an empirical truth verdict."
+  }
+}

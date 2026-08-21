@@ -1,0 +1,65 @@
+name: Rotation Continuity Replay
+
+on:
+  workflow_dispatch:
+    inputs:
+      pre_rotation_bundle_url:
+        description: "Public managed-storage URL for the retained pre-rotation signed bundle"
+        required: true
+        default: "https://sovereigndas-gr5sr2bh.manus.space/manus-storage/signed-receipts/export_mszsbiq4_351317f7/4ae1ae137b5de0f541a48f589dbb87ca4034727d0b9e0f6dfb7857d265c1ffa0/5045edf260ea063ab9238f6f462f61d30cd3d4dfb52351ac5b743b16cacd91b0.json"
+      post_rotation_bundle_url:
+        description: "Public managed-storage URL for the retained post-rotation signed bundle"
+        required: true
+        default: "https://sovereigndas-gr5sr2bh.manus.space/manus-storage/signed-receipts/export_msztbfj2_76d42fcc/01ac7ea1649069cb68e70ddff4314a03e847612ecff8ddf8fce3795b05452d8e/74f204548503842094d763bb2153c5d8115a597dd568cc892a1787c06b6c3160.json"
+      replay_label:
+        description: "Human-readable execution label"
+        required: true
+        default: "retired-key-continuity-replay-2026-08-19"
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    name: Public-material-only rotation continuity
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out verifier source
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Fetch retained pre- and post-rotation bundles
+        run: |
+          set -euo pipefail
+          mkdir -p replay-evidence
+          curl --fail --location --retry 2 "${{ inputs.pre_rotation_bundle_url }}" -o replay-evidence/pre_rotation_bundle.json
+          curl --fail --location --retry 2 "${{ inputs.post_rotation_bundle_url }}" -o replay-evidence/post_rotation_bundle.json
+          sha256sum replay-evidence/pre_rotation_bundle.json replay-evidence/post_rotation_bundle.json | tee replay-evidence/bundle_hashes.sha256
+          grep -F "5045edf260ea063ab9238f6f462f61d30cd3d4dfb52351ac5b743b16cacd91b0  replay-evidence/pre_rotation_bundle.json" replay-evidence/bundle_hashes.sha256
+          grep -F "74f204548503842094d763bb2153c5d8115a597dd568cc892a1787c06b6c3160  replay-evidence/post_rotation_bundle.json" replay-evidence/bundle_hashes.sha256
+
+      - name: Verify retired and active signatures using public material only
+        run: |
+          set -euo pipefail
+          node tools/verify-retained-rotation-bundles.mjs replay-evidence/pre_rotation_bundle.json replay-evidence/post_rotation_bundle.json | tee replay-evidence/public_material_verification.json
+
+      - name: Record replay identity
+        run: |
+          git rev-parse HEAD | tee replay-evidence/verifier_commit.txt
+          sha256sum tools/verify-retained-rotation-bundles.mjs | tee replay-evidence/verifier_source_hashes.sha256
+          printf '%s\n' "${{ inputs.replay_label }}" > replay-evidence/replay_label.txt
+          printf '%s\n' "${{ inputs.pre_rotation_bundle_url }}" > replay-evidence/pre_rotation_bundle_url.txt
+          printf '%s\n' "${{ inputs.post_rotation_bundle_url }}" > replay-evidence/post_rotation_bundle_url.txt
+
+      - name: Upload continuity replay evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: rotation-continuity-replay-${{ github.run_id }}
+          path: replay-evidence/
+          if-no-files-found: error

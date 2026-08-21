@@ -1,0 +1,16 @@
+{
+  "advanced_assurance": {
+    "audit_event_id": "audit:sha256:example",
+    "checkpoint_id": "checkpoint:sha256:example",
+    "local_only": true
+  },
+  "assurance_status": "recorded",
+  "receipt_replay": {
+    "message": "The receipt was replayed from its declared provenance.",
+    "receipt_id": "sov:sha256:38b2c892520739e9e602202e2b8a3e78ff4f8ba80b2159d1bf09f0539d07fbd8",
+    "status": "verified"
+  },
+  "schema": "sov.advanced_evidence_export",
+  "schema_version": "0.1.0",
+  "scope": "Local export only. Any signature, quorum, or Merkle field is evidence only when explicitly recorded; absent fields do not imply trust."
+}

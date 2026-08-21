@@ -1,0 +1,39 @@
+{
+  "schema": "sov.research_register",
+  "schema_version": "0.1.0",
+  "work_packages": [
+    {
+      "schema": "sov.research_work_package",
+      "schema_version": "0.1.0",
+      "work_package_id": "m0.dna_geometry",
+      "title": "M0 public DNA sequence geometry experiment",
+      "lane": "molecular_geometry",
+      "status": "complete",
+      "claim_class": "experimental_result",
+      "question": "Can a declared hyperbolic representation improve a pinned public DNA sequence classification task over matched Euclidean and random controls?",
+      "source_manifests": ["dataset.genomic_benchmarks.human_nontata_promoters.v0"],
+      "outputs": [{"kind": "dataset_manifest", "schema_or_format": "sov.source_manifest.v0.1"}, {"kind": "evaluation_bundle", "schema_or_format": "sov.molecular_evaluation_bundle.v0.1"}],
+      "non_claims": ["This work does not evaluate personal, clinical, disease, longevity, intervention, tissue, or therapeutic claims.", "A performance result would not establish biological mechanism."],
+      "risk_level": "medium",
+      "decision_gate": "protocol_review",
+      "owner_role": "research_protocol_steward",
+      "expiry_or_review_date": "2027-08-18"
+    },
+    {
+      "schema": "sov.research_work_package",
+      "schema_version": "0.1.0",
+      "work_package_id": "c1.signed_release",
+      "title": "Offline signed release-artifact verification",
+      "lane": "system_architecture",
+      "status": "draft",
+      "claim_class": "software_contract",
+      "question": "Can an offline verifier bind a release manifest, DSSE attestation, and public-key policy with explicit verified, fail, and unverifiable outcomes?",
+      "source_manifests": ["repo.offline_kernel"],
+      "outputs": [{"kind": "release_verification_report", "schema_or_format": "sov.release_verification_report.v0.1"}],
+      "non_claims": ["A signed artifact verifies only the declared release identity and file binding, not scientific validity."],
+      "risk_level": "low",
+      "decision_gate": "release_review",
+      "owner_role": "kernel_release_steward"
+    }
+  ]
+}

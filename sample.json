@@ -1,0 +1,494 @@
+{
+  "edges": [
+    {
+      "child": "oewn-01320032-n",
+      "parent": "oewn-00015568-n"
+    },
+    {
+      "child": "oewn-01320304-n",
+      "parent": "oewn-01320032-n"
+    },
+    {
+      "child": "oewn-01320544-n",
+      "parent": "oewn-01320032-n"
+    },
+    {
+      "child": "oewn-01320770-n",
+      "parent": "oewn-01324070-n"
+    },
+    {
+      "child": "oewn-01324070-n",
+      "parent": "oewn-00015568-n"
+    },
+    {
+      "child": "oewn-01324345-n",
+      "parent": "oewn-01324070-n"
+    },
+    {
+      "child": "oewn-01473536-n",
+      "parent": "oewn-02313712-n"
+    },
+    {
+      "child": "oewn-01616256-n",
+      "parent": "oewn-01324070-n"
+    },
+    {
+      "child": "oewn-01770302-n",
+      "parent": "oewn-01908302-n"
+    },
+    {
+      "child": "oewn-01771988-n",
+      "parent": "oewn-01770302-n"
+    },
+    {
+      "child": "oewn-01787316-n",
+      "parent": "oewn-01770302-n"
+    },
+    {
+      "child": "oewn-01908302-n",
+      "parent": "oewn-00015568-n"
+    },
+    {
+      "child": "oewn-01912063-n",
+      "parent": "oewn-01908302-n"
+    },
+    {
+      "child": "oewn-01912547-n",
+      "parent": "oewn-01912063-n"
+    },
+    {
+      "child": "oewn-01913388-n",
+      "parent": "oewn-01912063-n"
+    },
+    {
+      "child": "oewn-01914480-n",
+      "parent": "oewn-01912063-n"
+    },
+    {
+      "child": "oewn-01916804-n",
+      "parent": "oewn-01912063-n"
+    },
+    {
+      "child": "oewn-01924944-n",
+      "parent": "oewn-01908302-n"
+    },
+    {
+      "child": "oewn-01926531-n",
+      "parent": "oewn-01924944-n"
+    },
+    {
+      "child": "oewn-01927557-n",
+      "parent": "oewn-01924944-n"
+    },
+    {
+      "child": "oewn-01932753-n",
+      "parent": "oewn-01924944-n"
+    },
+    {
+      "child": "oewn-01937081-n",
+      "parent": "oewn-01924944-n"
+    },
+    {
+      "child": "oewn-01977414-n",
+      "parent": "oewn-01770302-n"
+    },
+    {
+      "child": "oewn-02086723-n",
+      "parent": "oewn-01320032-n"
+    },
+    {
+      "child": "oewn-02088026-n",
+      "parent": "oewn-02086723-n"
+    },
+    {
+      "child": "oewn-02089774-n",
+      "parent": "oewn-02086723-n"
+    },
+    {
+      "child": "oewn-02106058-n",
+      "parent": "oewn-02086723-n"
+    },
+    {
+      "child": "oewn-02114278-n",
+      "parent": "oewn-02086723-n"
+    },
+    {
+      "child": "oewn-02124460-n",
+      "parent": "oewn-01320032-n"
+    },
+    {
+      "child": "oewn-02162607-n",
+      "parent": "oewn-01770302-n"
+    },
+    {
+      "child": "oewn-02272174-n",
+      "parent": "oewn-02313712-n"
+    },
+    {
+      "child": "oewn-02272309-n",
+      "parent": "oewn-02272174-n"
+    },
+    {
+      "child": "oewn-02290451-n",
+      "parent": "oewn-02311989-n"
+    },
+    {
+      "child": "oewn-02298042-n",
+      "parent": "oewn-02311989-n"
+    },
+    {
+      "child": "oewn-02310791-n",
+      "parent": "oewn-02311989-n"
+    },
+    {
+      "child": "oewn-02311989-n",
+      "parent": "oewn-02313712-n"
+    },
+    {
+      "child": "oewn-02312652-n",
+      "parent": "oewn-02311989-n"
+    },
+    {
+      "child": "oewn-02313712-n",
+      "parent": "oewn-00015568-n"
+    },
+    {
+      "child": "oewn-02314658-n",
+      "parent": "oewn-02313712-n"
+    },
+    {
+      "child": "oewn-02314827-n",
+      "parent": "oewn-02314658-n"
+    },
+    {
+      "child": "oewn-02314977-n",
+      "parent": "oewn-02314658-n"
+    },
+    {
+      "child": "oewn-02319359-n",
+      "parent": "oewn-01908302-n"
+    },
+    {
+      "child": "oewn-02320819-n",
+      "parent": "oewn-02319359-n"
+    },
+    {
+      "child": "oewn-02321747-n",
+      "parent": "oewn-02319359-n"
+    },
+    {
+      "child": "oewn-02322779-n",
+      "parent": "oewn-02319359-n"
+    },
+    {
+      "child": "oewn-02324181-n",
+      "parent": "oewn-02319359-n"
+    },
+    {
+      "child": "oewn-02516191-n",
+      "parent": "oewn-01324070-n"
+    }
+  ],
+  "nodes": [
+    {
+      "depth": "0",
+      "id": "oewn-00015568-n",
+      "label": "animal",
+      "text": "animal animate being beast brute creature fauna a living organism characterized by voluntary movement"
+    },
+    {
+      "depth": "1",
+      "id": "oewn-01320032-n",
+      "label": "domestic animal",
+      "text": "domestic animal domesticated animal any of various animals that have been tamed and made fit for a human environment"
+    },
+    {
+      "depth": "2",
+      "id": "oewn-01320304-n",
+      "label": "feeder",
+      "text": "feeder an animal being fattened or suitable for fattening"
+    },
+    {
+      "depth": "2",
+      "id": "oewn-01320544-n",
+      "label": "stocker",
+      "text": "stocker a domestic animal (especially a young steer or heifer) kept as stock until fattened or matured and suitable for a breeding establishment"
+    },
+    {
+      "depth": "2",
+      "id": "oewn-01320770-n",
+      "label": "hatchling",
+      "text": "hatchling any recently hatched animal (especially birds)"
+    },
+    {
+      "depth": "1",
+      "id": "oewn-01324070-n",
+      "label": "young",
+      "text": "young offspring any immature animal"
+    },
+    {
+      "depth": "2",
+      "id": "oewn-01324345-n",
+      "label": "young mammal",
+      "text": "young mammal any immature mammal"
+    },
+    {
+      "depth": "2",
+      "id": "oewn-01473536-n",
+      "label": "ascidian tadpole",
+      "text": "ascidian tadpole free-swimming larva of ascidians; they have a tail like a tadpole that contains the notochord"
+    },
+    {
+      "depth": "2",
+      "id": "oewn-01616256-n",
+      "label": "young bird",
+      "text": "young bird a bird that is still young"
+    },
+    {
+      "depth": "2",
+      "id": "oewn-01770302-n",
+      "label": "arthropod",
+      "text": "arthropod invertebrate having jointed limbs and a segmented body with an exoskeleton made of chitin"
+    },
+    {
+      "depth": "3",
+      "id": "oewn-01771988-n",
+      "label": "arachnid",
+      "text": "arachnid arachnoid air-breathing arthropods characterized by simple eyes and four pairs of legs"
+    },
+    {
+      "depth": "3",
+      "id": "oewn-01787316-n",
+      "label": "centipede",
+      "text": "centipede chiefly nocturnal predacious arthropod having a flattened body of 15 to 173 segments each with a pair of legs, the foremost pair being modified as prehensors"
+    },
+    {
+      "depth": "1",
+      "id": "oewn-01908302-n",
+      "label": "invertebrate",
+      "text": "invertebrate any animal lacking a backbone or notochord; the term is not used as a scientific classification"
+    },
+    {
+      "depth": "2",
+      "id": "oewn-01912063-n",
+      "label": "coelenterate",
+      "text": "coelenterate cnidarian radially symmetrical animals having saclike bodies with only one opening and tentacles with stinging structures; they occur in polyp and medusa forms"
+    },
+    {
+      "depth": "3",
+      "id": "oewn-01912547-n",
+      "label": "polyp",
+      "text": "polyp one of two forms that coelenterates take (e.g. a hydra or coral): usually sedentary with a hollow cylindrical body usually with a ring of tentacles around the mouth"
+    },
+    {
+      "depth": "3",
+      "id": "oewn-01913388-n",
+      "label": "jellyfish",
+      "text": "jellyfish any of numerous usually marine and free-swimming coelenterates that constitute the sexually reproductive forms of hydrozoans and scyphozoans"
+    },
+    {
+      "depth": "3",
+      "id": "oewn-01914480-n",
+      "label": "hydrozoan",
+      "text": "hydrozoan hydroid colonial coelenterates having the polyp phase dominant"
+    },
+    {
+      "depth": "3",
+      "id": "oewn-01916804-n",
+      "label": "anthozoan",
+      "text": "anthozoan actinozoan sessile marine coelenterates including solitary and colonial polyps; the medusoid phase is entirely suppressed"
+    },
+    {
+      "depth": "2",
+      "id": "oewn-01924944-n",
+      "label": "worm",
+      "text": "worm any of numerous relatively small elongated soft-bodied animals especially of the phyla Annelida and Chaetognatha and Nematoda and Nemertea and Platyhelminthes; also many insect larvae"
+    },
+    {
+      "depth": "3",
+      "id": "oewn-01926531-n",
+      "label": "arrowworm",
+      "text": "arrowworm chaetognath any worm of the Chaetognatha; transparent marine worm with horizontal lateral and caudal fins and a row of movable curved spines at each side of the mouth"
+    },
+    {
+      "depth": "3",
+      "id": "oewn-01927557-n",
+      "label": "flatworm",
+      "text": "flatworm platyhelminth parasitic or free-living worms having a flattened body"
+    },
+    {
+      "depth": "3",
+      "id": "oewn-01932753-n",
+      "label": "nematode",
+      "text": "nematode nematode worm roundworm unsegmented worms with elongated rounded body pointed at both ends; mostly free-living but some are parasitic"
+    },
+    {
+      "depth": "3",
+      "id": "oewn-01937081-n",
+      "label": "annelid",
+      "text": "annelid annelid worm segmented worm worms with cylindrical bodies segmented both internally and externally"
+    },
+    {
+      "depth": "3",
+      "id": "oewn-01977414-n",
+      "label": "crustacean",
+      "text": "crustacean any mainly aquatic arthropod usually having a segmented body and chitinous exoskeleton"
+    },
+    {
+      "depth": "2",
+      "id": "oewn-02086723-n",
+      "label": "dog",
+      "text": "dog domestic dog Canis familiaris a member of the genus Canis (probably descended from the common wolf) that has been domesticated by man since prehistoric times; occurs in many breeds"
+    },
+    {
+      "depth": "3",
+      "id": "oewn-02088026-n",
+      "label": "toy dog",
+      "text": "toy dog toy any of several breeds of very small dogs kept purely as pets"
+    },
+    {
+      "depth": "3",
+      "id": "oewn-02089774-n",
+      "label": "hunting dog",
+      "text": "hunting dog a dog used in hunting game"
+    },
+    {
+      "depth": "3",
+      "id": "oewn-02106058-n",
+      "label": "working dog",
+      "text": "working dog any of several breeds of usually large powerful dogs bred to work as draft animals and guard and guide dogs"
+    },
+    {
+      "depth": "3",
+      "id": "oewn-02114278-n",
+      "label": "spitz",
+      "text": "spitz any of various stocky heavy-coated breeds of dogs native to northern regions having pointed muzzles and erect ears with a curled furry tail"
+    },
+    {
+      "depth": "2",
+      "id": "oewn-02124460-n",
+      "label": "domestic cat",
+      "text": "domestic cat house cat Felis domesticus Felis catus any domesticated member of the genus Felis"
+    },
+    {
+      "depth": "3",
+      "id": "oewn-02162607-n",
+      "label": "insect",
+      "text": "insect small air-breathing arthropod"
+    },
+    {
+      "depth": "2",
+      "id": "oewn-02272174-n",
+      "label": "caseworm",
+      "text": "caseworm insect larva that constructs a protective case around its body"
+    },
+    {
+      "depth": "3",
+      "id": "oewn-02272309-n",
+      "label": "caddisworm",
+      "text": "caddisworm strawworm larva of the caddis fly; constructs a case of silk covered with sand or plant debris"
+    },
+    {
+      "depth": "3",
+      "id": "oewn-02290451-n",
+      "label": "cankerworm",
+      "text": "cankerworm green caterpillar of a geometrid moth; pest of various fruit and shade trees"
+    },
+    {
+      "depth": "3",
+      "id": "oewn-02298042-n",
+      "label": "cutworm",
+      "text": "cutworm North American moth whose larvae feed on young plant stems cutting them off at the ground"
+    },
+    {
+      "depth": "3",
+      "id": "oewn-02310791-n",
+      "label": "webworm",
+      "text": "webworm several gregarious moth larvae that spin webs over foliage on which they feed"
+    },
+    {
+      "depth": "2",
+      "id": "oewn-02311989-n",
+      "label": "caterpillar",
+      "text": "caterpillar a wormlike and often brightly colored and hairy or spiny larva of a butterfly or moth"
+    },
+    {
+      "depth": "3",
+      "id": "oewn-02312652-n",
+      "label": "bollworm",
+      "text": "bollworm any of various moth caterpillars that destroy cotton bolls"
+    },
+    {
+      "depth": "1",
+      "id": "oewn-02313712-n",
+      "label": "larva",
+      "text": "larva the immature free-living form of most invertebrates and amphibians and fish which at hatching from the egg is fundamentally unlike its parent and must metamorphose"
+    },
+    {
+      "depth": "2",
+      "id": "oewn-02314658-n",
+      "label": "grub",
+      "text": "grub a soft thick wormlike larva of certain beetles and other insects"
+    },
+    {
+      "depth": "3",
+      "id": "oewn-02314827-n",
+      "label": "maggot",
+      "text": "maggot the larva of the housefly and blowfly commonly found in decaying organic matter"
+    },
+    {
+      "depth": "3",
+      "id": "oewn-02314977-n",
+      "label": "leatherjacket",
+      "text": "leatherjacket tough-skinned larva of certain crane flies"
+    },
+    {
+      "depth": "2",
+      "id": "oewn-02319359-n",
+      "label": "echinoderm",
+      "text": "echinoderm marine invertebrates with tube feet and five-part radially symmetrical bodies"
+    },
+    {
+      "depth": "3",
+      "id": "oewn-02320819-n",
+      "label": "basket star",
+      "text": "basket star basket fish any starfish-like animal of the genera Euryale or Astrophyton or Gorgonocephalus having slender complexly branched interlacing arms radiating from a central disc"
+    },
+    {
+      "depth": "3",
+      "id": "oewn-02321747-n",
+      "label": "sea urchin",
+      "text": "sea urchin shallow-water echinoderms having soft bodies enclosed in thin spiny globular shells"
+    },
+    {
+      "depth": "3",
+      "id": "oewn-02322779-n",
+      "label": "crinoid",
+      "text": "crinoid primitive echinoderms having five or more feathery arms radiating from a central disk"
+    },
+    {
+      "depth": "3",
+      "id": "oewn-02324181-n",
+      "label": "sea cucumber",
+      "text": "sea cucumber holothurian echinoderm having a flexible sausage-shaped body, tentacles surrounding the mouth and tube feet; free-living mud feeders"
+    },
+    {
+      "depth": "2",
+      "id": "oewn-02516191-n",
+      "label": "young fish",
+      "text": "young fish a fish that is young"
+    }
+  ],
+  "selection_policy": {
+    "max_children_per_node": 4,
+    "max_depth": 3,
+    "max_nodes": 48,
+    "spanning_tree_policy": "breadth-first; lexicographic synset-id child selection; repeated nodes omitted"
+  },
+  "source": {
+    "lexicon": "oewn:2025",
+    "license": "CC-BY 4.0",
+    "root_synset": "oewn-00015568-n",
+    "source_url": "https://github.com/globalwordnet/english-wordnet"
+  }
+}

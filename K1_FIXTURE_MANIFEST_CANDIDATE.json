@@ -1,0 +1,29 @@
+{
+  "schema": "sov.fixture-manifest.v0",
+  "schema_version": "0.1.0-candidate",
+  "status": "candidate-not-attested",
+  "release_boundary": "sov-core-offline-rc",
+  "source_revision": "167802301a1b6f658b44a80bb7b3f62b839f205a",
+  "entries": [
+    {
+      "path": "tests/core_contract/data/sov_core_v0_1_fixture_pack.json",
+      "sha256": "e3b36640661588c54320878aa7b7bd7f1c347701296179d4b4b08e0a4f0d1e02",
+      "fixtures": 17,
+      "categories": {
+        "valid_object": 8,
+        "invalid_request": 4,
+        "unverifiable_result": 2,
+        "failed_predicate": 1,
+        "tamper": 1,
+        "determinism": 1
+      }
+    }
+  ],
+  "required_adapters": ["python-reference", "rust-parity"],
+  "required_failure_policy": "Unknown manifest, unsupported fixture schema, missing expected result, or digest mismatch blocks release evidence generation.",
+  "limitations": [
+    "Candidate manifest is not signed or independently attested.",
+    "Rust parity does not yet execute all 17 fixture cases.",
+    "This manifest does not establish key custody, network consensus, or physical-theory validity."
+  ]
+}

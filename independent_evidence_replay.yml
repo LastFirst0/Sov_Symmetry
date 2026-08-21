@@ -1,0 +1,68 @@
+name: Independent Evidence Replay
+
+on:
+  workflow_dispatch:
+    inputs:
+      replay_label:
+        description: "Human-readable label for this independent evidence replay"
+        required: true
+        default: "independent-hosted-replay"
+
+permissions:
+  contents: read
+
+jobs:
+  replay:
+    name: Bounded kernel and corpus replay
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Check out immutable workflow revision
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Set up Rust parity toolchain
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Install bounded replay dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install pytest jsonschema numpy networkx ijson neo4j
+
+      - name: Record replay source identity
+        run: |
+          mkdir -p replay-evidence
+          git rev-parse HEAD | tee replay-evidence/commit.txt
+          sha256sum \
+            data/living_word/Genesis_OSHB.json \
+            data/living_word/John_SBLGNT.json \
+            sov_evidence_geometry_core/universal.py \
+            sov_evidence_geometry_core/legacy_runtime_adapter.py \
+            sov_evidence_geometry_core/tensor_accelerator.py \
+            > replay-evidence/source_hashes.sha256
+          printf '%s\n' "${{ inputs.replay_label }}" > replay-evidence/replay_label.txt
+
+      - name: Run bounded offline release matrix
+        run: |
+          ./tools/run_offline_kernel_release.sh | tee replay-evidence/offline_release_matrix.log
+
+      - name: Run supplied-corpus validation and tensor candidate tests
+        run: |
+          pytest -q \
+            tests/test_living_word.py \
+            tests/test_living_word_validation.py \
+            tests/core_contract/test_legacy_runtime_adapter.py \
+            tests/core_contract/test_tensor_accelerator.py \
+            | tee replay-evidence/corpus_and_adapter.log
+
+      - name: Upload replay evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: independent-evidence-replay-${{ github.run_id }}
+          path: replay-evidence/
+          if-no-files-found: error

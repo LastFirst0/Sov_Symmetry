@@ -1,0 +1,131 @@
+name: Full Platform End-to-End Replay
+
+on:
+  workflow_dispatch:
+    inputs:
+      replay_label:
+        description: "Human-readable execution label"
+        required: true
+        default: "full-platform-end-to-end-replay-2026-08-19"
+
+permissions:
+  contents: read
+
+jobs:
+  replay:
+    name: Dashboard, kernel, and key continuity
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      SOVEREIGN_INGESTION_TOKEN: hosted-replay-owner-token
+      SOVEREIGN_REVIEWER_TOKENS_JSON: '{"reviewer-alpha":"hosted-replay-reviewer-alpha","reviewer-beta":"hosted-replay-reviewer-beta"}'
+      BUILT_IN_FORGE_API_URL: https://replay.invalid
+      BUILT_IN_FORGE_API_KEY: hosted-replay-forge-key
+      KERNEL_SNAPSHOT_URL: https://sovereigndas-gr5sr2bh.manus.space/manus-storage/sovereign_kernel_bounded_replay_1d94648_complete.tar_3765e4c8.gz
+      KERNEL_SNAPSHOT_SHA256: 60ad45520d360348aad70ddd0776b846d38db8d615e965efe54e4cbcd5c60d86
+      PRE_ROTATION_BUNDLE_URL: https://sovereigndas-gr5sr2bh.manus.space/manus-storage/signed-receipts/export_mszsbiq4_351317f7/4ae1ae137b5de0f541a48f589dbb87ca4034727d0b9e0f6dfb7857d265c1ffa0/5045edf260ea063ab9238f6f462f61d30cd3d4dfb52351ac5b743b16cacd91b0.json
+      POST_ROTATION_BUNDLE_URL: https://sovereigndas-gr5sr2bh.manus.space/manus-storage/signed-receipts/export_msztbfj2_76d42fcc/01ac7ea1649069cb68e70ddff4314a03e847612ecff8ddf8fce3795b05452d8e/74f204548503842094d763bb2153c5d8115a597dd568cc892a1787c06b6c3160.json
+
+    steps:
+      - name: Check out dashboard and verifier source
+        uses: actions/checkout@v4
+        with:
+          path: dashboard
+
+      - name: Set up pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: pnpm
+          cache-dependency-path: dashboard/pnpm-lock.yaml
+
+      - name: Set up ephemeral dashboard signer
+        run: |
+          openssl genpkey -algorithm ED25519 -out "$RUNNER_TEMP/replay-ed25519.pem"
+          {
+            echo 'SOVEREIGN_RECEIPT_SIGNING_PRIVATE_KEY<<EOF'
+            cat "$RUNNER_TEMP/replay-ed25519.pem"
+            echo EOF
+          } >> "$GITHUB_ENV"
+
+      - name: Run dashboard contract suite and production build
+        run: |
+          set -o pipefail
+          mkdir -p replay-evidence
+          cd dashboard
+          pnpm install --frozen-lockfile
+          pnpm test 2>&1 | tee "$GITHUB_WORKSPACE/replay-evidence/dashboard_contracts.log"
+          pnpm build 2>&1 | tee "$GITHUB_WORKSPACE/replay-evidence/dashboard_build.log"
+
+      - name: Set up kernel runtimes
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Set up Rust parity toolchain
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Fetch and verify pinned kernel source snapshot
+        run: |
+          set -euo pipefail
+          curl --fail --location --retry 2 "$KERNEL_SNAPSHOT_URL" -o "$RUNNER_TEMP/kernel_snapshot.tar.gz"
+          echo "$KERNEL_SNAPSHOT_SHA256  $RUNNER_TEMP/kernel_snapshot.tar.gz" | sha256sum --check --status
+          mkdir kernel
+          tar -xzf "$RUNNER_TEMP/kernel_snapshot.tar.gz" -C kernel
+          ! tar -tzf "$RUNNER_TEMP/kernel_snapshot.tar.gz" | grep -E '(^|/)(id_rsa|.*\.pem|.*\.key)$'
+          sha256sum "$RUNNER_TEMP/kernel_snapshot.tar.gz" > replay-evidence/kernel_snapshot.sha256
+          find kernel -maxdepth 1 -type f -name '.*' -print -quit | grep -q '^$' || true
+
+      - name: Install pinned kernel replay dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install pytest jsonschema numpy scipy networkx ijson neo4j cryptography
+
+      - name: Run bounded offline kernel release matrix
+        run: |
+          set -o pipefail
+          export SOV_PROJECT_DOCS="$GITHUB_WORKSPACE/kernel/replay_support/sov-e4e91854"
+          cd kernel
+          ./tools/run_offline_kernel_release.sh 2>&1 | tee "$GITHUB_WORKSPACE/replay-evidence/offline_release_matrix.log"
+
+      - name: Run bounded corpus and adapter tests
+        run: |
+          set -o pipefail
+          export SOV_PROJECT_DOCS="$GITHUB_WORKSPACE/kernel/replay_support/sov-e4e91854"
+          cd kernel
+          pytest -q --confcutdir=tests \
+            tests/test_living_word.py \
+            tests/test_living_word_validation.py \
+            tests/core_contract/test_legacy_runtime_adapter.py \
+            tests/core_contract/test_tensor_accelerator.py \
+            2>&1 | tee "$GITHUB_WORKSPACE/replay-evidence/corpus_and_adapter.log"
+
+      - name: Verify deployed retired and active signed bundles using public material only
+        run: |
+          set -euo pipefail
+          curl --fail --location --retry 2 "$PRE_ROTATION_BUNDLE_URL" -o replay-evidence/pre_rotation_bundle.json
+          curl --fail --location --retry 2 "$POST_ROTATION_BUNDLE_URL" -o replay-evidence/post_rotation_bundle.json
+          sha256sum replay-evidence/pre_rotation_bundle.json replay-evidence/post_rotation_bundle.json | tee replay-evidence/bundle_hashes.sha256
+          grep -F "5045edf260ea063ab9238f6f462f61d30cd3d4dfb52351ac5b743b16cacd91b0  replay-evidence/pre_rotation_bundle.json" replay-evidence/bundle_hashes.sha256
+          grep -F "74f204548503842094d763bb2153c5d8115a597dd568cc892a1787c06b6c3160  replay-evidence/post_rotation_bundle.json" replay-evidence/bundle_hashes.sha256
+          node dashboard/tools/verify-retained-rotation-bundles.mjs replay-evidence/pre_rotation_bundle.json replay-evidence/post_rotation_bundle.json | tee replay-evidence/public_material_verification.json
+
+      - name: Record unified replay identity
+        run: |
+          git -C dashboard rev-parse HEAD | tee replay-evidence/dashboard_commit.txt
+          sha256sum dashboard/tools/verify-retained-rotation-bundles.mjs > replay-evidence/verifier_source_hashes.sha256
+          sha256sum kernel/sov_evidence_geometry_core/universal.py kernel/sov_evidence_geometry_core/legacy_runtime_adapter.py kernel/sov_evidence_geometry_core/tensor_accelerator.py > replay-evidence/kernel_source_hashes.sha256
+          printf '%s\n' "${{ inputs.replay_label }}" > replay-evidence/replay_label.txt
+
+      - name: Upload unified replay evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: full-platform-end-to-end-replay-${{ github.run_id }}
+          path: replay-evidence/
+          if-no-files-found: error

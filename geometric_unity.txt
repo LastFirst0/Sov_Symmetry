@@ -1,0 +1,4512 @@
+Why are you nervous?
+I You're
+formidable. Sean Carol doesn't make me
+as nervous as you do. And he's hostile
+and you're not. You've arrived. I'm
+nervous for the right reasons because
+we're actually going to have a
+conversation. And I never have a
+conversation.
+What is a core idea of geometric unity
+that if people knew more about it, it
+would get them as excited about GU as
+you
+are? That despite the fact I mean it's a
+great question. First of all,
+um I believe it is the only
+[Music]
+claim of a theory that starts from
+essentially as close to nothing as you
+can in
+mathematics to try to derive everything
+we
+see. And because we see a world that is
+complex and baroque like the standard
+model in general
+relativity that process of development
+and unfolding has to be fairly lengthy
+just the way human development from a
+single fertilized egg
+is. And I think that what gets lost and
+I think what what you did beautifully is
+to show that just because something has
+a simple starting
+point doesn't mean that the theory
+remains simple. this concept of writing
+something down on a napkin that
+represents the entire world
+uh skips many steps if what you're
+really trying to do is to understand
+where you are, who you are. And I think
+the fact that it starts basically from
+four degrees of freedom and a tiny
+amount of sectoral information like
+which spin structure is active and how
+many temporal dimensions do you
+want. Um that's it. That's really the
+only starting point for geometric unity.
+And the only comparable claims that I
+know
+of would be Garrett Lesey saying let's
+start from the most complicated simple
+league group possible. Peter White
+saying, "Let's start from
+SU4 and we'll quotient out by SU3 cross
+U1 to get uh the electrostrong group and
+then we'll try to figure out how to get
+an SU2 from a wick rotation inside of a
+projective space or Steven Wolram saying
+maybe this all comes out of a very
+simple cellular rule." And I don't think
+that any of those have actually gotten
+to the point where they can make the
+claim that that's a that's a logical
+train of development. So to me that
+would be one way of answering the
+question. Another way of answering it is
+how much do you care about the actual
+particles of matter that make up
+everything? Like do you care about the
+up quark down quark electron tow
+particle? Do you care about these
+symmetries of nature? Where is this
+crazy SU3 cross SU2 cross U1 coming
+from? Why are the three generations? Why
+is this chyal and therefore asymmetric,
+left-handed, right-handed, or different?
+And I'm I guess one of the things I'm
+astounded by is the way that those
+questions when I was 17 were on the lips
+of every theoretical
+physicist. And through whatever process
+we went through starting in
+8384, those questions got relegated to
+not particularly interesting or relevant
+questions. Which I
+think if you told me that you could get
+physicists to stop worrying about three
+generations, the famous who ordered that
+problem in Isidor Abby, I wouldn't have
+believed
+you. So two notes. Number one, you
+contacted me 48 hours ago and said
+you're coming to Toronto. I normally
+prepare for a podcast weeks in advance
+mentally and then also just studying
+like psychologically and then studying.
+Yeah.
+So, this is a teaser podcast which
+somewhat assumes people have watched
+some of the Geometric Unity iceberg so
+that we can go into some depth. As for
+greater depth, that will be in the non-
+teaser, which will be I don't know how
+long from now, but it's upcoming and
+I'll I'll come back to Toronto for it
+because I'm I can't tell
+you how much that has impacted me. Like
+for the first time, I'm having a real
+conversation about a real thing with
+another human being that I've spent my
+entire life talking about to myself and
+myself alone.
+The second note is that that first
+question about what is the greatest idea
+about geometric unity or some core idea
+that what would you what would be
+impressive I think was or comes from
+Richard Beheil if I'm pronouncing his
+last name correctly. He has a fantastic
+YouTube channel. I'll place it on
+screen. He's the one who did the the
+Higs particle video recently and did a
+spinner video recently. So plenty of
+this will be me also reiterating what
+you're saying so that I can ensure that
+I'm following along and I'll try to make
+sure you get your act back like TCP IP.
+Okay, let's see. How would you summarize
+GU simply?
+Okay, now let me let me put a caveat to
+that. Yeah, again on screen I'll put a
+link to this video where I talk about
+the perils of explain like I'm five else
+you don't understand it. I have a video
+where I say there are three factors
+here. Much like there's cost, speed, and
+quality in the business world. Very
+often there's a there's a trade-off. Any
+many things, whether it's human
+relations or uh pedagogy or business or
+whatever, it's here's three things that
+you feel are essential. Choose any two.
+Sure. Exactly. So I think for teaching,
+yeah, it's succinctness, accuracy, and
+simplicity. So if you want something
+that's simple and accurate, it's going
+to take quite some time. So that's say
+an algebraic geometry textbook. It's
+actually quite simple because it starts
+from something rudimentary, but it takes
+a semester to go through, right? If you
+want something that's accurate but
+succinct, you sacrifice simplicity. And
+that's what Sorry. Yes. Accurate but
+succinct, you sacrifice simplicity. Yes.
+So let's say what is the standard
+model's gauge group. So you can say it's
+SU3 cross blah blah blah. Then you can
+say it's modded out by Z6. Super
+succinct. It's not quite simple. So
+anyhow, I'm asking you to sacrifice some
+accuracy now. Okay. Oh, really? Cuz that
+would be great to tell Gu in a simple
+and succinct manner.
+A life begins as a four manifold
+which
+begets already failed.
+So someone said that in my ex explain
+like I'm five videos for for geometric
+unity. I use the word engendered. Yeah.
+And they're like what 5-year-old knows
+the word engendered? So let alone
+manifold.
+Now we're not aiming at the 5-year-old.
+Well, okay. Here's the here's the thing.
+you most people, why do they care about
+fundamental physics? Because it's
+existence. You're here in this miracle
+place. You don't know what you are. You
+don't know where this is. And you want
+to know like God's thoughts. And that's
+the thing where when we talk about a
+crisis in physics or whatever, and
+people say, "Well, what about condensed
+matter?"
+Well, that's not the part that scratches
+the philosophical itch of who am I,
+where am I, what is this, I want to know
+before it's all
+over. Right? So the key thing is we are
+waves in a medium. The medium is called
+a bundle. It's a very strange thing that
+you are a wave and nobody told you what
+the name of the medium is. You'll have
+an entire hear an entire conversation
+about the
+ether. And like the bundle is probably
+the right concept of the ether, you
+know, and instead for some reason they
+stopped minting new words after ether.
+So we're still discussing the ether and
+we're not discussing bundles. So if
+you're a wave in a
+medium, the universe is a newspaper
+story. You want to
+know where and when, who and what, how
+and why, where is space, when is time.
+Put the two of them together, you have
+spaceime. Then there's the who and what.
+Those are the bzons and firmians that
+make up the matter in the case of the
+firmians and the force and the other
+field in the case of the bzons. So you
+have matter acting on force and force
+redirecting
+matter whichever way they they're
+interacting. And then how and why is
+what we would call the equations in the
+lrange
+gene. And so that's a pretty good idea
+about how to remember how a physicist
+thinks about reality at the deepest
+level. Tell me where it's going on. Tell
+me what the equipment and the players is
+are. and tell me what the rules are and
+what the consequences
+are. So basically geometric unity says
+that we have this wrong. Not wildly
+wrong in the sense of I can't connect
+it. It's very connected to what I'm
+claiming and what Einstein was claiming
+or that what the authors of the standard
+model are claiming. But the first thing
+is that the arena is not spacetime. It's
+a different kind of a gadget called a
+bundle. And one thing you can think
+about it is that there's sort of two
+spaces in a bundle, not one
+space. And that gives you a little bit
+of an opportunity to say maybe if you if
+if you're going to sacrifice accuracy,
+let's go for it. The quantum is
+happening on a 14 manifold and the
+classical is happening on a four
+manifold and they're not on the same
+space. They're not native to the same
+space. So a lot of the attempt to say
+that you have to quantize gravity or
+which slit with which slit does the
+photon or electron go through in the
+double slit experiment all these things
+come from the fact that you're trying to
+answer a non-spacetime question in a
+construct called spacetime that because
+Einstein sort of wrote down the rules
+around 1913 through 1917 sometimes with
+Gman sometimes in rivalry with
+Hilbert that
+story has confused us. We It's like
+having a Mercer projection of the world
+on your on your wall and starting to
+think, well, that is the world. No, it's
+a distortion. Einstein distorted the
+world for his time. And geometric unity
+asserts that ultimately if you want to
+not look at the map and you want to look
+at the territory, you have to keep
+putting in a new
+map until finally in the end reality is
+its own exogesis. There's there's no
+tool to look at it. So geometric unity
+says you're not living on one space.
+You're living on a relationship between
+two spaces. And in that relationship,
+you've put the quantum on one space, the
+classical on another, which decreases
+the amount of conflict between them. It
+also says, for example, that the
+classical world is by far the more
+important of the two worlds than the
+than the Quan. How does it say that? So,
+look, I want to riff with you
+differently than I can riff with anyone
+else. I'm in the rare position where I'm
+talking to the only person who has
+actually talked about one of the great
+revolutions of our time that actually
+happened. And when you when you did that
+show with Eva Miranda on geometric
+quantization, you took one of the three
+great developments in physics after the
+standard model and you made it publicly
+accessible with u professor Miranda. So
+what is the situation? Isn't it amazing?
+We had a revolution called geometric
+quantization and there's no trace of it.
+Yeah. In the pop the public doesn't know
+but for your channel that it
+exists. And if you wanted to say it in a
+really funny way it's that Hamiltonian
+dynamics one way there are two ways of
+basically figuring out the consequence
+of a rule. If you use the Hamiltonian
+formalism it self
+quantizes. There's a thing called a
+simplectic form that generates how the
+world develops. And what we didn't
+realize
+is it comes from something else. It's
+the curvature tensor of a connection on
+a bundle over something called phase
+space. So we had this concept of phase
+space to figure out how classical f uh
+physics
+develops. And classical phase
+space births and bootstraps its own
+medium for quantum waves.
+So once you once you know that and it's
+not perfect but just we're sacrificing a
+little bit of accuracy to say something
+like dramatic, meaningful and
+punchy. If I tell you the classical
+theory, you have to figure out the
+consequences of it quantum mechanically.
+But the the quantum fetish that you see
+is kind of weird and wild. Um yes there
+are systems that don't appear to be the
+quantization of any classical structure
+but the standard model is a classical
+theory that then gets quantized and it
+in some
+sense it figure it bootstraps its own
+quantization once you give like you'll
+hear physicists say once you've given
+the lrangeian or the action everything
+is in
+place it's just a question of figuring
+out the consequence. Well, if that's
+true and the action is classical, then
+what do you mean that you're so focused
+on the quantum? So, I I guess look, it's
+embarrassing, but I just think we have a
+quantum fetish and we have a tiny number
+of people who convinced everyone to
+repeat the same statements about, well,
+you know, the world is quantum
+mechanical. So, if you say, I think the
+classical is more important, they don't
+hear that as an
+informed statement. They hear that as
+you didn't get the fact that the world
+is quantum. You you still think that you
+live in a classical
+world or for example the fact that why
+does the classical world dominate? Why
+are we confused about the quantum world?
+Why isn't it evident that it's
+everything is quantum? It's fineman
+voting. Have I ever talked about fineman
+voting? No. Imagine that you have 10,000
+people lost in a featureless
+landscape and they're trying to figure
+out which way to go and you've got one
+cult of like a thousand
+people, right? So, a small group of
+people and they all agree and you say,
+"We're going to take a poll. We're going
+to add up. We're going to point in
+different
+directions and then whatever the
+sum of the direction, we're going to
+average out by the number of people and
+we'll go in that direction at that
+speed. Well, the key point is is that
+everybody who's not in the cult is
+pointing in some different direction and
+that's randomly going to average out to
+going in no direction at all except for
+the cult and they're all going in the
+same direction. So in find and voting
+the classical thing contributes a much
+more coherent picture of what should
+happen and that's why the classical
+world dominates even though it's a
+minority perspective.
+Okay. Why can't you say that the action
+itself is not classical? You have an
+action and you can interpret it in two
+ways. One is a quantum way then another
+is a classical way. You can do that. But
+the action itself is not or the
+lrangeian itself is not classical.
+I this is logo maki. We're arguing over
+words rather than substance. Okay. Let
+me be let me let me be semantically
+clear. Okay. You can get classical
+observables. Yep. By taking the action
+or you can get quantum observables by
+doing something else with the action.
+And the classical one just looks at a
+small part of action and says, "Okay,
+this is where all everything is
+happening." And the quantum one actually
+looks at all of it. And so it has more
+information. The the quantum one, sorry,
+the quantum one interprets more of it.
+I'm a little bit confused cuz they're
+both local. The quantum picks up more
+information because you're looking at it
+at the wave function over the entire
+space. But what actually happens with
+the observable is is that you have a
+function. And you can either measure the
+function at the point
+um and then multiply it by the quantum
+wave or you can take that function
+differentiate it to get a one form stick
+it into a simplectic form to get a
+vector field throw the vector field to a
+connection and use that connection to
+take a directional derivative. So one of
+these ends up as a position operator.
+one of these sort of ends up as a
+momentum operator for the P's and Q's
+and the underlying coordinatization of
+phase space. But that process of
+promoting a classical observable which
+is just like some number
+um I don't really think that that that
+works exactly because the function is
+defined over the entire phase space. So
+in a certain sense even if you're
+thinking classically
+uh you're both you're working over the
+entire space of possibilities in both
+cases.
+The only thing that's different is that
+the state of the system is seen as
+um naturally looking at the entire space
+whereas in this other case you actually
+imagine a physical situation in which
+only one part of it is relevant at any
+time.
+So in the classical case are you saying
+that because we use a variational
+principle that we're seeing all of the
+space in a certain sense? Well, look,
+you're defining an action or a lrronian
+on the entire space and then you're
+defining observables that you wish to
+measure. So, you're thinking about for
+the space of all possible initial
+conditions, if I then measured the
+system, you know, n units of time later,
+I believe I would be sampling this
+function at this point. And it's the
+point part of it that is uh that is
+narrowing things to a single point
+whereas a state that is distributed
+every wave is a wave in a medium that's
+distributed over an expanse. So what I
+meant was that if you do some variation
+principle you say okay let's take the
+extreme of that. Yeah only that for the
+classical case contributes to an
+observable. Yes. Whereas in the quantum
+case, it's it doesn't have to just be
+that single part. Well, again, the
+variational sounds more
+langian than Hamiltonian. The
+Hamiltonian sort of says, I don't need
+to know about all that. I'm just going
+to start from here and move.
+But you can genre map. No, you
+certainly.
+Okay. So, if you're lost, don't worry.
+This is just the beginning. I have some
+other questions. It's two friends
+talking late on a late on a Friday. So
+in GU
+and again I'm just going to assume that
+the iceberg is out and people have
+watched this so you and I can talk
+instead of having to cover GU. Put the
+link in the Sure. There's a Frobinius
+inner product that's introduced. Yeah.
+Why the Frobinius inner product?
+Presumably there are other inner
+products that could could have been
+used. Well in fact it's not the Fbinius
+inner product. It's the trace reversed
+Fbinius inner product. And that the only
+reason it's trace reversed is that we
+don't have
+a grand unified theory of the observed
+world that
+uses spin 7
+cross
+su2 which would really be spin 7 cross
+spin 3 right one of the problems is that
+the typical description of the petisam
+theory that we've
+discussed is that that theory is usually
+presented as su4 4 cross SU2 cross SU2.
+And it's not that the field doesn't know
+that that's equivalent to spin 6 cross
+spin 4, but it is meaningfully different
+because it's it pushes you how you call
+something determines how you think about
+it. This a very human thing. And it
+really is spin 6 cross spin 4 because GU
+and I don't know that you've you and I
+have even had this discussion is a
+machine that could also accept a 111
+spacetime or a 115. Any multiple of four
+dimensions with one of them taken as
+time results in a GU. Why would a 111
+work? Sorry, did I say 111? I meant
+7-Eleven. I meant uh 17. No, no, I'm not
+messing you up now. 111. Yeah. No. Why?
+It has to add up to 12. 12 is a multiple
+of four. Uhhuh. Okay. No, I did it
+right. Did you? Yeah. Doesn't have to
+add up to 14. Just a moment. Don't go
+anywhere. Hey, I see you inching away.
+Don't be like the economy. Instead, read
+The Economist. I thought All the
+Economist was was something that CEOs
+read to stay up to date on world trends.
+And that's true. But that's not only
+true. What I found more than useful for
+myself personally is their coverage of
+math, physics, philosophy, and AI,
+especially how something is perceived by
+other countries and how it may impact
+markets. For instance, The Economist had
+an interview with some of the people
+behind Deepseek the week Deepseek was
+launched. No one else had that. Another
+example is The Economist has this
+fantastic article on the recent dark
+energy data which surpasses even
+scientific Americans coverage in my
+opinion. They also have the chart of
+everything. It's like the chart version
+of this channel. It's something which is
+a pleasure to scroll through and learn
+from. Links to all of these will be in
+the description of course. Now the
+economist commitment to rigorous
+journalism means that you get a clear
+picture of the world's most significant
+developments. I am personally interested
+in the more scientific ones like this
+one on extending life via mitochondrial
+transplants which creates actually a new
+field of medicine something that would
+make Michael Leven proud. The Economist
+also covers culture, finance and
+economics, business, international
+affairs, Britain, Europe, the Middle
+East, Africa, China, Asia, the Americas,
+and of course the USA. Whether it's the
+latest in scientific innovation or the
+shifting landscape of global politics,
+The Economist provides comprehensive
+coverage and it goes far beyond just
+headlines. Look, if you're passionate
+about expanding your knowledge and
+gaining a new understanding, a deeper
+one, of the forces that shape our world,
+then I highly recommend subscribing to
+The Economist. I subscribe to them and
+it's an investment into my into your
+intellectual growth. It's one that you
+won't regret. As a listener of this
+podcast, you'll get a special 20% off
+discount. Now you can enjoy the
+Economist and all it has to offer for
+less. Head over to their website
+www.economist.com/toe to get started.
+Thanks for tuning in and now let's get
+back to the exploration of the mysteries
+of our universe. Again, that's
+economist.com/to doesn't have to add up
+to 14. That's in the B that's in the in
+the total space. I'm saying the input is
+a one and a three. Uhhuh. And that
+begets you the 14. Okay. Now the next
+one up is okay. I see what you're
+saying. Is 1 and 7 and then it's 1 and
+11 and then it's 1 and 15 etc. etc. In
+each one of those there's a petis salam
+analog. In each one of those, there's a
+standard model analog. And in each one
+of those, there's a spin 10
+analog and an SU5 analog. And the in all
+of those cases above 1, 3, this, the pet
+salon thing is a spin cross a spin. It's
+not an SU cross an
+SU. So, it's meaningfully spin six cross
+spin 4.
+Um, I don't think I've ever had a chance
+to to, you know, basically everything is
+always at this goddamn explain it like
+I'm five level. So, we never actually
+get to anything interesting. Um, it's a
+great question.
+That's what determines which Fbini is in
+her product. And you know, you want to
+know something fun. If you watch the
+Oxford lecture, I screw it up. And I
+know that I'm screwing it up. And why is
+this? is because like look I I don't
+think people have a clue Kurt as to what
+it is like to work completely on your
+own. They just don't they trying to
+remind yourself if you think about how
+much you've forgotten about GU I bet
+it's huge. Right. Right. And then you
+have to refresh it. Okay. I'd forgotten
+all sorts of stuff I'd already done. One
+of the things I'd forgotten is that you
+end up with a 3a 7 metric on the fiber
+which can't work. And so while I'm
+giving the talk in Oxford, I'm thinking
+I know this works, but I have to be
+honest that I'm coming up with three and
+se seven and three. And right at the end
+I say are are there things left to do?
+Certainly there are. In fact, you have
+to get somehow. Sure. I'm trying to be
+honest, but I'd forgotten. Oh yes, it's
+the trace reversal of the Fbinius
+metric. Most people don't know that
+Fbinius metrics even exist because
+they've never it is not typical in an
+entire career in mathematics that you
+had to in induce a metric on the space
+of metrics. Well, the space of metrics
+isn't even talked about much. I mean I I
+I think it is it's not it's not never
+discussed. It's just I actually there's
+two different ways, right? There's a
+language problem. Do you mean the space
+of metric sections or do you mean the
+space of pointwise metrics? So certainly
+the space of metric sections is is very
+much discussed. Pointwise metrics has
+never really been focused
+on. Now if you say something like that I
+guarantee you somebody will pull out
+papers from 1957 and Bryce Stewit looked
+at this who knows what I don't
+know but most people never induce a
+Fbinius metric in their lives. And so it
+come and this is one of the taxes that
+you see is that if you do something
+really different even if it's not like
+developing a
+new a new collection of
+mathematics people have an idea I bet
+there's one or two or maybe three
+changes from what we usually do
+and gu says I accept the standard model
+I accept general relativity but
+everything we do is slightly wrong. We
+call we call Patise along by the wrong
+name. We have the wrong grand unified
+real forms of the group. SU5 is really
+SU3 comma uh SU3 comma
+2. SO10 is really spin 10 and spin 10 is
+really spin 6 comma 4. Like the amount
+of wear and tear on the mind to hear
+somebody say no no no I I accept all
+these things but we we've minorly got
+everything shifted. I think is a huge
+barrier to entry into
+Gio. But anyway, you asked me why the
+Fbinius metric. I don't
+think you there are many different
+metrics. I think there are
+exactly four metrics if you don't add a
+parameter to figure out how much trace
+to how much traceless you want. In other
+words, if it's only plus or minus one,
+there are precisely four metrics you can
+define and only four metrics you can
+define. And two of them are consistent
+with experiment and two of them are
+ruled out by experiment. And the two
+obvious ones are ruled out by
+experiment. The trace reverse ones
+remain in the game. And I, you
+know, it is kind of fun because Einstein
+forgot to trace reverse the reachi
+tensor.
+Mhm. And you know, it's like if I could
+recapitulate anyone's mistake, that
+would be the one I'd recapitulate.
+So the observers, yeah, is it the same
+as the metric bundle or is it the
+tangent space of the metric bundle? the
+tangent bundle to the metric. Well, the
+observer is the package, you know, and
+and here I was thinking actually a
+little bit about growth and dee where
+growth and dee replaced the concept of a
+variety with the concept of a
+scheme.
+Um I don't want to say that the total
+space is the observers. I it is the
+bundles and the relationships and the
+pullbacks like it is the package that is
+the observers. Okay. So think about if
+we
+can I love the fact that you trust your
+audience. So let's trust your audience.
+Take an uh take a page from
+object-oriented programming. In a class
+definition, you've got member variables
+and you've got bound
+methods. So that's like stuff and stuff
+you can do with and method and it's
+you've got nouns, you got verbs. You got
+stuff and you got things you can do with
+the stuff. So that's what the observer
+is. It's two
+spaces with a a fiber and sections
+connecting them and then it's bundles on
+top of them. And if you wanted to talk
+about like the the shift in perspective
+from
+Einstein, most of what we're going to do
+in GU takes place not on X4, but on
+Y14. Mostly we're not dealing with the
+tangent bundle on Y14. the way Einstein
+dealt mostly with the tangent bundle.
+You're dealing with the spinner bundle
+on
+Y14. Mostly you're not dealing with the
+Einstein Hilbert action. You're dealing
+with this new action that has homology
+to both the Einstein Hilbert action and
+the churn Simons's action and additional
+components that you've never there's
+homology to both or analogy to both.
+Sorry, you want to know funny the
+biologists use homology to mean
+similarity and so somehow I was in the
+wrong part of my head. Um yeah, it has
+similarity and analogy. I thought I
+missed something. No, it's but it it's
+it's very interesting. I I always tell
+people that if somebody has a meaning to
+the word ham puts a meaning to the word
+Hamiltonian, you
+know that they're in only one field
+because it means one thing in civics,
+one thing in physics and one thing in
+biology because Hamilton is a great name
+in the in human history. So yes, I
+didn't mean homology in the sense of
+algebraic topology.
+Okay, let me tell you some of my gripes
+when I was going through GU. Ah, I knew
+this was going to be a gotcha interview.
+And then I'll tell you some of what I
+and then I'll I'll ease the wound in
+part. You're negging me. Yes. Great.
+Great. In
+part, one of the reasons I made the
+iceberg was so that I could understand
+GU and also try to explain it to someone
+else who if they have a differential
+geometric background, they could
+understand it. So mathematician or
+physicist. So when I was going through
+the paper, there were some terms. This
+is why I think there's this is one
+reason I think there's a a communication
+gap. Please. Okay. So going through the
+paper, there were some terms introduced
+which were not used again like invasive
+fields versus native fields. They were
+introduced on like page six. And then I
+did control F cuz I'm like did I miss
+something? And this is like in film.
+It's called check off's gun. And when
+you're reading something, you want to
+you want to know it's leading somewhere.
+Yeah. So then because it takes up
+working memory. Okay. So there was that
+there was something you just did right
+there with object-oriented programming.
+You're like, okay, let me give you an
+analogy. And then you go into
+object-oriented programming. So in the
+PDF, I believe you give an analogy.
+You're like, if you don't know what
+sections are, think of indifference
+curves in economics. And and then I'm
+thinking most mathematicians and
+physicists don't know what indifference
+curves are for foliations. I think
+that's what it was. So then I'm like,
+you want to stay in someone's field like
+if you're explaining to them, not jump
+outside and assume their competency
+there. So for instance, if I said a
+fiber bundle is like the entity class
+component in video game architecture,
+people are like, what the heck are you
+talking about? Yeah, but but I I don't
+know how to not do this. Okay. Well,
+anyhow, so I was I'm sorry. Look, this
+is wonderful because I'm aware that I do
+this. I'm sorry that I do this. It's not
+like I say this as a friend. I'm not
+trying to This is not a gotcha. I don't
+feel it's a gotcha. I think that to be
+honest with you, if I can if I can play
+with it. You and I are both facing the
+same
+problem, right? I I watch you across
+different fields. You're not just the
+physics guy. You're also in the
+consciousness space. I think that you're
+pretty responsible about all sorts of
+things. I have no idea how it
+is that we bridge this. And partially
+what I love that you're doing is you
+just throw things out. You try your best
+to make them understandable. You try to
+say them clearly, but the person has
+access to chat GPT and Grock and you
+know Claude, all these things. These are
+great tools, okay? So use them. And by
+the way, if you're convinced that you
+and I are bad explainers, you've picked
+the wrong time.
+Mhm. Because you can sit there with one
+of these AIs and say, "Make this make
+sense to me." And the AI can't do it.
+Well, if people watch this video that I
+have on I don't know what the title is
+currently cuz we keep changing the
+title, but at one point it was explain
+it like I'm five. Okkey dokie. That was
+the original title. And I think
+currently it's the this is hurting
+popularizing of science something like
+that. Currently it's it's this whole
+explain it like a five and give me the
+whole the give me the the simplistic
+explanation. So if you watch okay so
+then someone may say but Curts what
+about these videos from Wired where a
+mathematician goes through something at
+five different levels. So then I give a
+specific example with Emily Real a
+professor of category theories known for
+being the top category theorist. She's
+been on the podcast before as well on
+infinity categories. So, this was her
+explaining infinity at five different
+levels. And actually, if you watch it,
+what she does is she explains something
+about infinity, like something that's
+unbounded, to a 9-year-old, not a
+5-year-old. Okay? Then she explains
+Hilbert's Hotel to someone else, right?
+And then she explains
+cardality. And then she explains the
+axiom of choice and its equivalences.
+But the point is but that that by the
+end when she's speaking to another
+professor she's speaking about infinity
+categories. Yes. And also how you can
+construct proofs by looking at one space
+is some domain and the target space is a
+proof and that's what a mathematical
+theorem is. And then okay so now if you
+look at it and you're like okay was that
+explained at five different levels? No,
+it was just
+tangentially concepts related to this
+that was explained to at five different
+levels because the internet has its own
+weird intellectualism that is
+horrendous. I mean, let's just be
+honest. What do you mean?
+The internet wants to know all sorts of
+things and it believes certain things.
+Like one thing it believes is is that
+you can watch a conflict between two
+people on a topic that you can't
+possibly understand and by looking at
+body language and who's sweating and all
+these things. Yeah, he he curb stomped
+that guy.
+No, both of them were wrong and one of
+them was more polished and you know if I
+put my shoulder back I I appear to be
+more confident in my position. So the
+internet is making us
+incredibly broad.
+It's informing us. It's making us
+stupid. It's making us smarter. It's
+distorting our relationships. You know,
+like I I'm so glad we're doing this in
+person cuz I can't stand doing
+interviews over
+Zoom. I didn't cauterize the wound. So,
+allow me to say something. Sure.
+What struck me about geometric
+unity? At first, I thought it was
+extremely convoluted. just that was just
+my impression. I hadn't gone through the
+material and then as I started to go
+through it. So firstly I encountered new
+terms being introduced which that was
+something that I've I tried to overcome
+in in the iceberg to explain it in the
+way that I would explain it cuz I
+wouldn't do your paper in the way that
+you did your paper. Maybe I screwed up.
+I'm open to it. I I tried to put some
+order to it cuz it was a collection of
+results, right? Like slime mold but in a
+in a positive manner like many arms. So
+I tried to put some narrative to it.
+It's It's difficult too, but I try
+to. What struck me was that it's
+remarkably simple. I remember I said
+that to you and I thought you'd be angry
+at me. The highest compliment you could
+possibly pay me because I know I know
+how hard it is.
+Look, Kurt, if I'm honest, I've
+failed every year for 40 years to
+communicate
+this. And I want to say also that I make
+it my living to go through different
+people's theories of
+everything. And sure, there are
+shortcomings. There's shortcomings to
+every theory of
+everything. There's shortcomings. a
+laundry list to string theory and string
+theory has been around for decades. It
+takes tens if not hundreds of minds to
+solve a particular problem and it's not
+even clear if it's been open and
+shut. There's loop ponttogravity and so
+on blah blah
+blah. I haven't
+seen such
+a such novel ideas from a single theory
+from a single person
+sorry ever.
+And I don't know if anyone else will
+tell you this,
+but what you've done is remarkable,
+man. I don't even know how to be with
+that to be
+honest.
+Look, thank you. Right. Like one of the
+things that's just hard. Look, I'm not
+trying to compliment you for the sake of
+complimenting you. And I'm not saying
+this as an endorsement that this is the
+correct theory. I think this is I'm
+saying this is fantastic and I don't
+know who else will say that to you.
+Well, look, you know, part of
+what I wouldn't stay with anything for
+this
+long if I didn't believe in it. So, I
+really believe in it. I believe it is
+the answer. And I don't know how to be
+with that. It's a very weird thing to
+say, you know, and to have to promote
+something. And I look at the distortions
+in
+myself. You know, very often when you
+meet somebody who's got a history of
+trauma, you can see that they're trying
+to stop the things that have gone wrong
+to begin with. There's this
+wonderful interchange in Kung Fu Panda
+where Ugay says to
+Shifue, "We often meet our destiny on
+the road we take to avoid it."
+I couldn't understand why does the
+world not see flakes of
+this, right? One flake of
+GU made it into the world and that's
+what's now known as Cyborg Whitten. Now,
+you have to be very careful. There's two
+separate things that make up the
+constellation that's called Cyborg
+Whitten. There's the cyberwitten
+equations which has what I'm talking
+about as a flake of
+GU and there's cyberw Whitten theory
+which has nothing to do with anything I
+know how to do. That's just some
+wonderful thing that Natty Cyberg and Ed
+Whitten came up
+with. But the equations occurred around
+1987 at Harvard as a flake of GU. And
+and this is something that I don't know
+that I agree with in your treatment of
+GU. GU happens at two different layers.
+The first thing you do is you do the
+Einstein dac portion of the theory and
+once you have the Einstein Dac portion
+of the theory, there's a second
+lrangeian in an action that gives you
+the Yang Mills Higs in
+addition. And so that's something that
+probably you and I could work through
+and I could and maybe I'd learned
+something from you. You know, one of the
+things I believe with you is you're not
+just curating, you're actually in there
+working on the theory. So what I would
+say is that
+um when I flaked that off at
+Harvard, it was referred to as
+insufficiently
+nonlinear. And what's what's worse is
+that my point about it was this is an
+Einsteinian equation. It's not a Yang
+Millsian
+equation, right? Because there is no
+derivative in front of the curvature
+tensor. It belongs to the Einstein
+sector now because all of Donaldson
+theory and self-duality and instantons
+was trumpeted as self-d Yang Mills
+theory. People didn't understand what
+part of speech it was. So I was having
+an argument with people like Roman JKE
+at
+uh MIT and I would go around and talk to
+people and they would say no no you
+don't understand these equations. I
+understand that they look physical to
+mathematicians, but they're really only
+instanton sector equations. So people
+couldn't hear that I was actually
+questioning that like isn't this really
+an Einsteinian concept? And it sort of
+predates something which I'm hoping to
+see a a a Kurt Jungle treatment of,
+which is the double copy problem, which
+is the relationship that was discovered
+through amplitudes between Yang Mills
+and general relativity. It was entirely
+unexpected in a certain sense. Einstein
+is a square root of Yang Mills. But it's
+not Einstein that's the square root.
+It's a the thing that replaces Einstein.
+Mhm. Is the square root of the thing
+that replaces Yang Mills Higs. And so
+when I flaked this off, there was no
+interest in it. And what's more, it just
+got me into trouble. So it's like I was
+being punished for what I thought was
+great
+work after this was rediscovered by
+Natty Cyberg and Ed Whitten around
+1994 and I was in the lecture at MIT
+where Ed Whitten puts this up and says
+that there's a replacement for Donaldson
+theory. He didn't say what it was. And I
+believe Allan Nudson, who as I recall
+was seated
+uh below me and to the right as I faced
+Ed Whitten in the audience, said in the
+Q&A, "Do you want to tell us what these
+equations are?" I think he's now a
+professor at Cornell, and this is a
+detail lost to history. And he writes
+these two
+equations. And I think if I recall
+correctly, he used fi rather than sigh
+for the spinner field
+because well another thing I'd been told
+was that I had violated spin statistics
+and since I was talking about a
+classical theory I had no idea why
+anybody was telling me I was violating
+spin statistics seven years earlier.
+Okay, there's an entire story that
+nobody knows about Harvard and
+Cambridge, Massachusetts having a very
+dim view of Princeton, Mass, Princeton,
+New Jersey.
+And the thought was we work very hard at
+Harvard to get great results in
+Donaldson theory and then Princeton
+tells us after the fact, yeah, yeah, we
+know all this stuff from quantum field
+theory, but it's always like taking
+credit for work we've already done at
+Harvard and a very dramatic thing
+happens. I don't think I want to tell
+this full story here right now where
+when the lecture is finally given it's
+on the title of the lecture is Whiten's
+magical equation I think there's no s on
+the end of it now there were two
+equations so it was like weird and
+cyborg was nowhere in sight in the
+title and the the professor at Harvard
+you know 3 weeks later who was giving
+this
+lecture was the most dramatic lecture
+I've ever seen it's like his entire
+life's
+work changed in an instant by equations
+that he had called insufficiently
+nonlinear. And he said, "If Ed Whitten
+hadn't told
+us, I never would have believed it." And
+he looked directly at me afterwards
+after saying
+that. Because he had
+said,
+"No, you don't get it. you think this is
+Einsteiny and this is Yang Millsy and
+this is not enough nonlinearity and the
+squaring of the spinner uh you can't
+just replace SU2 by U1 blah blah
+blah so that was like really dramatic
+for me which is that a flake of this
+theory could change the
+world and it was clear that it was a
+flake of the theory and there was zero
+you know there was a conference
+afterwards at Princeton well what is
+this new set of equations that then was
+called cyberwitten after that
+lecture and I asked to speak at
+it. It was ludicrous. Why should you
+speak? It's like cuz those are my
+equations. It's so hard to say. People
+say well do you want credit for the
+equation? No. Do you want them to be
+called cyber written? That's fine. But
+if if somebody if there was justice in
+the world, the thing I would love to be
+called them to be called is the
+insufficiently nonlinear
+equations because that's what they were
+called for 7
+years. Anyway,
+look, that experience taught me that I
+can't interact with the system. You you
+do great work, you hand the work to the
+system, and the system thinks nothing of
+assigning the credit to somebody else.
+Um, and that matters because that credit
+was supposed to be health insurance, the
+ability to raise children, to buy a
+home, maybe even a second home. And when
+credit is reassigned in academics, very
+interesting. People have this whole act
+that they do like, ah, who cares who who
+gets the credit? The only thing that
+matters is the underlying subject
+matter. And then they fight tooth and
+nail to get credit after saying that.
+And they have names for this stuff. It's
+called the Matthew effect. If you go to
+Washington DC and you talk about the
+problem that older people are stealing
+credit from younger people or
+reassigning names and who knows what,
+they say, "Oh, it's just the Matthew
+effect." It's like that's just the
+casting couch in uh in Hollywood. You're
+like, "You are talking about rape or
+some sort of very serious coercion."
+Yeah, it's just the casting couch. Well,
+in in in academics, it's called the
+Matthew and the Matilda effect. The
+Matilda effect is that we don't credit
+women
+um with results if they raise it. You
+know, colloquially known as heap
+heeding. So what is the claim? I know
+you want to just perhaps save it for
+another time. Is the claim that Witten
+or someone close to Witten took those
+equations from you or independently came
+up with? Absolutely
+not. Ed Whitten is as brilliant as you
+could possibly be. Those equations
+probably came from Natty
+Cyberg. I Natty and I have talked about
+this. Natty said I never understood what
+the big deal about the equations uh was.
+To this day, he still doesn't understand
+or at the time No, I think he doesn't
+understand. I think he's a physicist and
+Ed, you know, look, I will say some some
+some serious
+things. It's not really clear what Ed
+Whitten is, and I think that's fine. And
+I don't needed to name it, but when you
+say Jackie Chan is an actor who does all
+his own
+stunts, you're totally missing it.
+Jackie Chan is a stunt man who does all
+of his own acting. So far as I know, Ed
+Whitten is the world's greatest
+differential
+geomet, right? The math is really the
+impressive stuff. The physics has never
+gotten to the same level.
+And because that's so counternarrative,
+one of the things that's really
+important in academics is that there's a
+single official narrative just the way
+there is a single blockchain. There's
+consensus about what happened, who did
+it. We all know that it's sort of not
+right. But we we agree to officially
+talk about a story. The story is
+completely wrong. And that's one of the
+reasons
+why you can't really do this from
+podcast space. You can't contradict the
+official narrative in the
+journals. There's so much that's just
+wrong. And Ed Whitten did not steal
+this. Natty Cyber and I bet also
+resolved this. When Natty Cyber got $3
+million
+uh for the Breakthrough Prize, he and I
+encountered each other at a San
+Francisco fundraising event for the
+institute. And this is a very dramatic
+story. I won't tell the whole part of
+it, but we hugged it out at the end and
+we accepted. It's like I don't have a
+beef with Natty Cyber
+Eden on that front.
+The problem was is that
+Harvard had a very clear perspective and
+that is we do incredible nonlinear
+analysis. That's why we get the results.
+It was a morality play because we do
+better nonlinear analysis than anyone
+else. We get better top topological
+results than anyone else including
+Donaldson and the point was no you guys
+landed in the new world and you built an
+entire city the first site that you
+found and you built it in the swamp and
+that's why your lives are so difficult.
+just go over there and you build your
+city and everything will be fine. And
+they they didn't want to hear
+it. And then when they when they
+realized how how wrong they'd been for a
+decade, then it became like this rush to
+credit the great Whitten
+um who is great. And by the way,
+cyberwitten theory, which I have no
+claim on whatsoever. I have this the
+equations yes the theory
+no I don't know whether anyone fully
+understands it to this day I mean it's
+an unbelievable
+achievement I didn't have that I I
+really saw it as general relativity and
+part of the one of the most
+uncomfortable things about geometric
+unity partially why I've held things
+back and haven't handled things
+great in the end it'll become very
+clear where the cyber witten equations
+came from. They came from Einstein, not
+Yang Nells.
+About holding back with Geometric Unity,
+have you thought about publishing it on
+the archive?
+Yeah, I tried to get access to the
+archive at some point and I think I
+can't remember how many. Publishing
+access you mean cuz anyone can access
+it. Oh, you Yes. Write rather than read.
+Okay. Okay.
+I think at first you could and then you
+needed to have
+aedu
+and you
+know it's like why should there be aedu
+requirement who who it's like we don't
+serve negroes here. Oh really? I know
+that sounds fine to your ears but
+doesn't sound good to mine. As Muhammad
+Ali and uh Dick Gregory said that's
+okay. I don't need to uh
+Yeah. Then I I think I interacted with
+Paul Ginspar and he said, "No, no, no.
+This doesn't apply to you. We'll get you
+a special exemption." And then I was
+like, "Why do I get a special
+exemption?" And a friend of mine just
+got his paper that I read turned down by
+the archive. There are people there's a
+string theorist on the archive committee
+who says, "No, no, you can't post." So I
+think people have this idea
+Why don't you just submit things? It's
+like maybe you don't understand the
+critique. You haven't you haven't
+succeeded in over 50 years moving the
+lrangeian of fundamental
+physics. Do you understand that part of
+the
+critique is the way peer review works,
+the way credit is aortioned, the way
+disputes are adjudicated is the problem.
+Your culture is decaying. You were no
+longer the people who were able to do
+the standard model. You've accepted such
+a degraded state in your culture that
+your institutions are repugnant to me. I
+don't I don't apply for your grants
+either. I'm trying to I would love for
+GU to be evaluated with my H index as
+low as it could possibly be. If I could
+have an H index of zero, if I could do
+this with no
+PhD, I'd love
+that. But everybody pays lip service to
+no, nobody cares where it comes from.
+Nobody cares about But everybody does.
+Everybody's just we're just we're a
+deeply hypocritical culture. We don't
+realize we've abandoned science. We've
+abandoned mathematics. We have where we
+used to have the scientific method. We
+have what might now be termed the
+academic method. Ah what's what's the
+impact factor? What's your h index? like
+who cares what's what's
+girdles. So the answer is I'm not I'm
+not against sharing it but I'll tell you
+what will not
+happen. Um I have a joke that I tell.
+What's the difference? People have to
+say why do you say it's a work of
+entertainer or that you're an
+entertainer? I say okay what's the
+difference between a professor of
+physics and an
+entertainer? An entertainer has rights.
+I reject wholeheartedly things that
+other people have never even heard
+of. There's a concept called restricted
+data that exists nowhere else in US law.
+Do you know about it? No. the 1946 and
+195 I'm going to say something that's
+going to sound totally crazy and after
+I'm done saying the totally crazy thing
+go ask chat GPT whether I was accurate
+put in the portion of the transcript
+right cool I like doing this now it's
+it's a great new
+thing in 1946 and
+1954 we passed the Atomic Energy Acts
+and if you couple that to something
+called the 1917 Espionage Act there is a
+question that occurs which sounds
+totally
+outlandish. Can you put be put to death
+for doing theoretical physics?
+Well, now you ever heard of the zone of
+death theory in Yellowstone National
+Park? No. Some legal scholar figured out
+that there's a sliver of Yellowstone
+that is not in Wyoming, but is in Idaho
+where no one lives. And if you committed
+a crime on federal land in Idaho where
+there is no one living, you would have
+to impanel a jury from people who lived
+there. So you could actually commit
+murder if you could lure somebody into
+the Idaho portion of Yellowstone.
+Like it's an unexploited vulnerability
+in our legal to this day. Yeah, I think
+so.
+I don't think anyone's done it, but I I
+think it's actually been used in as a
+trope in like movies or
+something. Okay, here's a crazy one.
+Most physicists do not know that if you
+do any work on a napkin that could
+possibly influence a nuclear
+weapon, it is automatically qclassified
+without anyone in the government
+choosing to Qclassify your work. And
+this is technically known, you can look
+this up in a search engine as born
+secret. Okay. If you seek Q
+classified material without a Q
+clearance, that can be viewed as treason
+and you can be put to death under. So if
+you combine 1946
+1954 atomic energy acts which have a
+provision against free speech found
+nowhere else in the law and I can't
+believe you're not warned about this
+when you start when you sign up to do
+physics.
+Chat GPT told me yes it is technically
+possible to execute someone for doing
+theoretical physics correctly if it
+creates any change in uh the theory
+around nuclear weaponry because you're
+seeking a Q clearance document without Q
+clearance. So my claim
+is I don't think the average physicist
+has a clue what physics is, where it's
+been, what the national security
+architecture is around it. I don't think
+they know that the department of energy
+is really the department of
+physics, right? Which was created out of
+uh the end of the '7s in the Carter
+administration because
+yeah, if physics is serious national
+security and if you fail at it long
+enough, you just think it's an academic
+subject.
+But this is so dangerous. This is so
+powerful that we go to a movie called
+Oppenheimer and we see like, oh, there's
+Fman, you know, there's
+Beta, there's Teller, yeah, all those
+guys, you know, wiped out two Japanese
+cities. This is this is no joke. And we
+don't connect it to what we do because
+what we do doesn't work. This is what I
+call Nerf physics. I don't know if we've
+ever discussed this. No, but I want to
+get back to So, you you wanted access to
+the archive, right? Access. Mhm. They
+said you need an edu edu email address.
+They then said, "Well, we'll make an
+exception for you." And then you didn't
+want that 10 years ago, 20 years ago.
+Why didn't you want to publish on the
+archive? I did. Everybody wants to
+start. Look, everybody starts by wanting
+to play the game,
+right? And then I did.
+Suddenly I'm missing my work. It's
+attributed to somebody
+else. I was just like oh well
+publication would I triggered that
+system in the 80s. So my experience
+isn't the same as the professor who says
+oh you know you submit stuff sometimes
+it gets rejected you put take it to
+another journal. Of course, there are,
+you know, times when you want to submit
+something to, let's say, uh, heep phth
+and they tell you, "No, no, that's
+really heep ph." So, the idea is it's
+kind of annoying. It's a little bit
+cumbersome. It's bothersome. Sometimes
+somebody gets more credit than you think
+they should deserve. That's not my
+experience. My experience is totally
+different. My experience was it's a
+secret world that has all sorts of ways
+that it works that aren't advertised and
+if you talk about it, you're treated
+like a crazy person. But I can point I'm
+like one of the world experts on what
+doesn't work in academics. And what I've
+seen is
+oh you know good friend of mine in the
+last two weeks had a paper PhD in
+physics not accepted no reasons given on
+the archive. It's like what does it cost
+you to store this on the archive? Oh no
+no didn't tell didn't say it's bad.
+Didn't say it's
+wrong. the the system isn't what you
+think it is. It's never been what people
+think it is. There's some sort of an
+agreement not to talk about it. Like if
+I if I say peer review has not existed
+uh back to the beginning of the Royal
+Society, outside review has, peer review
+hasn't. Peer review is mostly a response
+in
+1975 to something called man a course of
+study. It originally comes out of Utah.
+Um, and it has to do with the Great
+Society programs which in the mid60s are
+passed that makes the federal government
+the main payer for Medicare. And so what
+it really was was a defense by the
+physicians from having the government
+pry into their pricing
+um because suddenly the government was
+paying for everything. It was it's the
+peer says you're not good enough to
+supervise what we do in medicine. Okay.
+Wait, wait, wait. Let me just finish it
+out. Sure.
+If you have the belief that the system
+works pretty
+well, then I understand you completely.
+You you want to know why aren't you
+following the
+rules? Well, my my point is it didn't
+work well when I tried interacting with
+it repeatedly over and over and over
+again. If you do something different
+enough, you get a very different
+experience. And that's sort of what I'm
+trying to say, which is like I tried, I
+believed, I got burned.
+Why is it that I have to go back to the
+same casting couch, to the same director
+to be put into a movie? No, I'll start
+my own studio. I'm not going into that
+office. I'm not going to play that game.
+I'm just not going to do it. Now, if you
+told me, "Hey, we we've heard you. You
+want to make sure that you understand
+that credit matters to you. If I'm the
+only person in physics, the credit
+matters, too." I'm happy to say that on
+camera. Everybody else credit matters
+too. It's it's the lifeblood. It depends
+whether you know can you afford to have
+another child? Can you afford to be in
+the same city as your spouse? How is it
+that that doesn't matter? It's
+it academics and physics is
+suffused with a totally insane level of
+duplicity. Of course, credit matters and
+it's and it
+should. I'm not playing with people who
+are that disingenuous. They only How
+often have you heard this? The only
+thing that really matters is the truth.
+Please don't bother me with with
+sociology. Yeah, I had a terrible
+experience. The number of people who've
+had terrible experiences is insanely
+large. We could do an entire channel
+that every week featured a different
+academic horror story. Yes, the people
+who remain in the system have agreed to
+say, "Oh, it works pretty well." No, it
+doesn't. Clearly, it doesn't. So, I have
+the internet. I have a very large
+channel. I'm probably the most followed
+mathematician on planet
+Earth. And I will forever pay a price by
+not wanting to play the game with people
+who stole something from
+me. By the way, I highly recommend
+looking at um Alexander Groand's reject
+rejection of the Crawford Prize where he
+says, "I won't participate in a culture.
+I will not take money from a culture
+that now believes that it is that theft
+from young
+people is absolutely acceptable to the
+profession. So I'm with him.
+So my understanding he said that after
+the university started accepting
+military funding and he was extremely
+anti-military.
+He was a guy with a certain kind of
+integrity who I think got driven mad by
+having that
+integrity. Like look, let me just be
+honest and forthcoming about a very
+crazy sounding thing. Imagine Gu is
+right. Let's let's go on that branch of
+the decision
+tree. If it's right, this is the most
+crazy dramatic story anyone's ever
+heard. It's it's it's dramatic
+scientifically. It's dramatic
+personally. Just it's a big deal. If
+it's wrong, none of this is true. And
+I'm living in a Walter Mitty world and
+that's fine. But it's not like I'm not
+aware of it.
+My goal is not just to benefit from
+this, but I wish to help out science. I
+wish to help out many of the people
+whose names are not on their results,
+who are not employed currently after
+having done great work like Doug Doug
+pressure and green fluorescent
+protein. Terrible
+story. My goal is to break peer review.
+My goal is to open the archive to anyone
+credential so that there is no committee
+sitting over it. My goal is to get the
+national security apparatus to come out
+of the shadows and say look this is
+serious business. We need to classify
+this. We should have fights with them
+about what should be open, what should
+be classified.
+I wish to change science and get it much
+closer to what we think about with the
+scientific method with norms of
+collegiality and decency to each other
+where we are progressing in the science.
+We are not a
+medieval theological debating society
+about angels and heads of kabi yao pins
+and all that kind of nonsense.
+This is broken. And I refuse to be
+referenced to a system that can't buy a
+base hit in 51 years, 52
+years. It doesn't
+work. Why do I care about my colleagues
+opinions if they're not leading
+physicists? The leading physicists of
+today are not leading physicists.
+There's no proof that they're doing
+physics.
+like Frank Wilchek. I recognize him. I
+talked to Frank,
+right? In
+general, we're not really doing science
+anymore. And I don't want to I I don't
+want to spend our time on
+this. I want to talk to you about three
+generations. I want to talk about SU3
+cross SU2 cross U1.
+The problem is is that somehow the only
+people who know what those things
+are are the are the survivors suffering
+for from survivor bias in a system that
+doesn't work. So more or less 100% of my
+seated colleagues are people who got
+through the system without raising much
+of a fuss about something that obviously
+is unethical, not civil, not collegial,
+and doesn't work.
+So, yeah, I'm happy to be wrong, but the
+problem is is that it sets me up in this
+absolutely monotonous
+um pattern of opposition. Eric, why are
+you so arrogant? Eric, why are you so
+forceful? Oh, only because I'm opposing
+10,000 people who are all in lock step,
+who believe the same things, and aren't
+getting anywhere. Yeah.
+So, I'm confused.
+Anyways, so if you were willing to
+publish on the archive before and you
+still had the trauma of having credit
+taken from you and so on, but you were
+willing to and then there was this
+conversation that you don't have an edu,
+but you could also get an edu just by
+emailing Harvard the places. No, no.
+There's something called
+post.harvard.edu that they stopped
+accepting because that meant that you
+were an alum, but you weren't active.
+Interesting. There's a game going back
+and forth.
+Okay. I I think you should have Jacques
+Distler on your podcast and ask him
+these questions. Let's I'd rather do
+science. And then you said that there's
+no proof that these people who are
+dealing in fundamental physics for the
+past 50 years have are doing anything
+related to physics. Then what if someone
+said, "Okay, but what's the proof? GU
+has anything to do with fundamental
+physics?"
+Well, this is the thing I was trying to
+talk about when you deafly steered me
+away if I may. There's something I call
+not even remotely physics. Now, the
+acronym for that is Nerf physics. So,
+you can tell how many safeties are on
+the gun and how far you are away from
+doing. Does your theory put dimension 4
+uh in pride of place? If you're working
+in dimension three or dimension 10, if
+you're not highly focused on dimension
+four to begin with, that's a strike
+against you. Do you have one temporal
+dimension to begin with? If so, you're
+doing real physics. If you're in
+uklitian signature, generally speaking,
+you're not doing real
+physics. Do you have SU3 somewhere in
+the structure group of your model? If
+you're only using SU2 or U1, you're not
+wrestling with quantum chromodnamics.
+That's a strike against
+you. Do you have three generations of
+firmians, which is a feature of our
+world? That's an artificiality. No, no,
+no. I'm only worrying about one
+collection of firmians. Okay. If I look
+at the sheer number, oh, does your Higs
+field value itself in the adjint
+representation of your structure group?
+That's not what the real Higsfield does.
+So, I could take a new metric and we
+could pass an AI over it and say, how
+many papers Oh, one last one. I forgot
+this is is your work phrased in the
+language of geometry and bundle
+theory? If you just take those things
+where I would imagine the average paper
+would be a four-dimensional manifold,
+one time dimension, SU3 would be
+included. There'd be three generations
+of
+matter and it would be phrased in
+bundles and connections in
+geometry. I believe essentially the
+number of people
+working in actual
+physics approaches zero and that that is
+a decidable proposition as to whether I
+am right or wrong.
+I believe essentially physics has
+stopped at its most fundamental
+level and we can just test it. So if
+you're out there, do me a
+favor, write a script that uses AI,
+regular expressions, and checks papers,
+ingests PDFs, and checks how many of
+those
+safeties are on the gun. I don't want to
+work in 10 dimensions before I get to
+four. I don't want to work with no time
+dimensions. I don't want to work if SU3
+isn't in the picture. And I don't want
+to pretend that you can do this without
+bundle theory. I believe that
+effectively no one is doing
+physics. Full
+stop. Okay. Now, what if someone said
+that this metric that you came up with
+with six or so
+criteria that your theory will fall
+through that civ? So, it stops other
+theories cuz they didn't satisfy it.
+Yours goes through. Okay. No, we're
+start you're starting from a wrong
+premise. The standard model and general
+relativity, we all
+accept. I I think if you don't accept
+them as effective theories governing our
+world, you're really not part of a
+serious conversation. I think Sean
+Carroll is exactly right about that. He
+said it on your show. He said, "You have
+a theory. That's great. Well, I have a
+theory. My theory is called the standard
+model." I heard those words from him.
+Why is the standard model his theory?
+That's just how he said it. He didn't
+mean that he developed it, but it he he
+did sound a little bit like Colonel
+Jessup saying, "The brand blanket of
+freedom I provide is something you,
+Lieutenant Cathy, should be grateful
+for." Okay.
+Okay. Is the standard
+model after uh the Wuyang dictionary in
+bundles? Yes. Is it on a four manifold?
+Yes. Is it one, three? Yes. Does it have
+three generations? Yes. It's does it
+have SU3? In other words, the theory
+that we all
+agree goes through that civ. We all
+agree on the standard model. It goes
+through the
+civ. I'm not coming up with something
+that selects my theory. I'm saying that
+any theory that is trying to go beyond
+the standard model and general
+relativity will have these
+characteristics.
+Okay? And by the way, if I'm wrong, and
+let me just look right. If I'm wrong,
+write the script. I'm happy to come back
+on the show and say I was
+wrong. Where I was going is that there
+are other people who have their own
+checklists and it tends to be a
+checklist that their theory passes. So
+for instance, Wilfrram may say something
+like we have to explain why these laws,
+not any other law, and we have to
+explain observers and his theory
+purports to solve both of those. So he
+says those are the most important. So I
+find that when I'm dealing with people
+in the field of of theories of
+everything I am engaging in special
+pleading.
+I took the assignment to be going beyond
+the standard model means going beyond
+the standard
+model and I took going beyond general
+relativity to mean going beyond general
+relativity.
+And I took the idea that it should be on
+a napkin to mean it should develop from
+very few
+assumptions. These are things everyone
+repeats and no one follows. We all talk
+about this, you know what the the
+scientific method is, we don't follow
+it. We talk about what attribution
+should be. We don't follow it. We pass
+laws, we don't know that they exist.
+We're living in like looney land. And so
+what I'm doing is I'm saying I see your
+collective fictions. I have collective
+fictions of my own. It's not like I I
+don't understand what a collective
+fiction is, but I'm not going to get any
+science done if I live in your collected
+fictions. So my claim is I took those
+that's a core set of assumptions. If you
+have additional
+assumptions, I understand that. But I'm
+claiming that nothing passes even
+those. Like for example, GU is not
+phrased as a quantum theory.
+So what do you imagine the quantization
+procedure to be for GU ultimately? It's
+a little confusing. It's not so
+confusing if you think about it
+downstairs on the base
+space. The big problem is is that it's
+not
+one. The difference between zero
+temporal dimensions, one temporal
+dimension, and multiple temporal
+dimensions is enormous. With zero
+temporal dimensions, you're an elliptic
+theory and you have access to a TS
+singer and all the great stuff that
+comes with that. If you have one
+dimension, we know a lot about
+Hamiltonian dynamics and development and
+initial
+conditions. Problem is, if you have two
+or more temporal dimensions, you're in
+something called ultra hyperbolic
+equations. And very few people can think
+in two or more temporal
+dimensions. GU has several things. This
+is something that like is a great
+pleasure to be able to talk about. What
+am I critical about? GU, you know, like
+that's not a question that I get much. I
+didn't ask that, but I'm curious to
+know. I'm glad you asked that of
+yourself. So, for
+example, I don't know how to deal with
+ultra hyperbolic
+equations. So, if I think upstairs on
+the 14 manifold, I'm not there are no
+initial conditions because that's a
+co-dimension one concept. really what
+you have is boundary conditions and now
+good luck I I don't I think I had to be
+told that the koshi problem was well
+posed in ultra hyperbolic equations it's
+not something I yeah but this is not
+stuff I know so it's a good
+example if I'm not if you know the
+entire concept of physics is that I have
+an initial state I wouldn't that mean
+there's no koshi horizon
+I don't I believe that they are well
+posed but I I don't
+know. I don't know how to push
+Hamiltonian
+dynamics in multiple temporal
+dimensions. Is the bundle trivial?
+Which bundle? The metric bundle?
+Uh, it depends on the topology. Well,
+the reason I say that is cuz in GU
+there's a global section. So, you can't
+take a global section unless the
+bundle's trivial.
+There isn't a global section. You're
+talking about the metric section. No,
+no, no. That that was a thing that you
+actually cut. This is fun because like I
+I now get to actually have a meaningful
+argument. Um, didn't we agree that there
+are patches on which there's only a
+connection defined on the tangent
+bundle? And then where you're doing
+observations is where you have the
+metric defined. And that's one of the
+ways in which we get around some of the
+quantum gravity problems. Okay. So,
+let's let's let's go, man. Because just
+like you've forgotten much of GU or you
+have to reintroduce it to yourself. Same
+with myself. But by the way, thank you
+for saying that because when when I when
+when I say things like I forgot aspects
+of this, this is like a city where you
+you don't remember what your work is
+from 17 years ago and it's stored in
+some piece of paper you can't find all
+that kind of stuff. Yeah. My
+recollection is the PDF has IOTA which
+is a local section and then it has
+Gimmel which is a global section. But
+I'm saying that the existence of the
+gimmel implies that the bundle's
+trivial. This is interesting. This is a
+problem I never had before because
+occasionally I would have to do a
+refactor of the theory because I
+realized that the the notation was
+cumbersome or it conflicted with some
+there only so many letters all that kind
+of
+stuff. Uh so then this was my other
+critique Hebrew.
+So there are other letters that are used
+not much by mathematicians other than in
+cardality Hebrew letters that were used
+in GU. So and then there were some that
+I chose to keep in and if I was to
+introduce this to a friend a fresh I
+wouldn't use the variation pi which was
+funny cuz I called it variational pi
+which in math there's something called
+taking the variation and I didn't mean
+that. I know. But so so you made an
+error and and the thing is is that the
+error is now immortalized in the video.
+But the point is I put in a pause to
+emphasize that. And also the point that
+I left in please the different notation
+because it's my understanding that you
+implemented that notation to honor
+certain people and I don't have that
+same relationship to those people. So I
+don't honor them. Even though your
+honoring tramls your explanations, it's
+that communication gap I mentioned. Pi
+is my
+wife, Zeta is my
+son, new is my daughter, and I'm
+epsilon. And so I wanted us to be
+together. It's also that's a humble view
+of yourself to give yourself epsilon.
+Look, I'm the roadie for a group of
+superstars. Epsilon is usually
+dimminative. So that was the joke. Yeah,
+let's let's I'm uncomfortable being
+here. Look, I'm sharing that with you,
+but like it's very important to me that
+some jerk doesn't come in and say,
+"We're going to change all the
+notations." Like, no, these people
+suffered for this theory, and I'm going
+to make sure that we're going to write
+their name. We're going to burn their
+names into the theory. And and by the
+way, that the Hebrew letters, it matters
+to me, too. You know, I come from a tiny
+tiny community that is always in danger
+of being wiped out for reasons that we
+can go into, but it's a scary thing.
+Yeah, I can make it worse. I can call
+um the base space ars for the land and
+the total space hashim. No, I'm saying
+you ask me a question, I'm answering it
+because I'm proud of my people. And to
+be honest with you, the tow
+homorphism which is not just the gauge
+group being included simply trivially
+into the first factor. The toao comes
+from the Hindi concept of being terra or
+slanted.
+Right? So I didn't say that but at some
+point I had a devagri character and then
+I found that people just really didn't
+like it. And so I said, "That's too
+bad." Because I run out of letters
+regularly. And I'm very proud of our
+family's Indian heritage. And so I
+wanted to honor India as well as I
+wanted to honor uh Jews in Israel. So
+yeah, that's a personal choice and I get
+to make it and I'm pretty unapologetic
+about it. So I'm sorry if you have to
+learn Gimmel and you have to learn ALF.
+It's pretty painless and it's over
+quickly.
+What else have you not said about Gu?
+So great. Um, one of my beliefs about GU
+is that GU gets a lot of its power from
+the fact that it's willing to consider
+uh killing forms that are not positive
+definite. Yeah. How do you deal with
+unbounded spectra? Well, I don't know.
+What my claim is is that we don't know
+how nature deals with it because we're
+shielded because of maximal compact
+subgroups.
+In other words, what is picking out spin
+6 cross spin 4 as the petis salon model
+is maximal compact inside of a different
+real form of spin 10 than the so 10
+theory. So in the SO10 theory, if you
+ask, well, what's the maximal compact?
+It's just the whole group. But how
+you're getting somehow from the D D D D
+D D D D D D D D D D D D D D D D D D D D
+D D D D D D D D D D D D D D D D D5
+Dinkan diagram down to spin 6, spin 4 is
+that nature is saying somehow I'm going
+to handle this indefinite killing
+form, but I'm not going to show you yet
+because you haven't gotten that. So I'm
+just going to show you the compact
+subgroup to which it is broken. Okay,
+that's totally different intellectually
+completely from saying no nature can't
+do that because uh this will lead to
+problems and cause out. No, nature's not
+listening to what you can do today and
+what you can't do today. You also have a
+well how do you do a fineman integral?
+Nobody knows, right? Unless it's unless
+it's very restricted. Okay, but you're
+using it you're using a bunch of
+analogies. Who
+said I can't go into technical debt and
+say I don't know how she's going to
+quantize this theory. The reason I have
+it is a classical theory. It's not that
+I don't understand anything about
+quantum
+theory. It's that almost certainly the
+physics community is mostly confused. Of
+course, you can have an indefinite
+group. We have we have spin one, three
+that we're forced to deal with. And if
+everybody understands the rest of the
+theory, I hope that one of the biggest
+uh one of the most important agendas
+becomes, okay, we've got to learn to
+deal with an indefinite killing form.
+Let's let's get our best people on it.
+Right now, we write an occasional paper
+like Whitten's written on this. Um, so
+that's a early supergravity theories you
+have gauge that that were non-compact.
+They did some cul though, but it was
+still non-compact. Yeah, there's that on
+the multiple time and you know like I
+think Steven Weinstein philosopher who
+does physics at Perimeter Institute
+ultra hyperbolic there's it's it's like
+bars two time physics so if GU is right
+what it should do is to say look Eric
+took on technical debt in order to do
+this
+thing let's pay it back and that's that
+by the way that's normal science what
+does pay back do you mean solve it do
+you know what technical debt is in in
+computing. That's again one of my Yeah,
+please explain. So sometimes you do
+something that is kind of not right
+while you're coding and you say, "Okay,
+well I'm taking on technical debt. I
+have to fix this somehow, but right now
+I'm just going to do this now." And then
+being expedient sort of. Yeah. It's it's
+like a a stop gap measure that you has
+to go back and fix.
+Okay. Yeah. So my claim is is that one
+of the ways that things have gone
+horribly wrong with critique. I think
+most of the critiques in physics are not
+critiques. And what you see
+is there's a huge difference between
+saying let me understand you first, let
+me steal man you second, and let me give
+criticism that is constructive third.
+That is normal to me. And and by the
+way, I actually weirdly modeled this
+with Terren Howard. Let me see if I
+understand you in your own terms first.
+Let me put your bet best foot forward
+relative to my community, the math
+community second. And let me give you
+criticism only after I've done those two
+steps. Yeah, I don't think your real
+genius is Gu. I think it was making
+sense of Terren Howard in real time.
+You know, Terrence is a perfect example
+of we tell everybody, everybody can be a
+scientist. you can learn this on your
+own. We don't care about credentials and
+if you ever try that, we're just going
+to laugh and laugh and laugh and laugh
+and I think it's terrible. And I I'm
+still friends with Terrence and I will
+tell anybody Neil deGrasse Tyson totally
+missed the fact that Terrence took a
+regular tetrahedrin and spanned the
+aphine group which is a six-dimensional
+group with six almost regular pentagons
+arbiting the difference between 108°
+internal angle and a 109.47 47 and
+change uh angle inside the vertices from
+the center of a tetrahedrin. Genius
+move. Lots of stuff I think is garbage.
+Terrence laughs and laughs and laughs at
+me saying that I he's like, "You talked
+about the baby in the bathwater." You
+know what? We're colleagues. We're
+friends. I don't think he's a
+mathematician. I don't think he's a
+physicist. I think he's got some great
+ideas. I think he's got some good ideas.
+I think he's got some lousy ideas. We
+don't do that. And I think it's really
+important to talk about this, but I do
+want to get back to the science. What we
+do is we pretend we we the community of
+academicians, if you come into my office
+and you say, "Hey, I've got a really
+crazy theory. I want you to listen to
+it, take it seriously, and give me
+feedback." We're sort of, we know we're
+obligated to do some of that. We first
+we find out we're incredibly busy. So
+the person who's incredibly busy is then
+playing pingpong in the lounge and doing
+all sorts of other
+thing. The next thing we do is we try to
+find the critique which causes us not to
+have to listen ever again. If I can just
+find one flaw, we can dismiss your
+theory. It's not how science works at
+all. And there's a question about did
+you ever steal man the theory to begin
+with? I think the
+first I think the
+GU went 41 years without ever being
+steelman. Like that's
+impossible. You I could steal man
+Garrett Ley, Peter White, string theory,
+loop quantum gravity, all of them. In
+general, it takes about 45 minutes to an
+hour to get the gist of a an idea in
+this world.
+takes much more as you know to fill it
+in but I take as almost proof the GU is
+really interesting and different in that
+there are no steelmans of
+it. It's just a portrayal of a crazy
+person talking garbage on the internet
+which is not can I say it's not true
+it's
+false there's so much there and and
+simple stuff I was just meeting with Lee
+Smolan uh at his home in Toronto
+today I said you know Lee one generation
+of standard fir model firmians is just
+the pullback of a vile spinner properly
+understood from the space of pointwise
+Laurens metrics to the four-dimensional
+manifold. And he started talking about
+something else. I said, "Did you hear
+what I
+said? I want to talk about GU." Yeah,
+let's do that. Something I endeavor to
+do with this channel is to understand
+the theory of someone to the point where
+recapitulating it back to them is met
+with agreement, and only then do I think
+I've apprehended it. And so, when you're
+saying that that should be the first
+step, I wholeheartedly agree.
+I hope you felt like
+I didn't misrepresent Gu.
+I hope you felt that I didn't
+misrepresent Gu because, you know, to be
+honest, keeping something alive while
+wanting to be open to the serious
+critique, wanting to make sure credit
+isn't taken away at the same time as not
+wanting to interfere with the
+scientific, it's impossible. There's no
+way of solving this this puzzle
+currently. What what's interesting is is
+that we're talking about a group of
+people who have appointed themselves the
+border collies of academia. And anytime
+somebody starts to stray and say, "I
+want to self-publish. I don't really
+think that um this is the correct story,
+whatever, they slam that person and that
+person is pushed back into, well,
+clearly you're a self-promoter." It's
+like, really? Have you looked at what
+your university has put out in terms of
+PR releases with the lousy research with
+the huge claims etc etc have you once
+talked about the problem of the leading
+people in the field totally
+misrepresenting things you there are
+certain tells that they're not even
+aware of that show you that they're not
+interested in the underlying subject
+matter what they're very interested in
+is we've got to make sure nobody
+arbitragees the flaws in the system and
+I'm here to arbitrage the flaws in the
+system because they are flaws
+in that system. Now, when it comes to
+steel
+manning, that's a really special moment
+because you get a chance to
+see whether the person has not only
+understood something but added
+something. And that's one of the things
+that I got out of your
+treatment of Gio. I think that there are
+places where you say wrong things, but
+then you know what? There are places
+where I say wrong things. And what isn't
+true is that when you say something
+wrong, the theory collapses. Or if
+there's a flaw that you weren't aware
+of, or there is a flaw that you were of
+aware of that the theory collapses. This
+is part of this different academic
+method which
+says the outside world can't tell the
+difference between a colleague trying to
+be a colleague and assassin
+trying to destroy something or steal it.
+There's a horrible phrase that I learned
+in graduate school called gripe and
+swipe where the idea is you complain
+about something and say it's incomplete,
+it's flawed, it can't work. And the idea
+is that now you know as much about the
+theory and if you can fix the flaws then
+it belongs to you. It's one of the
+reasons I'm an entertainer. I'm not an
+academic because there's no such thing
+as gripe and swipe. If I if I if I
+release a con a version of a song and it
+could be
+improved, it doesn't become that
+person's song without dealing with the
+issue of copyright. I don't know if
+copyright will protect you. I don't mean
+copyright really legally. It's an
+unexplored area of the law. Oh, no, no,
+no. I mean in the math sense of you
+publishing something related to math,
+claiming it as an entertainer. I don't
+believe copyright covers that. Well, you
+know, there was a point where John
+Stewart reported the news by saying he
+was reporting the fake news. He would
+say, "And now the fake news," and then
+he would say real things that weren't
+sayable on CNN or
+NPR. I'm an entertainer. Let's leave it
+at
+that. Let's get back to GU. Okay, so I
+want to know what is GU. Now, I know
+that's an odd question to ask someone
+after I've investigated it as long as I
+have, but the reason I say that is that
+I've heard you say more than once. Can't
+recall where, so I can't place the
+citation on screen, but it was something
+akin to, look, Dra should have had the
+convictions courage of his convictions
+when it came to
+predicting an antiparticle
+to the electron. Okay? And the reason
+was something like he proposed a
+theory actually he proposed a specific
+instantiation of a theory. So you take
+something here that's a theory a theory
+the theory cloud raify it and then this
+gets disproved and then you say well the
+theory itself has not been disproved. So
+then that can sound like from the
+outside as hedgic like I'm going to put
+forward whatever GU is. Someone could
+find critiques then I can retreat up
+here and say but what GU is has not been
+disproved. You've disproved my
+explanation of GU. Yeah. So what is G?
+Like what is it that you see is up here.
+Sure. What makes GU GU such that if you
+were to see it in the wild, someone
+would say a wild GU appears? This is
+such a great question, Kurt. I really
+appreciate this. Um, you ever you ever
+seen the zen of Python?
+No. There's this thing called the zen of
+Python, which tries to reduce the Python
+programming aesthetic
+to, you know,
+uh, to a list of 24 zen colons. and or
+or 26 or whatever it is. Yeah.
+Um you know you're in
+GU where you when you replace the
+inhomogeneous Lorent group with the
+inhomogeneous gauge group. You know
+you're in GU where you spend most of
+your time on a 14 manifold rather than
+on a four manifold where the 14 manifold
+is constructed from the four manifold.
+You know you're in GU when there are no
+internal symmetry groups. You know
+you're in GU when the Higs
+field comes out of an advalued one form.
+You know you're in GU when you begin
+with a four manifold. Use it to
+construct a 14 manifold that behaves
+like a three
+manifold. You know you're in GU. Just a
+moment. So you're referring to churn
+simus theory.
+And
+yeah, there are two beautiful lrangeians
+that are incredibly different that both
+result in oiler lrange equations where
+there's a curvature tensor and then you
+called me out on this very well. I
+really appreciate it. I often say that
+something is a projection operator and
+you point out that it's a contraction
+operator which is quite you were
+correct. I'm wrong. Cool. Yeah.
+Um my belief is that Einstein was the
+first person to really
+relate a curvature to
+form to an implied gauge potential by
+taking his contraction operator to get
+the Einstein tensor capital G mu new
+from the remon tensor. That thing
+there's two branches, right? There's a a
+branch that uses the star operator to do
+this little trick which is called the
+churn Simons branch and then there's the
+Einstein
+contraction and both of those result in
+oiler lrange equations with the
+curvature tensor with a contraction
+um that gets you from two forms to one
+forms. That's how you know you're in GU
+because you're using the equivariance
+that's provided in having the gauge
+group like why why are we failing to
+quantize gravity from I I claim that
+there answers to
+this there are people that I didn't know
+about until I started talking about GU
+called McDow and Mansuri who tried to
+get
+uh gravity to come out of a gauge theory
+on potentials. Now, their thing I think
+doesn't work because you don't use the
+space A of gauge potentials. You work on
+a group. By the way, there's another
+one. You know, you're in GU when you
+take Einstein's unified field concept
+much more seriously than the need to
+quantize
+gravity. Right? In GU, unified field
+means something. It's algebraically
+unified. And the idea is you start with
+the inhomogeneous gauge group and then
+you effectively super symmetriize it and
+that is the gauge content. So you're
+doing I I love this aspect. You're doing
+field content that is an algebraic
+gadget. Um boy there's so many
+questions. Okay. May I linger? Yeah. By
+the way, we can also do a multi-part
+series at some point later. But this is
+the teaser. Effectively super
+symmetriized. Yeah. So that was
+something that confused me before. So my
+understanding and you can correct me if
+I'm incorrect is that in the '7s there
+was super symmetry. Yes. So I forget who
+invented it in 1971. In 1973 there was
+Wesumino as far as I recall. In 1974
+there was Strati and Salam who created
+some wizardry or machinery called the
+Strati Salam construction. could be took
+in spaceime and outputed a super field
+or took in fields and outputed a super
+field or the pankaray group. I would say
+it took in an aphine space and gave you
+a super an automatically super symmetric
+field theory. So the idea is you didn't
+have to ad hoc construct an action and
+then check laboriously that this crazy
+term cancellation happens.
+uh up to a surface turn. So when you say
+super symmetry is in your theory, I'm
+thinking I was thinking space-time super
+symmetry because that's the only super
+symmetry that exists in the literature.
+Totally reject spacetime super symmetry.
+Okay.
+And by the way, what a key point and it
+fits exactly what you're trying to ask
+earlier. Should you call something that
+isn't space-time super symmetry super
+symmetry? Like I've never liked the word
+super symmetry. I can't stand it. My
+take would be no. Okay. Now you have a
+different take. I want to hear it. All
+right. Well, one I don't want to slight
+anybody
+who's like, you know, McDonald Mansuri
+doesn't work and I don't want somebody
+telling me, "Oh, you're just doing a
+modified McDonald Mansuri. That's like
+dismissive." No, they tried something
+was really good. Had a lot of good ideas
+that failed.
+Okay. I also don't want to take credit
+for all of super symmetry just because
+spacetime super symmetry doesn't
+work. Right? So I claim that you will
+never see super partners of the type
+that we hypothesize would spill out of
+the LH. It's not going to happen.
+The concept is broadly do you want to
+adjoin to the Lee
+algebra fractional spin
+fields which have an algebraic pairing
+that land you in the Lee algebra of the
+honest
+group and I
+do but the input is not Minkovski space.
+Minkovski space doesn't exist.
+It's a fugazi, right? It's a it's an
+approximation. The space of connections
+is a legitimate aphine space. It is an
+aphine space. It's not okay, well, we
+won't ding it and put curvature into it.
+It just it's it's a flat space.
+That was always
+meant to be what the Salam Strati
+machine did. Now, I believe that there
+are super symmetric theories that don't
+come from a Salam Strati thing.
+But the cool thing about Salam Stratthy,
+by the way, if we're mangling this name,
+I I apologize to the Stratthy family.
+Um, the cool thing about the machine is
+is that it guarantees you that your
+output will have good characteristics.
+And so what I'm claiming is what fixes
+the number of generations at an
+effective level at
+three is the extension of the
+inhomogeneous gauge group to include
+supercharges.
+Now, you call them supercharges because
+they're fractional spin fields that
+should
+have commuting rather than
+anti-commuting products that land you in
+the SP. Look, if you want, you know, the
+informal claim that super symmetry,
+you're taking the square root of the um
+momentum. Gu says no, no, no, that idea
+should be you're taking the square root
+of connections.
+You're taking the square root of the
+gauge potentials. That's a powerful idea
+because the gauge potentials are
+typically associated with first order
+differential operators. So you're taking
+a square root not like of a lelassian
+the way D
+did, but you're taking a square root of
+a first order operator.
+So the thing is is that I don't want to
+get the reason I say super symmetry like
+things is that I
+notice we we have an epidemic of spell
+checkers and if you spell like something
+wrong they pretend that they can't read
+it and that it's garbage and that
+there's nothing. I don't quite know what
+they're going to object to. Like, you
+know, there are dimensional limits on
+space-time super
+symmetry
+and then there's infinite dimensional
+concepts of super symmetry. And so, I
+don't know if I use the phrase super
+symmetry, there's this you break it, you
+are you saying it's a super symmetric
+theory? Do you have an action? I don't
+want to get into that because that's not
+what we need to do to do GU. But it's
+the it's the same basic format. And I I
+want I'm trying to I think what I'm
+really trying to say is I want to
+honor the concept of super symmetry
+which I think is a brilliant idea which
+was terribly
+instantiated. And if it turns out that
+this thing works, I want to say that
+this is its spiritual I want to actually
+not take credit for
+this. I think you're going to find
+out. Okay. So are you doing the opposite
+of what was being done earlier with the
+cloud being instantiated where it's
+you're looking at the instantiation of
+space-time super symmetry and saying
+super symmetry exists here as such and I
+come from here not down here but I'm
+trying not to I'm trying to not
+obliterate Yang Mills theory is really
+nonabilian Maxwell theory
+okay we didn't do that to Dac or
+Maxwell's Aelian Yang hang mills. Well,
+the what I'm trying to say is I don't I
+don't have a
+clue how Churn Simons became Churn
+Simons Whitten without becoming Churn
+Simon
+Schwarz,
+right? Like Schwarz, this guy was there
+in the 70s. I was one of the great
+intellectual feats of all time. So my
+claim is I I think what Yang and Mills
+did was great by adding that Away J.
+However, isn't it funny that we don't
+have a concept like DRA and Maxwell
+occurred at the same time in quantum
+electronamics? We have a non-abilian
+version of that Dac equation. We have a
+nonabilion version of Maxwell's
+equations. We call the non-abilian
+version of Maxwell's equations Yang
+Mills theory. We call the other thing
+Dac theory as if nothing happened or
+changed. So, this is just like we're
+wildly inconsistent about who we bury.
+This is a really interesting point. We
+have this idea that Einstein was in a
+race with Hilbert to get to the answer.
+This is total
+nonsense. The person who really should
+get the credit along with Einstein is
+not Einstein's wife and it's not
+Hillary. It's Grossman. Marcel Gman was
+there in 1913 and the basic idea of GR
+of general relativity occurs in that
+paper.
+Grossman absolutely got shafted by
+history and we have particular people
+over and over again who get shafted like
+Stokelberg gets shafted right um just
+along with the Matthew and the Matilda
+effects for uh to him who has much much
+will be given so that we have
+attribution magnet there's also
+something I've been trying to name for
+years called the Sudarian effect George
+Sudarian was one of the absolute giants
+of physics and we don't honor him. I was
+visiting with Kathy Fes at uh University
+of Texas at Austin. She's in his office.
+I was just like, "Oh my god, I'm in
+Sudarian's office." Well, how many
+people recognize how much Sudarian did
+because he never gets the credit and
+never gets a Nobel Prize for all of his
+great work. So, I have no idea why it is
+that Robert Herman wasn't credited with
+figuring out Yang Mills theory was
+bundle theory. we have this weird thing
+where we just don't honor things right.
+So I'm trying as best I can to be very
+very careful about the spiritual nature
+of the
+work. The idea to
+take once you have the idea that
+you're taking an analogy with the poner
+group that Lorent becomes the gauge and
+the momentum becomes the gauge
+potentials. Do you really want to claim,
+hey, I had this brilliant idea. I'm
+going to see whether it can be extended
+to
+spinners. That's not anybody would try
+that. And so the thing is is that I want
+to call it super symmetry like because
+if it turns out to be
+right, I want to honor all the people
+who worked on super
+symmetry in the wrong instantiation. And
+and by the way, I I also just think
+everyone should read that
+1963 Dac article in Scientific American
+because he makes the point that this
+idea of saying we will force you to pin
+yourself to one instantiation and that
+is your
+theory. That's like terrible science.
+I'm starting to clear up some of the
+confusions I have. Go for it. By
+understanding you more psychologically.
+Oh, no. But you see I I haven't I
+haven't had this conversation in my
+life. I see that honoring is extremely
+important to you. Extremely and spirit
+is also important to you. That's right.
+But I'll also define spirit in a
+different manner. So spirit can be
+spiritual but spirit in the way that I'm
+going to speak about it doesn't
+necessarily have to be tied to
+that. So you would say it's it's a
+battle between Gman and Aerisman. the
+battle for fundamental physics.
+Something like that. No, I would sorry.
+Reman and Arisman. Are you sure? Well,
+there's Gman versus Hilbert as the
+people who might have been given credit
+for general relativity. That's one
+thing. So, you see it as Gmanian
+geometry verse Arismanian geometry or
+Remon versus Arisman? It's Remon versus
+Arismanian. So, why not Remon versus
+Whitney or versus Steinrod? So, tell me
+about that. Well, if both of those were
+there in the early days of differential
+geometry, why is Arisman getting credit
+when Whitney introduced the concept of a
+fiber bundle before Arisman added G
+actions on it? So, I think of these
+these Well, I think of these. Yeah. So,
+Steamrod, Cartan, these are important
+names and I'm not fetishistically saying
+we can do a perfect job with
+attribution. Whatever we do, in fact, he
+was given all the time and information
+in the world. There's no way of naming
+things that's going to work exactly. So,
+I'm not claiming we should we should go
+for perfection, but these gross
+injustices are are offensive to me. So,
+I'm I'm really I'm trying to say I'd
+like to do as little violence as is
+practical and humanly possible. I can't
+stand George W not being given credit
+for substructure of the nucleons. If I
+start giving a talk and I say all right
+we have three veence aces inside every
+proton and
+neutron everyone will say you mean
+quirks and then they will say oh I
+remember that he called them aces and
+that there was a conflict right so for
+example another one of these I could
+give a talk about QCD and the theta
+angle and I could say all right we've
+never actually seen higlets in the wild
+but the search for Higlets should
+actually be very
+important. Everyone would say,
+"Higlet, don't you mean Axion?" Then
+they'd realize, "Oh yeah, yeah, there
+was a conflict between Weineberg and
+Wilche." And I believe that Weineberg,
+who has many things credited to him,
+graciously agreed to use Frank's
+terminology because we will always
+remember the names of Wilch and
+Weinberg. I'm less worried about that.
+I'm much more worried about George Zwag
+whose one contribution to physics that's
+lasting ended up with Murray Galman's
+name. Murray Gelman was a great
+attribution uh magnet like some of his
+work really was done by Sudarian and
+some by Stuckleberg and some by Zwig as
+well and so there's a question about
+conflict but it's very important to me
+for personal reasons that the Zwages of
+the world are retained and remembered
+even if we don't use their
+language and the
+Sudarians and the tiny you know like we
+have a problem that there have been very
+few highlevel female s uh in math and
+physics in the tiny number of instances
+where we we can prove that we've done
+injustice to them. And I think Madame
+Woo and Emmy Nerder are the two great
+injustices of 20th century
+physics. Um it's very important to me
+that we honor those people. And so yeah,
+I have a personal code, a personal
+notion of justice. And I in particular
+just despise the debunking community.
+There's just this background chatter of
+laughing at
+people and I saw that done to Terren
+Howard and I saw some of the laughter
+being open and some of the laughter
+being
+no I think there was a movie or
+something called the game where you
+brought the biggest idiot to a dinner
+party and then everybody sort of laughed
+at the gau and mistakes that the person
+made at the table. You know, it's this
+issue about when you see
+someone drink their finger bowl because
+they don't know what they're supposed to
+do.
+And
+that I I probably don't have a rational
+reaction. I probably have a hatred of
+people who do that because whenever I
+see somebody mispronounce a
+word, I think,
+"Wow, you learn that from reading and
+self-study.
+Right. Let me tie in a Weinberg story
+with another woman in physics, Quinn.
+Helen Quinn, cuz this goes into your
+specification versus the spirit. Please.
+And the spirit versus the text is also
+there biblically. You're not supposed to
+disregard the spirit in favor of the
+text. You know, we have a division in
+Judaism between the oral Torah and the
+written Torah. And there's a word that
+isn't used often enough in this way. I
+think pettifogging can be used as the
+intention of uh arbitrageing the letter
+of the law against its spirit. There
+used to be something called a court of
+chancery that wasn't just about law in
+the sense that we mean it now. But was
+that fair? Was that is was that just did
+the law anticipate how it would be
+wielded? And in part, it's very
+important to me that we destroy the
+debunking community as it exists today
+because I think it's having terrible,
+terrible effects. I think we should care
+much less about peer-reviewed research
+because peer review is actually peer
+injunction. Peer review is what happens
+when people
+start talking about your ideas. And I
+think that quite honestly there are so
+many unsung heroes that weren't strong
+enough to defend themselves early in
+their career that I hope that the AI
+will read a bunch of thesis and realize
+oh my god here is the here is the
+injustice that we did at a scale we
+didn't even know was going on to people
+who were trying to contribute to a field
+and were so vulnerable that they could
+be killed off at the beginning of their
+careers. Please I'm going to read this
+but while we're on peer review. So what
+people think is the injustice of peer
+review is that you minimize type one
+errors, false positives, right, at the
+expense of type two errors. That's what
+peer review does and that's what most
+people think is the injustice. You have
+a different view, but forget about that
+different view as you've already talked
+about it. What would replace peer review
+then to push back on your anti-perreview
+rants? I like the old
+system. We you ask yourself the
+following question. If you go into
+Google engrams, you will find that
+peerreview does not exist as a phrase
+before 1965. Just doesn't. People don't
+know that. I show academicians, they're
+absolutely shocked. They're convinced
+that this goes back to the
+1700s. What was the old
+system? I'm the only person bearing this
+torch. It was powerful editors making
+decisions for which they were
+accountable.
+The double helix was never peer-reviewed
+because it could not be peer-reviewed.
+And that was one of the statements that
+nature made. They said in order to give
+this
+out to anyone outside that which is
+external review which was what was
+present in 1953 when peer review didn't
+exist we would this once you see the
+structure of the double helix you can't
+unsee it particularly because it gives
+an instantiation geometrically of the
+source of charge's rules of equimar
+relations between the
+nucleotides that
+thing had to go into press without an
+outside
+review. We need powerful editors who do
+not all
+agree and particularly we can't have the
+the only game in town. If if you want to
+hear me get completely crazy and and
+rant, the only game in town was a
+concept that occurred in the quantum
+gravity community that said quantum
+gravity uh there there is no quest but
+quantum
+gravity and string theory m theory is
+the only game in town to make it sound
+like the creed of Islam, right?
+anyone found trying to say that only
+string theory M
+theory can and should be re uh
+researched at the most fundamental level
+and that quantum gravity is the holy
+grail when there's no trace of this
+phrase before
+197372 is committing a grave ethical sin
+at a professional level now something I
+never talked about before to the best of
+my ability to
+remember is something that I only heard
+from Richard Fineman. Richard Fineman
+somewhere says, "I want to talk to you
+about ethics, but only professional
+ethics. I don't care what you do in your
+personal life, but this whole thing that
+we have
+collapses if you're
+not following certain rules." And I see
+a world in which no, I see Sodom and
+Gomorrah. That's what I see. Now, in
+Sodom and Gomorrah, I'm not capable of
+being the person that I wanted to be.
+I'm far too
+forceful. I'm far too pumped up on my
+own ego. People always say to me, Eric,
+why are you egotistical? Why are you
+loud? Why are you this? Why do you cut
+people off? You try dealing with Ed
+Whitten and everybody who came along
+with him. You're talking about the
+single most arrogant, insufferable,
+unethical
+approach to to fundamental physics. a
+group of people who would murder you in
+your crib if you so much as suggested
+that quantum gravity was not the quest
+and that string theory m theory was not
+the path and my claim is you failed for
+40 years and you've only succeeded at
+what the evolutionary theorists have a
+name for called interference competition
+which is something I learned from my
+brother where you make sure that your
+competitors can't get access to the salt
+licks or the fresh water in the lake so
+that they all starve to death and my
+claim is is that that particular thing
+is a it is a personal quest of mine to
+destroy the theory that came in with the
+idea that there is only string theory
+and everything else is just words and
+the words of Edward that is
+professionally unethical
+behavior. Full
+stop. I'll read a quote, please. This is
+from a lecture of hers. I I don't recall
+what the lecture was on, but I wrote
+this quote down. This is Helen Quinn.
+Yeah. Helen Lquinn was saying she was
+thinking about a student a student of
+Julian Julian who was working on
+something called source field. Oh yeah.
+Which was Julian's way of reformulating
+quantum electral dynamics. Steve
+referring to Steve Weinberg. Steve
+didn't like the source theory. As the
+student began to speak, and this was the
+student's PhD defense, Steve began
+asking him questions about why source
+theory was valid, and Julian, the
+founder of source theory, was right
+there. Naturally, Julian jumped in to
+defend his student. This is something
+Quinn witnessed, so she's just relaying
+this at a lecture. She said, "This meant
+that the student didn't have to explain
+the theory he was working on, but could
+focus on explaining his own work. It
+turned into an argument between Steve
+and Julian about what constitutes a good
+theory. I wish I had a tape recorder
+because having two Nobel Prize level
+physicists discussing the merits of
+different types of theories was
+extraordinary. Julian was arguing that
+the best theory is one that can absorb
+all new information. He was talking
+about a type of theory, a class of
+theories. Meanwhile, Steve was saying
+that you need to have an explicit
+realization so that you can test it and
+rule it out. Those are two points of
+views and I think they're both correct.
+I think we need to be seen in the
+context of what we mean when we say a
+theory. Do we mean a theory or do we
+mean a type of
+theory? That is a sophisticated
+scientist. Yeah, it is absolutely
+important that we have the scientific
+method to get rid of wrong
+instantiations. And it is absolutely
+imperative that we have the dac method
+to keep good ideas where an
+instantiation has been
+invalidated. And my private language for
+this, which is not as exalted as the
+great Helen Quinn, is right freeway,
+wrong exit.
+The two great ideas of the 1970s were
+super symmetry and grand unified theory
+and both of them were
+correct. Right freeway, we took the
+wrong exit on both. We drove the wrong
+conclusion because of the simplistic
+relationship. And you know, look,
+there's an entirely different ethics of
+science that involves who's allowed to
+take on how much technical
+debt. And I I'll say somebody I don't
+really get along with very much with is
+is Sean Carroll. And Sean Carroll said
+something brilliant on your podcast. He
+said, "I don't really like the
+demarcation
+problem to call people pseudocientists,
+which is
+basically to impugn their
+character and their mind and their their
+sophistication." He says, "I just like
+to say that things are not good
+science." And this is great. and and
+then
+again on your I mean I don't think you
+really realize how much is happening
+that is happening nowhere else on your
+podcast because then Leonard Suskin
+talking to you about Peter White when
+you said well if you don't know these
+theories that you're claiming don't
+exist I would be happy to explain them
+to you which has never happened I've
+never seen that interaction so what's
+amazing then is that you have Suskin on
+camera saying that Peter White's physics
+and math is just
+bad. Now, I really appreciate that
+statement because it is so laughably
+stupid and obviously wrong. Peter Whites
+mathematics, that book he wrote on group
+representations in quantum theory.
+Leonard Suskin wishes on his best day
+that he could write a book like that.
+Leonard Suskin has written some great
+books and he's got he's had some great
+ideas, but he's not what he thinks he
+is. And to to to the only this is
+another thing people don't know about
+me. I tend to be very polite to people
+up until there there's like one of these
+transgressions where they're just mean
+or wrong or they do something. I would
+never have said what I said about Ed
+Whitten if Ed Whitten hadn't hadn't
+misbehaved. If Leonard Suskin hadn't
+misbehaved by saying that Peter White's
+mathematics is bad, I wouldn't say
+Leonard Suskin is not the mathematician
+that Peter White is. And he's never
+written a book as good as Peter White's
+book on group symmetry and quantum
+theory. You mean rigorously?
+It's also just poetry, the pedagogy, and
+the fact that he standardized all these
+different concepts. You know, it's like
+Jared Diamond writing Guns, Germs, and
+Steel. Um, you know, there are books,
+people always ask me like, "What's your
+favorite what are your favorite books?"
+And they want to hear Moby Dick or, you
+know, Tale of Two Cities. And it's like,
+oh, there's Whit's book on group theory
+in quantum theory. There's uh
+Woodhouse's geometric quantization.
+There's Bess's Einstein manifold. Like,
+these are great books. Spin geometry by
+Lawson and Michaelelsson. I want the
+movie rights. These are some of the
+greatest books of all time. Peter White
+No. Who knew that Peter White was one of
+the great physics expositors of our
+time? I didn't. I know Peter pretty
+well. Yeah, I would love to debate
+Leonard Zuskin on that. And by the way,
+then you asked like about Eric Wines. He
+said, "I have no idea who that
+is." It's so funny. I'm sitting next to
+Leonard after talking to him at Stanford
+at a Natty Cyberg lecture. These guys
+pretend that
+like you don't talk to them. I have no
+idea what this is. It's like a It's a
+theater truth.
+I want to know what you think of this
+classification. Please. There's pop
+academics which are those who give who
+give lectures to the public and engage
+in popular science. Sean Carol's of the
+sort and learned Sean Carroll in some of
+his instantiation is in that world. But
+there's also Sean Carroll who came up
+with a version of churn Simon's theory
+where you violate Loren variance and you
+have a vector field that's nonvanishing
+on force base to try to move
+threedimensional to fourdimensional
+techniques. So Mitioaku is a pop guy but
+he wrote this book on string theory
+that's quite and also helped invent
+string field theory. I know. So string
+theory has a problem with not being
+non-perturbative. Yep. And string field
+theory is nonperturbative.
+So there's a serious Mokaku who we
+haven't seen for years. So like one of
+the one of the memes is Miokaku is out
+of Get Mioaku in here with me. Like
+that's a meme in this little physics
+space. Yeah. Mioaku is is a serious
+person and a non-serious person. Sean
+Carol is a serious person and a
+popularizer. Okay, keep Okay, so I'm
+saying there's a pop academic and then
+there's also the gym rat academic. What
+I mean is the person who's just I don't
+want to speak to the public. There's no
+sense. Why am I going to engage in a
+podcast? I'm just here to do my work.
+Nemo or Connie Hamemed is of that sort.
+Like why do I have to engage and he will
+engage? But he's thinking I'm just going
+to do research. Although within
+academics with to an audience of
+academics, he's the great showman of our
+time. Keep going.
+What has the reception of GU been like
+that's different between the pop
+academics versus the gym rat or closed
+door
+academics?
+GU? Well, there's two things. There's GU
+and there's
+me. Some doors are closed to me because
+people know that I worked for Peter
+Teal. I'm just going to be honest about
+it. Their idea is you've worked for the
+devil. Never mind that I don't see Peter
+as the devil. Their point is, you work
+for pure evil, therefore you are a
+far-right
+uh you're you're practically a KKK
+member. Good day. That's one of the
+reactions to me and to Ju. Um there
+isn't if you look at what let's say
+Stefan Alexander or Ed Frankle or Marcus
+Dottoy or
+um Brian Keading or my hosts at the
+Hebrew University of Jerusalem
+they're if I showed you on my phone me
+with all sorts of top tier academics
+you'd say wow you're clearly having all
+these conversations with top people. And
+it's
+true. Nobody gives it the time it takes.
+Like I I assume that you found that even
+though it's weirdly a simple idea, it
+takes forever to get some of this stuff
+across. Yeah. So the typical thing is if
+I'm invited into an academic department,
+um they won't aortion enough time. They
+won't say, "Why don't you give a series
+of four lectures?" So everything's
+always an hour. Then you're trying to
+figure out how to sort of do all of the
+universe in an hour, which is
+impossible. At least I don't know how to
+do
+it. I would say that there are tons of
+top academics who are interested and who
+will
+talk. Nobody has digested enough of it.
+It
+requires at some
+point some top person who in good
+standing with the community will say I
+think there's way more here and that
+will change everything. I think what you
+said is key some top person cuz it
+doesn't matter if it's a person there's
+a hierarchy. Y so one of the reasons
+Peter White is not looked favorably upon
+in the string circles generally speaking
+is not because his critiques are invalid
+but because they think who are you to be
+saying that which is very interesting
+because first of
+all whether you know it or not would you
+let me ask you would you agree that
+Peter White's blog is the most read blog
+in all of physics? I'd say he's top two.
+Okay. What's the other one? Sabine.
+Okay, so both of these people are known
+to know physics. Now, I agree and
+disagree with both of them as humans
+do, but lots of people read Peter
+White's blog for the physics, not for
+the critique of string theory. Note,
+there's also Scott Arison's blog, though
+it's not exactly a physics blog. It's
+more about quantum computing. I spoke to
+Peter White, Sabina, and Scott on this
+podcast several times, and the links are
+in the description.
+and they won't
+admit that they take Peter White very
+seriously. So, we have this very weird
+thing about people sneaking off to go
+read Not Even Wrong and then saying,
+"Well, of course, I I frown on the
+uh the negative view of physics
+or this low level of understanding.
+Obviously, Peter White is a very serious
+mind and he's a PhD phys. I Who's Who
+the hell is trying to get away with
+saying this guy's an idiot? I don't I
+just It's weird. I'm sorry. I get
+emotional because it's like you're
+benefiting from the blog and you're
+lying about your colleague.
+Um Sabina, everybody knows what her be
+before you get to what she what she says
+should or shouldn't happen. She's
+talking about the crisis in physics that
+Sean Carroll denies is happening.
+Wouldn't it be logical? Like when have
+we ever
+seen the top people as thought about
+from inside the field interacting with
+the top critics? Effectively almost
+never happens. And every time something
+like that happens, I was on a pan I was
+put on a panel with Brian Green. And I
+told the organizers, "Brian Green will
+drop off of this panel." And immediately
+Brian Green drops off of the panel. And
+then I said, "Okay, I've come all the
+way from England so that Brian can phone
+in from his
+office." And then I say, you know, are
+we going to set an empty chair? Are we
+going to should we talk about the fact
+that Brian Green is going to vanish from
+this?
+I
+think the taste makers occur for a
+reason that we don't like to talk about.
+In our
+time, there arose one taste maker. And I
+can tell you this because when I went
+and talked about GU, and this is
+probably no longer
+true, but GU has been around since like
+' 84 85. It wasn't as complete, but the
+core ideas were were were forming.
+Then whenever I tried to talk about it,
+people would say, "What does Ed say?
+Have you talked to Ed? What's Ed's
+thought?" And I said, "Well, what what
+do you
+say?" Ed was so dominant at that point
+that no one wanted to venture an opinion
+lest they find themselves on the wrong
+side of the world's greatest intellect.
+So you weren't
+getting a hundred different opinions.
+You were getting a hundred different
+people trying to guess which way Ed
+would go. And that's unhealth. Like I'd
+rather say what I thought and find out,
+yeah, Ed's right again. I'm
+wrong. But that's not what happened.
+What happened was is we created a world
+that was afraid to disagree with the top
+person.
+And you know, Nema has been incredibly
+kind to me. He invited my son and I into
+the Institute of Advanced Study to meet
+with him and he just couldn't have been
+more constructive and a better advocate
+for physics. He's our top in many ways.
+Nema is our top
+guy. Um, he's stayed true to actual
+physics. I think all of his theories
+have ended up sort of wrong. I could be
+wrong about that, but he's honest and
+he's genuine and he's trying and he's a
+great showman. He's a great
+advocate. Brilliant as the day is long.
+Toronto product. Oh, right. Right. Yeah.
+He was in uft with my brother. Yeah. He
+said he said this thing to me. He said
+um it doesn't really matter where you
+go. It just matters that you solve lots
+of
+problems. Solve as many problems as you
+can and enjoy life doing it. By the way,
+Nema is also perfectly happy to be
+heretical. Like Nemo will talk about
+negative energy and kasmir states and
+negative mass and you know the kasmir
+effect all of these wonderful things and
+that's not at all you know he there's a
+very small number of people who achieve
+top status outside of string theory m
+theory and you know Lisa Randall might
+be
+one Nemo would be another so this thing
+was absolutely
+brutal you burn actually and the double
+copy stuff even if it came from string
+theory somebody who needs to be promoted
+um yeah when you ask like what's the
+reception it's
+not it's not what I would
+expect I just gave a talk at Hebrew
+University and I the first thing I say
+is here's the formula for the dark
+energy like I write down a formula and I
+say you know from this new desi
+experiment that if it continues there
+isn't a cosmological constant it's
+variable and it's already a problem that
+the cosmological constant would be so
+many orders of magnitude lower than it
+should be
+right so what if it what if there's a
+term that can respond imagine that you
+set tu stress energy tensor equal to
+zero if there's a a capital G mu new
+curvature tensor Einstein
+curvature then you need the dark energy
+term to go up and down with it right you
+need it to be able to achieve a ve if
+you
+will the reason that the we're stuck
+with the cosmological constant is that
+there's an automatic identity inside of
+the Einstein curvature which is that the
+full remon curvature has a bianke
+identity the contracted version the
+Einstein tensor is what has the
+divergence free due to the bianc key
+identity. Therefore, set tu equal to
+zero. Throw the dark energy term to the
+other side. It better have an automatic
+differential equation because it's equal
+to something that has one. Okay. So now
+the only equation there only three real
+tensors again say something slightly
+inaccurate. There only three real
+tensors in Romanian geometry. There's
+the metric tensor, there's the torsion
+tensor and there's the curvature tensor.
+Sure. Curvature tensor is used by
+Einstein to do gravity.
+The torsion tensor is the weak sister
+that never makes it to the big dance. So
+all you've got is G mu and it's got one
+equation which is that it's annihilated
+by its own levy connection. Therefore
+all you can do is put a lambda in front
+of
+that. So that the divergence has a
+product rule. The derivative of lambda
+with g mu left alone plus lambda* the
+derivative of g mu. But the derivative
+of g mu dies. That means that the only
+thing that you can count on is that the
+derivative of lambda has to die. That is
+what doomed Einstein to having to
+include this goddamn term in his
+equation which he never liked cuz it was
+just there were three terms. There was
+the beautiful
+term, there was the greatest blunder
+term, and then there was the cheap wood
+relative to the pure marble, which was
+what the stress energy tensor was as he
+described it. And torsion
+Well, the the torsion isn't in the
+Einstein field equations because of the
+palletin the fact that if you open
+yourself up to torsion then the oiler
+lrange doesn't select for it. So the
+reason was that so one of the
+contentions you know you're in GU when
+instead of using the torsion you think
+about contortion and then instead of
+using contoursion contortion is not
+called contortion to me. What is it
+called? What do I call it? What do you
+call it? I don't know because you're
+using a different term. Okay. So if you
+take the displacement tensor,
+displacement torsion tensor, we haven't
+gotten to distortion yet.
+Torsion is something involving some
+commutation of X and Y vector fields as
+you've seen in Romanian geometry. Then
+there's a an equivalent augmented
+torsion, but that's the thing I'm
+introducing. We haven't gotten there
+yet. Contoursion isn't something I've
+introduced. Okay, got it. Great.
+My understanding again I've been out of
+academics for a long time so maybe I'm
+screwing it up. If I have a bundle and I
+have a Levicha
+connection I can ask for what's the
+difference between any connection and
+the levy chvita connection that has to
+be an add value one
+form that is called the contorion and
+you can get the regular torsion from the
+contorion or the contorion from the
+regular. In other words they have
+equivalent I didn't know that had a
+name. Yeah, I believe that and this is
+stuff that nobody knows, so I'm going to
+be a little bit careful. I believe that
+the torsion and contorsion have three
+separate representational theoretic
+components. So the ad in the advalued
+one form is lambda 2 and the one form
+valued in the two forms breaks into a
+sum of three irreducible representations
+under a lorren
+group. that thing if you take different
+proportions of them, one proportion
+combination is the torsion, one
+proportional combination is the
+conttors. They're
+equivalent. Neither one of those works.
+And so the whole one you know you know
+you're in geometric unity when you use
+the gauge rotated levy chvita connection
+in what would be the contorion instead
+of the torsion tensor because that thing
+has incredible
+uh invariance properties and
+equivariance properties under the gauge
+group acting on the inhomogeneous gauge
+group. Do I know that as the tilted
+gauge group? The tilted gauge group.
+This is I love this tilted gauge group.
+The terra for our Hindi speaking friends
+uh gauge group is mapped in by this what
+I now call toao
+subplus and you can multiply on the
+right or you can multiply on the left by
+the inverse so that you get a right
+action on both sides. You can take the
+double coset construction the double
+coset of the inhomogeneous gauge group
+by the proper tow tilted
+homorphisms acting on both
+sides results in something equivalent to
+a mod g which is what they Mcdal Mansuri
+people didn't understand they started
+with the wrong space again I want to
+honor them look I found this without
+knowing about them but they had a piece
+of the puzzle
+you know, and so this thing
+um has a beautiful differential
+equation that allows it to be the analog
+of divergence free. Let me see if I
+understand this. Sure. So the
+inhomogeneous gauge group double
+co-setted by the tow subscript plus yeah
+which I forgot what I called it doesn't
+matter. The tilted homorphism is
+isomeorphic to a mod g.
+Yeah, think about it as this. It's
+isomorphic to a mod G or there's some
+extra if you want to get technical.
+There's two different because they're
+multiple homorphisms. But think about
+this an inom an inhomogene sorry a
+semiirect product topologically is a
+cartisian product. It's just the algebra
+that's the semiirect. Okay. So what if
+you had
+G cross or G? Now you're speaking of a
+group G.
+Yes, thank you. Thank you for keeping me
+honest. So you have a gauge group
+cartisian product with the space of add
+valued one
+forms up to an origin add valued one
+forms is the same as the space of
+connections. So first start with the
+inhomogeneous gauge group. Realize that
+that's equivalent to gauge group
+cartisian product gauge potentials.
+Realize that the gauge potentials are
+equivalent to the space of connections.
+So therefore that's the whole in
+homogeneous gauge group is equal to
+gauge group cartisian product
+connections. Now mod out by G. Just try
+to cancel the G. So G mod G goes away.
+Now you're left with an A. Now you're
+mod out by another G and you get a mod
+G.
+You know you're you know you're in GU
+when uh a mod G is replaced
+by the double co-et of the enhomogeneous
+gauge group by its own tilted
+subgroup. And you'll know you're in GU
+when the
+um dark energy term which is the
+cosmological constant times the metric
+is replaced by
+Var pi an add valued one form
+minus the epsilon gauge transformation
+inverted
+counterrotating the ex the exterior
+derivative coupled to the oliff
+connection
+applied to the epsilon gauge
+transformation the sort of the mora
+cartan form that thing is what solves
+the cosmological constant problem in G.
+Now it's just a ve. Now your only
+question is why is it so flat where I
+live? Because you have this different
+term that doesn't have to be
+constant. Look, Eric, I have this
+geometric unity iceberg. I can see the
+reaction from the comments and people
+who email me. It comprises professors,
+lay people, researchers, graduate
+students in string theory, by the way.
+and in not string theory. So, it's not
+as if string theorists don't like you or
+you don't like string theorist as a
+whole. But I don't know what the
+reaction to GU or the iceberg, but GU
+itself is in the academic world. I know
+what the reaction is like from the pop
+academics that we talked about earlier.
+And most people see pop academics just
+by definition because they're popular.
+They're the people who put themselves
+out in the public. But that's a biased
+set. So, one can't generalize and say
+academics think X about GU because pop
+academics think X about GU. And that's
+even provided that pop academics think X
+about GU. So, what is it like behind
+closed
+doors? I would say that for the most
+part
+uh I take a tremendous number of
+highlevel academic meetings with people
+at the very top of the field.
+Um, so I frequently go to seminars at
+Caltech at UCLA. I meet with people
+afterwards. I could name names. I choose
+not to at the moment, but names
+everybody would
+know.
+The the dominant reaction to GU, by the
+way, is silence.
+People don't know what to make of
+something this crazy, this
+bold, and it draws on a skill set. The
+number of people who both know the
+standard model cold still and still
+think in like bundle geometric terms is
+about zero. You can uh here's an
+exercise for your listeners. Put in the
+term vector bundle, you'll get hundreds
+of thousands of hits on Google. Put in
+the term CKM matrix, which is a
+reference to the standard model. And
+then require both of them with a plus
+sign before the quotation marks and it
+drops to three digits. In other words,
+the number of people who are in
+contention to be working on the standard
+model is now vanishingly small.
+That is in part the problem is
+that nobody who's thinking in vector
+bundle terms in physics is really
+focused on the standard model. They're
+mostly in string theory or maybe some
+very high-end GR stuff. Most of the
+people thinking about the CKM matrix
+have no idea really what vector bundles
+are other than something they saw when
+they were a graduate student. So in
+general the major note is silence.
+The only group that is really
+vocal is the negative pop sigh people,
+the negative pop academic people. Some
+of them aren't even in math or physics.
+And their thought
+is, well, this is obviously garbage
+because it has the following
+characteristics. You've got somebody
+who's um you know close to 60 years old,
+is not in an academic seat, making crazy
+claims, very
+large and this is a classic failure mode
+of something going wrong
+psychologically. So yeah, that's what
+their point is. Well, if you're avoiding
+the uh the archive, you're avoiding
+submitting to
+journals, the only reason for that is
+you're hungry for clicks and trying to
+make a fortune bamboozling the public.
+So, I'm just I want to say that so that
+they hear, do you imagine I can't see
+you on the
+internet? Okay. How many of you
+understand what the standard model gauge
+group is and
+uh understand vector bundles and have
+looked at the
+various theories so that you have an
+idea of what Peter White and string
+theory and loop quant like this is a
+group that doesn't
+exist. So more or less what you're
+seeing is you're seeing people trying to
+make a heristic distinction about well
+it violates these heristics. So if
+you're not going to play by the rules,
+we're going to treat you like a crank.
+And I would say that there's some
+reflection of that in math and physics
+departments. But there's also a if you
+listen to the way I speak when I'm
+talking mathematics, which is rarely
+people don't usually see me in
+this. Well, fine. If if you don't like
+what I'm saying, I would imagine you'd
+take issue with it on a blackboard. Why
+is the third generation the imposttor
+generation? Because when you do the
+decomposition, it looks like the first
+generation's the one that's different
+than the latter two. Well, it depends
+what you call first, second, and third.
+So, the claim is that you're looking at
+zero forms tensor spinners, direct sum,
+one forms tensor spinners. Yeah. So, I
+call zero forms tensor spinners the
+first generation. Now, it could turn out
+to be not right, but I believe that's
+the way it'll go. The second
+generation would be what you get by
+taking a direct contraction which you
+call the trace gamma trace gamma
+traceless. Yeah. I don't know if that's
+the right language. Is it? No, I don't
+know. I don't know either. It was my
+understanding.
+You were saying to me before that, Eric,
+you
+mispretion is a projection and I'm
+saying yeah, this is what happens. We're
+fumbling. I see. So you say that in
+analogy the gamma trace part where you
+take a one form tensor spinner and you
+contract the one form against it using
+Clifford multiplication is that I would
+call that the second generation. You've
+called it the gamma trace. I see. And
+then you started with the gamma trace
+list as the second generation which I
+didn't think I said. So, it's a little
+bit of a discrepancy between you and me,
+which is great because this is like this
+is this is because it's real. Like,
+we're trying to develop something and
+you're making a point where there's
+confusion of language and I want to show
+that this is a process as opposed to I I
+hand you the perfect finished thing. It
+is flawless. Yeah. Sure. Sure. So, the
+claim is first generation of spinner
+spinners
+tensor zero forms.
+Second is one forms tensor spinners
+contracted across the tensor product.
+Just a moment. Would you say that it's
+zero forms valued in spinners? It's it's
+just spinner fields, but in order to
+make it consistent, I see like I would
+never have introduced zero form valued
+spinners except I know that one form
+valued spinners are in the mix. So then
+I have to point out that it is true that
+ordinary spinner fields can be
+technically and pedantically
+called zero forms valued in the
+spinners. Yeah.
+So you have zero form valued spinners.
+That's the first generation. Then I
+claim the second generation is what you
+get when you take one form valued
+spinners and you Clifford multiply
+across the tensor
+product, right? And it's all of those
+things that um I guess it would be the
+inverse image.
+You Clifford multiply what though? The
+spinner with the one form. Okay. Yeah.
+because you have a
+metric that that piece which is
+equivalent to the spinners. So So you're
+looking
+for the
+um You got it, Eric. Oh, I'm going to
+screw up the kernel, co- kernel, all
+this kind of stuff. The the easy thing
+to say is the third generation piece,
+which is the kernel of that map,
+right? Okay. And then the issue is what
+is the complement to the kernel? That
+would be the second generation. That's
+what you're calling the trace. The trace
+and the traceless. Yeah. Gamma trace. So
+these all look different. So why are you
+saying that two of these are equivalent
+in some because at the at the
+representation theoretic level, two of
+them are equivalent and the third is not
+an equivalent
+representation. But you can have two
+groups. Sorry. You can have two group
+representations at the level of a
+subgroup that are
+isomeorphic which at the
+level of where they came from in the
+total group are not isomeorphic. And I
+think sometimes this may be called
+somebody should check me leptton
+universality
+uh where you believe that you you have
+to be technically this isn't much
+discussed
+but we don't know whether these three
+generations that we have will continue
+to be identical up to
+mass as the energy scale
+increases. So I'm claiming two of them
+will one of them will not. That's like a
+prediction. You know you're in GU when
+you actually have predictions about what
+the remaining matter is to be found and
+how it would behave if you went to
+higher and higher groups rather than
+just broken subgroups.
+Okay, let's speak about predictions.
+Yeah. Suppose someone wanted to know
+something concrete like tell me what
+happens when two electrons scatter.
+Well, first of all, I'm not the best
+person to answer that question. Sabina
+made an excellent point. She said,
+"Look, there are only three places to
+find new physics." Again, if Sabina, if
+I don't get this exactly right, forgive
+me. One
+place is you can have things that are
+incredibly massive and require energies
+that we've never gotten to. So, we
+wouldn't see them because we haven't
+gotten to enough energy equivalents to
+the mass that we actually see the
+objects in the phenomenon. Another thing
+that can happen is that things can be so
+weakly coupled that we can barely detect
+them. Nutrinos are all but dark
+matter. They're very weakly coupled.
+They're not the ones we see aren't
+massive,
+but so both of those are things. Then
+the the third one is the most
+interesting one, which is effects that
+you only get to see in special
+configurations.
+So that would be like Edington waiting
+for the moon to pass in front of the sun
+and getting in the right place to see
+the effect of bending uh the light of
+distant stars or the bow arinoff effect
+which showed how did we get so far into
+the story of electromagnetism and we
+didn't even know that we had it wrong.
+So it's accessible at low energies it
+just requires some novel constructions.
+Yeah, it's that one's also funny because
+it's really a classical effect, but it's
+quantum
+detected, right?
+So, one thing I didn't know because I'm
+not a physicist
+um is that there's this thing called a
+phenomenologist. And I didn't know what
+a phenomenologist was. I just thought
+they were people who were closer to the
+standard model. I think what a
+phenomenologist is is a bridge object
+between the pure theory community and
+the experiment community where the pure
+theorists are not really good at saying
+you should build a calerimeter that does
+this you you know um and so the
+phenomenologists have the trickiest jobs
+don't they and I think they're kind of
+you have to speak both languages they
+have to speak both languages and they
+they they're not highly visible like
+Brian Keading makes an excellent point
+that almost everyone you hear of from
+from in the popular version of of
+physics is a
+theorist. And he says, "What about the
+experimentalist?" I'm I, Brian, am an
+experimentalist. Well, the theorists are
+broken into two categories. And we never
+really hear from the phenomenologists.
+So, I I agree. And I didn't understand
+this like things I got wrong in life. I
+didn't understand. I'm not supposed to
+be asking
+questions.
+Um, but I I can tell you effects that I
+think you should look for. I don't think
+the world is chairo. You know, you're in
+GU when your theory is not
+chairo. Like one of the critiques of my
+theory is is that I have a chyro anomaly
+which I find funny because it is not
+chairo. Um, but nobody notices this by
+the way. Now you can still have an
+intermediate chyro structure though.
+Sure. But you have an effect you have an
+effective theory, right? So the idea is
+that or an anomalous triangle diagram or
+an inconsistent regularization
+procedure.
+So GU is not
+cyro but it has to produce a cyro world
+because effect at an effective level
+nature is cyro. So what you have is you
+have a field a ve in a dac like operator
+again this dac burita swinginger thing
+that comes up to
+meet the scalar
+curvature in the Einstein
+equation analog of GU. So GU has a what
+it claims is an improved Einstein
+equation. Therefore there is like
+Romanian curvature in it. It coaxes this
+thing out of the vacuum that then plays
+the role of a fundamental mass scale. So
+what happens when things flatten out?
+The scalar curvature drops and the
+masses
+drop. If the mass drops sufficiently
+then a dack type operator decouples into
+wild vial type operators.
+So the claim is is that what we have is
+we have a non-chyro world where there
+were two chyro halves that were coupled
+because of a ve and then when gravity
+gets low
+enough what I believe you have is you
+have a
+decoupling into matter sectors and we
+what we call
+luminous will be connected to matter
+that is currently dark when gravity
+becomes strong
+F. Oh, this is like a mathematician
+trying to sound cool, but like that's
+what I think the equation said. Durac
+Rorita Schwinger. Yeah, there's a
+complex and there's an operator. Let's
+take a duram complex where d^2= 0 on a
+manifold and let's put a bundle on top
+of that manifold with a
+connection. Let's imagine the connection
+is flat.
+So we've tensored this bundle, this
+vector bundle with the DAM complex with
+a flat connection. D^2 will continue to
+be
+zero. Now let's say okay, let's relax
+the flatness
+condition. D ^2 is no longer equal to
+zero. d^2 actually becomes
+definitionally the curvature.
+Okay? Right? Right? Because you need
+like you need to go from I forms to I +2
+forms and instead of it being a second
+order differential operator, it's a
+zeroith order differential operator
+equivalent to a degree to form valued in
+the adjint bundle which is the
+curvature. Okay. Yeah.
+So sometimes in such situations you're
+like oh no that ruined my complex the
+curvature which I love ruined the
+complex structure of the tensored DM
+complex. So what do you do? You say okay
+I'm going to roll it up into an
+operator.
+Instead of having a multi-step complex,
+I'm just going to say let let's take
+even forms on one side, odd forms on the
+other, and I'll map the even forms up
+via D, and I'll map them down via D
+star. Both coupled to a connection. So
+now you get a one-step operator rather
+than a multi-step operator. It's not a
+complex, but that thing would be the
+DRAM complex. the best you can do with a
+drram complex with a vector bundle
+tensored with it where the connection
+was not trivial which was did not have
+trivial curvature rather let's say it
+that way so this is a rolled up
+complex that normally one would find on
+a three manifold remember I said
+that your NGU when a four manifold
+births a 14 manifold which behaves like
+a three
+manifold there two ways that that
+happens. You pointed to one of them,
+which is, oh, you mean churn silence.
+That was part of the truth. But then
+there's a second part of the truth. Only
+on a three manifold do I get a cheap
+version of
+a complex that
+has zero forms to one forms, one forms
+to two forms, two forms to three
+forms. Right? So there are three
+non-trivial steps in that complex.
+This one goes zero forms to one forms,
+one forms to two forms, but the two
+forms then get
+contracted to d minus1 forms. And then
+the d minus one forms get taken to d
+forms. So if you put those together, it
+looks like a three complex cuz you cut
+out almost all of the middle of the
+duram
+sequence. Right? Now that gadget gets
+rolled
+up and that's what this direct fit
+swinger operator is all about. That's
+what the firmian sector looks like. And
+by the way, the idea that I haven't
+heard any commentary on this idea at
+all. It's just weird. It's like here
+is a bold clear idea. Take the 14
+manifold and that 14
+manifold has a
+chimeic bundle which is equivalent to
+the tangent and the co-angent bundles.
+In fact, it's semiconically equivalent
+and is endowed with natural metric
+information. So you can build spinners
+without ever making a metric choice.
+Okay, that guy because you can build
+spinners, you can think of that as a
+um bundle with a U64, 64 structure
+group. And what we're going to do is
+we're going to take the DAM complex on
+that thing, which would normally have
+degree 0, degree 1, degree 2, 3, 4, all
+the way up to 14 before it died. So it'
+have 15 different terms, 14 different
+operators.
+You're going to cut out almost all of
+them in the middle. So you're going to
+go 0 to 1 to 13 to 14 and then die. And
+so how did you get from two to 13? Oh.
+Well, you took two. Yes. You did a
+contraction that got you back to one.
+Yeah. And then you did a star. Yes. And
+so that thing when rolled up has that
+zero in the
+south east corner of the mat of a 2x2
+matrix of operators which is what I
+think will be found to be a seessaw
+mechanism.
+So there's an entire there's a wonderful
+book by Michael Aia called the physics
+and geometry of knots and you see this
+complex in that
+book. So that the reason that the 14
+manifold behaves like a three manifold
+three is magical just a magical
+dimension.
+There's the Bzonic magic which is churn
+Simon's like theories and there's the
+firmianic magic which is that you roll
+up this very simple
+thing and that's what leads to three
+generations.
+Do you still have the d squ property in
+this complex that's only 3 to four long?
+This is something I've never said
+anywhere. There is a new dsqu I think
+it's as cyclic crazy beautiful
+complex that if you have two connections
+uh I created and have never released to
+anyone I haven't even mentioned it
+because it's going to it's going to
+engender more confusion but suffice it
+to say there's something that looks
+like oh god what is
+it da
+A f subb for the second connection
+identity db I think that's the four
+entry oh sorry there there two negative
+signs in the second column so there is a
+new d squed which is unbelievable and
+one of the coolest things about this is
+that on shell where the equations get
+satisfied a complex is birthed so If you
+think about it and this is you know this
+is like this is more with my old math
+buddies. My interpretation is that the
+Einstein condition is a co logical
+condition. Okay. Because what it says is
+the curvature has some special property.
+But if the curvature is the
+obstruction to d^2 equaling 0 then maybe
+on shell what that's telling you is that
+a new colum columnies theory is born on
+shell.
+So you're going to get a modulized space
+of
+connections and then you can look at the
+kernel and co- kernel of a colomology
+theory on that space and you get this
+gorgeous structure. But the thing is is
+that look I went into math to avoid
+string
+theory. And you know, there's just this
+very weird story which I had couldn't
+sort out in my mind where
+I I was a 17-year-old kid at the
+University of
+Pennsylvania who went to a lecture of Ed
+Whitten on string theory in
+1980, seemingly three. But Ed Whitten
+doesn't give a lecture on string theory
+until 1984 after the Green Schwarz
+anomaly cancellation. And in this story
+where I'm clearly lying, I switch my
+major from physics to math because I can
+see the effect that he's just had on a
+room full of physicists where suddenly
+everyone has given up like instant
+learned
+helplessness. And I never told that
+story because it's clearly time
+inconsistent. Like he I'm in my
+sophomore year. I I'm in college only
+for three years.
+I'm in my sophomore year when the Green
+Schwarz anomaly cancellation happens,
+but I've already changed my
+major. I'm reading Peter White's book
+about this period of
+time. And he says Whitten doesn't begin
+to get interested in this until the
+Green Schwarz anomaly cancellation, but
+he actually gives his first lecture on
+string theory in 1983 at a conference on
+grand unification. I read this, I just
+think, you're kidding me. Tell me where
+this conference was. This conference was
+held at the University of Pennsylvania.
+I am the only 17-year-old in that room.
+I'm the youngest person to see the
+beginning. I'm almost 60 right now as we
+speak. 59. I am the youngest person on
+earth to see the birth of the Whitten
+era of Stranger.
+I'm the only person who can report
+accurately of what it's like to be an
+undergraduate and watch as the
+theoretical physicists in this room lose
+their
+minds because God is in the room saying
+things that are so
+incredible claims that are so strong
+from a position of so much understanding
+and wisdom that nobody wants to oppose
+it. And I just looked at this and I said
+I cannot go into this field. This is
+going to take over everything.
+Gosh, man. There's many questions that I
+have. Pages and pages of questions from
+before. I'll come for several days.
+We'll do whatever you want to do. But
+may I say
+something? I think we're making history
+right now.
+Tell me more.
+So all these questions, what was it like
+to be in the
+room when nobody had heard these
+stories? Like there's so much of my life
+that lives only in my head because
+everyone's still trapped about like, so
+wait a minute. You think the world is 14
+dimensional? Why do we only see four?
+Like that's sort of the level of my
+life. I never get to the real part of my
+life. My my whole life has been
+lived
+alone. This is really creepy in a weird
+way. I'm having a discussion about
+something real. This doesn't happen.
+Let's
+go. Earlier when you said that we have
+the three generations that two of them
+have the same representation but one
+doesn't. See, physicists tend to mix up
+the word representation with
+representation's face. Mathematicians
+tend to be more careful about that. The
+representation is the map that goes from
+the group to GLV. Yeah. Yeah. Yeah. Or
+the endos if you're on the algebra.
+Great. Great is But representation space
+is the V. So we have a triple, we have a
+group, we have a space and we have a map
+from the group into the automorphisms of
+the space. So let's call that a
+representation. Very good.
+So when you said that they have
+different representations, do you mean
+the representation spaces are the same
+for two of them but not the third or or
+or what? You're asking the right
+question. So let's back all the way up
+if we're going to do it from a math
+perspective.
+A breaking of a
+representation is a group, a
+subgroup, an initial representation of
+the ambient group into the automorphisms
+of a some space, usually a vector space.
+When you break from an irreducible
+representation or a easily presented
+tensor product of representations to a
+subgroup, very often something that was
+irreducible breaks into smaller
+irreducible subcomponents.
+Yes. Of the smaller subgroup.
+The claim that I am making
+is the
+spinners that we
+see the 16dimensional
+complex internal quantum numbers
+tensored with the two complex
+dimensional vial
+spinners. As we go to the higher and
+higher groups in
+GU, what you're going to see
+is those dimensions of the spaces won't
+change.
+You will
+see something that looks
+like dark matter coming out of its non-
+luminous phase and being connected and
+coupled to the luminous matter at higher
+gravity regimes. That's my
+interpretation of higher gravity regime
+just means higher curvature. High
+curvature. Yeah. Yeah. Really really
+what I'm thinking of is high curvature,
+but I'm trying to sound like Okay. Okay.
+Um but the thing is that
+the there are
+two even without high
+curvature there are two spaces of
+firmians that we haven't seen in
+GU there's spin three halves
+firmians that are really weird because
+so they'll appear to be spin three
+halves on the form manifold we we know
+and
+love tensored with a 16 complex
+dimensional space that'll look like the
+standard model
+firmians except it will be
+conjugated. So that is in our that's a
+prediction. You know you're in GU and GU
+makes the prediction that there will be
+spin three halves matter coupled to a
+16-dimensional vector space that looks
+awfully familiar but that the parody is
+sort of reversed and
+flipped. And then you're going to
+have an additional collection of spin
+1/2
+firmians that are coupled to I forget
+it's 144 complex dimensional vector
+space that nobody's ever
+seen. And the third generation of
+firmians that we see that's also spin
+halves spin
+1/2 will combine with
+that when the group rises from this
+broken su3 cross su2 cross
+u1. So there will be a grand unification
+at a petis salon
+level. That's where the observed
+leptons, the electron and the electron
+nutrino become the fourth color of the
+quarks for the SU4 that contains the
+SU3, which is really spin six, but never
+mind. And then you're going to see all
+these other particles you've never seen
+before. And so the physicists trying to
+dismiss the theory says, great, you're
+making a prediction. Tell me something.
+Why haven't we seen these particles? You
+have the mass, right? I don't really
+know. But we didn't see the third
+generation of particles for a while.
+Robbie was the one who said, "Why is
+there a second generation of particles?"
+I assume that there's a mass prohibition
+because a lot of these things are
+electrically
+charged. So yeah, there is a there's a
+hidden I think it's 144 dimensional
+complex representation that'll be
+tensored with spin 1/2 vial
+spinners and it will combine with a
+third generation
+Eric, it's a pleasure, man. I could keep
+talking to you for another couple hours.
+Well, probably a few. Yeah, I think
+we'll have at least another podcast on
+GU that will be more in depth as
+mentioned. And also, it wasn't fair to
+you, so maybe you're going to want to do
+it more structured. Well, that's fine. I
+mean, it's like 5 hours of notice. I
+haven't had time to prepare for this,
+but take care, man. Hey, really, really
+great to be here. And by the way, thanks
+for really taking an interest in this. I
+learned a great deal from watching your
+video. Okay, enlighten me. What did your
+observation math tell you?
+I can tell you what I learned. I I think
+I'm less interested in giving you like a
+minus, B+, all that kind of stuff. I had
+no idea that this was so difficult.
+because I just remember all of the
+little problems along the way that I was
+trying to tackle. So whether this is
+right or wrong, whether it's delusional,
+we'll find out.
+But it has a kind of coherence and at
+least to me to my mind it's like yeah
+obviously you know because GU begins
+with an assumption of four degrees of
+freedom only uh together with a tiny bit
+of extra information almost nothing I
+always think of it as really
+simple and I think that I just didn't
+have an appreciation for how
+overwhelming this is at no point did I
+feel like I was doing anything
+particularly unusual or clever. It's
+just a series of beliefs and intuitions
+that I followed and followed and
+followed. And I've always had this
+question about like,
+well, I don't understand. Where is
+everybody? And I think in some sense
+watching you
+struggle with how to present
+it, I think I've become kinder to
+myself. I think I realize why I've taken
+on all these
+personality distortions and affectations
+of trying to have the same conver try to
+imagine having this conversation for 40
+years. Eric, I've got 40 minutes.
+Explain GU to me. And then like I'll
+I'll be 3 minutes in. The person will
+say, "Okay, let's design the experiment
+that will prove or disprove your
+theory." Like
+I what? or is there a double cover of
+GLV? Yeah, I think Ed Frankle and I
+recently spent an hour and a half on
+whether there's a double cover of GLV.
+There's a metal linear group. It has an
+NL lab entry. I didn't know that I
+didn't know the name of it. Mhm. I just
+worked out that it had to have non-triv
+GLV had to have non-trivial pi 1. And
+then I think I remember once running
+into a reference in Lawson and
+Michaelelsson that says that there is
+such a group but it's not important
+because there are no rep finite
+dimensional representations of it which
+reduce to the spin
+representation. It's like that's the
+entire acquaintance I have with this
+with this object. So I had no idea until
+theories of
+everything that I'd
+actually like you say this thing at the
+end. I'll tell you something else I
+didn't I didn't know the word
+unexampled.
+I I was like should I correct Kirk cuz
+he's not using the English language
+properly and I realized no I just didn't
+know the word. You're you're using it
+beautifully. At no point did it occur to
+me that this is an an
+unexampled phenomenon that what you're
+actually asking is for people to use a
+huristic. Look, I'm not going to read
+all that. Just tell me whether it's
+right or wrong, whether he's, you know,
+full of it or whether there's anything
+to it. And by the way, here's a story
+that I I don't think I've told much.
+There's a guy named Eugenio Bianke who's
+I think still running around in physics.
+I went to a conference right after the
+Oxford talk in 2013.
+and he said you know we've been at this
+conference for three days this is our
+last day the fourth and everybody in the
+world because like Lemon had written
+about this was a big you know the
+Guardian had written about it and he
+said everybody wants to know is there
+anything to this or is there nothing to
+this so let's go and we'll ditch the
+conference so we ditch the conference we
+sit
+down and I start explaining it to him I
+don't know where he went and he finally
+he just said stop right there we're like
+20 minutes
+And I should have listened to this. I
+was just like I didn't have the
+confidence to hear what he had to say.
+He
+said, forgive me you Jenny if you're out
+there. He said the only thing that's
+occurring to people is that there are
+either zero new ideas or one new
+idea. And nobody imagines that there are
+two or more. And the most likely number
+is zero.
+And then he pointed
+at the displaced torsion of the
+augmented torsion tensor and he said
+just take
+that he said that's an entire
+field. He
+said that one idea is worthy of a field.
+Now I didn't know how to process that.
+And he said the problem is there's new
+idea after new idea after new idea and
+nobody no one has budgeted that this is
+a
+possibility. It was
+like remember when you said something
+nice and I said thank you and I said
+it's a struggle to figure out what to
+say. I don't know how to receive the
+idea like it's a weird thing that you
+work on the theory of everything and you
+think it's right. You take those two
+statements that shouldn't be a weird
+thing for anyone with a PhD in a
+technical subject. Like of course that's
+what you're working on. If I was in
+biology, I'd be trying to cure
+cancer. You know, if I if I owned a
+rocket company, I'd be trying to go to
+Mars.
+And to me, it's like we're in
+theoretical physics to solve
+physics. Like, you know, I know Jim
+Watson as a person. That guy's name will
+be around for 10,000 years if humans
+still exist. It's very weird to have
+like hung out with Archimedes for 4
+days. Raul Bot. I swam naked with Raul
+Bot off Martha's vineyard. He was a sun
+worshipper. Raulbot will be remembered
+forever.
+What we do is normal in a region which
+almost if things almost never work but
+if they work the prize isn't riches. You
+can look at Einstein's house on Zillow
+and it's like I don't know a million2
+million bucks. It's not
+much. If it
+works you get to have your name
+perpetuated. And that's a weird thing to
+think about. We don't think about glory.
+We don't think about le lasting
+contributions. We can talk about them
+for other people. We can't talk about
+them for
+ourselves. And what he was telling me
+was there's too much here. And you know
+just visiting with with Lee Smolen he
+once said this thing to me which forever
+will you know it just disturbed me no
+end. He said
+Eric you're too
+present. I still don't know what he
+meant. I think every time somebody had
+something to say, I was like, "Yeah,
+let's go. Let's pounce. Let's what can
+we do?" Ultimately, the hope of GU is
+that we get our own source code and we
+figure out whether we have to die on
+this planet from the fruits of previous
+generations of
+physicists. I've received several
+messages, emails, and comments from
+professors saying that they recommend
+theories of everything to their
+students. And that's fantastic. If
+you're a professor or lecturer and
+there's a particular standout episode
+that your students can benefit from,
+please do share. And as always, feel
+free to contact me. New update started a
+Substack. Writings on there are
+currently about language and ill-defined
+concepts as well as some other
+mathematical details. Much more being
+written there. This is content that
+isn't anywhere else. It's not on
+theories of everything. It's not on
+Patreon. Also, full transcripts will be
+placed there at some point in the
+future. Several people ask me, "Hey
+Kurt, you've spoken to so many people in
+the fields of theoretical physics,
+philosophy, and consciousness. What are
+your thoughts?" While I remain impartial
+in interviews, this Substack is a way to
+peer into my present deliberations on
+these
+topics. Also, thank you to our partner,
+The
+Economist. Firstly, thank you for
+watching. Thank you for listening. If
+you haven't subscribed or clicked that
+like button, now is the time to do so.
+Why? Because each subscribe, each like
+helps YouTube push this content to more
+people like yourself. Plus, it helps out
+Kurt directly, aka me. I also found out
+last year that external links count
+plenty toward the algorithm, which means
+that whenever you share on Twitter, say
+on Facebook, or even on Reddit, etc., It
+shows YouTube, hey, people are talking
+about this content outside of YouTube,
+which in turn greatly aids the
+distribution on YouTube. Thirdly, you
+should know this podcast is on iTunes.
+It's on Spotify. It's on all of the
+audio platforms. All you have to do is
+type in theories of everything and
+you'll find it. Personally, I gain from
+re-watching lectures and podcasts. I
+also read in the comments that, hey,
+toll listeners also gain from replaying.
+So, how about instead you relisten on
+those platforms like iTunes, Spotify,
+Google Podcast, whichever podcast
+catcher you use. And finally, if you'd
+like to support more conversations like
+this, more content like this, then do
+consider visiting
+patreon.com/kurtjongle and donating with
+whatever you like. There's also PayPal.
+There's also crypto. There's also just
+joining on YouTube. Again, keep in mind
+it's support from the sponsors and you
+that allow me to work on to full-time.
+You also get early access to ad free
+episodes, whether it's audio or video.
+It's audio in the case of Patreon, video
+in the case of YouTube. For instance,
+this episode that you're listening to
+right now was released a few days
+earlier. Every dollar helps far more
+than you think. Either way, your
+viewership is generosity enough. Thank
+you so much.

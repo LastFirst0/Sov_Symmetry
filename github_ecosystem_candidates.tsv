@@ -1,0 +1,46 @@
+# Ecosystem Candidate Snapshot
+
+## sympy language:python
+sympy/sympy	14873	NOASSERTION	2026-08-16T17:00:35Z	https://github.com/sympy/sympy	A computer algebra system written in pure Python
+kennethreitz/pytheory	1633	MIT	2026-08-05T12:34:12Z	https://github.com/kennethreitz/pytheory	Music Theory for Humans.
+sympy/sympy_gamma	715	NOASSERTION	2026-08-14T14:36:40Z	https://github.com/sympy/sympy_gamma	A SymPy version of WolframAlpha.
+devitocodes/devito	710	MIT	2026-08-16T01:25:19Z	https://github.com/devitocodes/devito	DSL and compiler framework for automated finite-differences and stencil computation
+LeviBorodenko/primify	477	MIT	2026-06-29T13:27:36Z	https://github.com/LeviBorodenko/primify	Embed any image into a prime number.
+
+## einsteinpy language:python
+einsteinpy/einsteinpy	703	MIT	2026-08-09T08:54:43Z	https://github.com/einsteinpy/einsteinpy	Repository for the EinsteinPy core package :rocket:
+einsteinpy/einsteinpy-geodesics	14	MIT	2025-11-24T04:19:59Z	https://github.com/einsteinpy/einsteinpy-geodesics	Python wrapper for a Julia solver for geodesics in the Kerr family of spacetimes. Maintainer : @JeS24
+einsteinpy/riccipy	7	MIT	2025-05-15T20:31:46Z	https://github.com/einsteinpy/riccipy	Development Halted for indefinite time!
+cdelv/MSPBH	5		2025-10-07T02:11:31Z	https://github.com/cdelv/MSPBH	Calculation of the trajectory of a spinning particle around a black hole with an arbitrary metric tensor.
+conda-forge/einsteinpy-feedstock	3	BSD-3-Clause	2026-04-23T12:30:13Z	https://github.com/conda-forge/einsteinpy-feedstock	A conda-smithy repository for einsteinpy.
+
+## cadabra tensor algebra
+SouvaitzisLazaros/Cadabra-Tutorial-Examples	0		2020-05-24T18:02:31Z	https://github.com/SouvaitzisLazaros/Cadabra-Tutorial-Examples	Some examples of tensor algebra and general realtivity with the use of Cadabra
+
+## lean4 theorem prover
+leanprover/lean4	8810	Apache-2.0	2026-08-16T15:37:33Z	https://github.com/leanprover/lean4	Lean 4 programming language and theorem prover
+lean-dojo/LeanCopilot	1311	MIT	2026-08-15T21:18:02Z	https://github.com/lean-dojo/LeanCopilot	LLMs as Copilots for Theorem Proving in Lean
+Julian/lean.nvim	563	MIT	2026-08-10T18:47:00Z	https://github.com/Julian/lean.nvim	Neovim support for the Lean theorem prover
+Paper-Proof/paperproof	540	MIT	2026-08-14T19:25:48Z	https://github.com/Paper-Proof/paperproof	Lean theorem proving interface which feels like pen-and-paper proofs.
+oOo0oOo/lean-lsp-mcp	477	MIT	2026-08-16T14:08:39Z	https://github.com/oOo0oOo/lean-lsp-mcp	Lean Theorem Prover MCP
+
+## openapi generator
+OpenAPITools/openapi-generator	26675	Apache-2.0	2026-08-16T12:42:50Z	https://github.com/OpenAPITools/openapi-generator	OpenAPI Generator allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3)
+grpc-ecosystem/grpc-gateway	19978	BSD-3-Clause	2026-08-16T14:22:44Z	https://github.com/grpc-ecosystem/grpc-gateway	gRPC to JSON proxy generator following the gRPC HTTP spec
+samchon/typia	5864	MIT	2026-08-16T11:16:21Z	https://github.com/samchon/typia	Super-fast/easy runtime validators and serializers via transformation
+Azure/autorest	4799	MIT	2026-08-14T22:51:57Z	https://github.com/Azure/autorest	OpenAPI (f.k.a Swagger) Specification code generator. Supports C#, PowerShell, Go, Java, Node.js, TypeScript, Python
+AndrewWalsh/openapi-devtools	4304	MIT	2026-08-16T08:27:24Z	https://github.com/AndrewWalsh/openapi-devtools	Browser extension that generates API specs for any app or website
+
+## in-toto provenance
+philips-labs/slsa-provenance-action	50	MIT	2026-08-07T13:23:19Z	https://github.com/philips-labs/slsa-provenance-action	Github Action implementation of SLSA Provenance Generation
+confidential-dot-ai/kettle	35	MIT	2026-07-28T03:28:21Z	https://github.com/confidential-dot-ai/kettle	Kettle builds and verifies attested builds, packages that include cryptographically signed SLSA provenance.
+in-toto/github-action	8		2024-07-24T15:31:21Z	https://github.com/in-toto/github-action	in-toto provenance github action
+Open-fab-ai/openfab	6	Apache-2.0	2026-07-26T02:37:40Z	https://github.com/Open-fab-ai/openfab	An open-source software fab: natural language in, trustworthy software out. Reproducible build + signed provenance + AI/Human attribution, on a swappable agent base and forge. Built on SLSA / in-toto / Sigstore / DID.
+MSKazemi/novafabric	4	Apache-2.0	2026-08-13T14:10:51Z	https://github.com/MSKazemi/novafabric	Capture, replay, diff & audit AI agent and model runs as portable, signed evidence capsules. Open-source and self-hosted — runs in your own infrastructure, from a laptop to a cluster. No SaaS, no telemetry.
+
+## sigstore supply chain
+sigstore/model-transparency	244	Apache-2.0	2026-08-11T12:16:40Z	https://github.com/sigstore/model-transparency	Supply chain security for ML
+sigstore/policy-controller	178	NOASSERTION	2026-08-11T14:36:07Z	https://github.com/sigstore/policy-controller	Sigstore Policy Controller -  an admission controller that can be used to enforce policy on a Kubernetes cluster based on verifiable supply-chain metadata from cosign
+argoproj-labs/argocd-interlace	93	Apache-2.0	2026-06-21T23:24:48Z	https://github.com/argoproj-labs/argocd-interlace	Enabling Software Supply Chain Security Capabilities in ArgoCD
+arsbr/Veritensor	85	Apache-2.0	2026-08-09T15:11:35Z	https://github.com/arsbr/Veritensor	The Anti-Virus for AI Artifacts & RAG Firewall. A static analysis tool scanning Models and Notebooks for RCE, Datasets and RAG docs for Data Poisoning, PII, and Prompt Injections. Secure your AI Supply Chain.
+Halfblood-Prince/trustcheck	77	NOASSERTION	2026-07-27T02:15:48Z	https://github.com/Halfblood-Prince/trustcheck	Verify PyPI package attestations and improve Python supply-chain security

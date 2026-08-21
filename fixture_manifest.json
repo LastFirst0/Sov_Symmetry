@@ -1,0 +1,6 @@
+{
+  "schema": "sov.fixture_manifest",
+  "schema_version": "0.1.0",
+  "fixture_pack": "fixtures.json",
+  "sha256": "2e0aabe6ec03f7102e307ca65473defaa6d0e9668b6ba702c197062bb1a92cc8"
+}

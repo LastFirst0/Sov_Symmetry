@@ -1,0 +1,49 @@
+{
+  "comparative_rows": [
+    {
+      "evaluation_scope": "This result evaluates only the declared structural claim and input. The framework identifier is provenance, not a preferred ontology or scientific verdict.",
+      "framework_id": "framework:geometric-unity",
+      "receipt_id": "sov:sha256:38b2c892520739e9e602202e2b8a3e78ff4f8ba80b2159d1bf09f0539d07fbd8",
+      "status": "verified"
+    },
+    {
+      "evaluation_scope": "This result evaluates only the declared structural claim and input. The framework identifier is provenance, not a preferred ontology or scientific verdict.",
+      "framework_id": "framework:causal-set",
+      "receipt_id": "sov:sha256:38b2c892520739e9e602202e2b8a3e78ff4f8ba80b2159d1bf09f0539d07fbd8",
+      "status": "verified"
+    },
+    {
+      "evaluation_scope": "This result evaluates only the declared structural claim and input. The framework identifier is provenance, not a preferred ontology or scientific verdict.",
+      "framework_id": "framework:exceptional-algebra",
+      "receipt_id": "sov:sha256:38b2c892520739e9e602202e2b8a3e78ff4f8ba80b2159d1bf09f0539d07fbd8",
+      "status": "verified"
+    },
+    {
+      "evaluation_scope": "This result evaluates only the declared structural claim and input. The framework identifier is provenance, not a preferred ontology or scientific verdict.",
+      "framework_id": "framework:amplitudes-twistor",
+      "receipt_id": "sov:sha256:38b2c892520739e9e602202e2b8a3e78ff4f8ba80b2159d1bf09f0539d07fbd8",
+      "status": "verified"
+    },
+    {
+      "evaluation_scope": "This result evaluates only the declared structural claim and input. The framework identifier is provenance, not a preferred ontology or scientific verdict.",
+      "framework_id": "framework:noncommutative-geometry",
+      "receipt_id": "sov:sha256:38b2c892520739e9e602202e2b8a3e78ff4f8ba80b2159d1bf09f0539d07fbd8",
+      "status": "verified"
+    },
+    {
+      "evaluation_scope": "This result evaluates only the declared structural claim and input. The framework identifier is provenance, not a preferred ontology or scientific verdict.",
+      "framework_id": "framework:holographic-qec",
+      "receipt_id": "sov:sha256:38b2c892520739e9e602202e2b8a3e78ff4f8ba80b2159d1bf09f0539d07fbd8",
+      "status": "verified"
+    },
+    {
+      "evaluation_scope": "This result evaluates only the declared structural claim and input. The framework identifier is provenance, not a preferred ontology or scientific verdict.",
+      "framework_id": "framework:custom-research",
+      "receipt_id": "sov:sha256:38b2c892520739e9e602202e2b8a3e78ff4f8ba80b2159d1bf09f0539d07fbd8",
+      "status": "verified"
+    }
+  ],
+  "conclusion": "All labels produced the same result and receipt ID; framework_id is provenance only.",
+  "framework_count": 7,
+  "scenario": "same declared structural claim, different provenance labels"
+}

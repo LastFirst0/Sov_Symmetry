@@ -1,0 +1,3 @@
+74a8deec0c41d73c63aee53d23d896083bf789a894454d90d93e9145ee8f6848  /home/ubuntu/projects/sov-e4e91854/K1_FIXTURE_MANIFEST_CANDIDATE.json
+e22c6580fe553c4f69f54a92e7d48601efef41f838e1b0074b71dc53fa5e6768  /home/ubuntu/projects/sov-e4e91854/K1_OFFLINE_ED25519_PROFILE.md
+99204b3e7f991cddf578a85b6a2733acc4c66ac3dc180fe87bd38cd60f5263d6  contracts/k1/sov.quorum.durable_record.v0_1.schema.json

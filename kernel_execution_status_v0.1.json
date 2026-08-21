@@ -1,0 +1,47 @@
+{
+  "schema": "sov.kernel_execution_status",
+  "schema_version": "0.1.0",
+  "generated_at": "2026-08-19T05:42:00Z",
+  "scope": "Recorded local execution evidence for dashboard display; not a production monitoring feed and not an empirical or theory-level verdict.",
+  "runs": [
+    {
+      "id": "living_word_source_gate",
+      "command": "pytest -q tests/test_living_word.py",
+      "passed": 15,
+      "skipped": 0,
+      "failed": 0,
+      "status": "pass",
+      "scope": "Structural source-format and protocol checks for supplied Genesis OSHB and John SBLGNT files."
+    },
+    {
+      "id": "offline_kernel_release_matrix",
+      "command": "./tools/run_offline_kernel_release.sh",
+      "python_passed": 65,
+      "rust_passed": 4,
+      "skipped": 0,
+      "failed": 0,
+      "status": "pass",
+      "adapters": ["matrix.symmetric.v1", "matrix.identity.v1", "matrix.inverse.v1", "relation.partial_order.v1", "graph.undirected_connected.v1", "tensor.rank3_last_indices_symmetric.v1", "legacy-runtime-connectivity", "legacy-runtime-partial-order", "legacy-runtime-tensor-last-symmetric"],
+      "scope": "Bounded offline verifier and parity release matrix."
+    },
+    {
+      "id": "legacy_root_suite",
+      "command": "pytest -q",
+      "passed": 770,
+      "skipped": 65,
+      "failed": 0,
+      "status": "pass_with_transparent_skips",
+      "scope": "Exploratory legacy runtime suite; its status is not an assurance-kernel release claim."
+    },
+    {
+      "id": "dashboard_contract_suite",
+      "command": "pnpm test && pnpm build",
+      "passed": 82,
+      "skipped": 2,
+      "failed": 0,
+      "status": "pass",
+      "scope": "Dashboard unit contracts, protected source-intake failure coverage, and production bundle."
+    }
+  ],
+  "operational_boundary": "The artifact records completed commands only. It does not schedule future runs, report live telemetry, or promote candidate GPU screening results to verification receipts."
+}

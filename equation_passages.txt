@@ -1,0 +1,993 @@
+===== TRANSCRIPT LINES 400,460 =====
+And the classical one just looks at a
+small part of action and says, "Okay,
+this is where all everything is
+happening." And the quantum one actually
+looks at all of it. And so it has more
+information. The the quantum one, sorry,
+the quantum one interprets more of it.
+I'm a little bit confused cuz they're
+both local. The quantum picks up more
+information because you're looking at it
+at the wave function over the entire
+space. But what actually happens with
+the observable is is that you have a
+function. And you can either measure the
+function at the point
+um and then multiply it by the quantum
+wave or you can take that function
+differentiate it to get a one form stick
+it into a simplectic form to get a
+vector field throw the vector field to a
+connection and use that connection to
+take a directional derivative. So one of
+these ends up as a position operator.
+one of these sort of ends up as a
+momentum operator for the P's and Q's
+and the underlying coordinatization of
+phase space. But that process of
+promoting a classical observable which
+is just like some number
+um I don't really think that that that
+works exactly because the function is
+defined over the entire phase space. So
+in a certain sense even if you're
+thinking classically
+uh you're both you're working over the
+entire space of possibilities in both
+cases.
+The only thing that's different is that
+the state of the system is seen as
+um naturally looking at the entire space
+whereas in this other case you actually
+imagine a physical situation in which
+only one part of it is relevant at any
+time.
+So in the classical case are you saying
+that because we use a variational
+principle that we're seeing all of the
+space in a certain sense? Well, look,
+you're defining an action or a lrronian
+on the entire space and then you're
+defining observables that you wish to
+measure. So, you're thinking about for
+the space of all possible initial
+conditions, if I then measured the
+system, you know, n units of time later,
+I believe I would be sampling this
+function at this point. And it's the
+point part of it that is uh that is
+narrowing things to a single point
+whereas a state that is distributed
+every wave is a wave in a medium that's
+===== TRANSCRIPT LINES 600,760 =====
+not an SU cross an
+SU. So, it's meaningfully spin six cross
+spin 4.
+Um, I don't think I've ever had a chance
+to to, you know, basically everything is
+always at this goddamn explain it like
+I'm five level. So, we never actually
+get to anything interesting. Um, it's a
+great question.
+That's what determines which Fbini is in
+her product. And you know, you want to
+know something fun. If you watch the
+Oxford lecture, I screw it up. And I
+know that I'm screwing it up. And why is
+this? is because like look I I don't
+think people have a clue Kurt as to what
+it is like to work completely on your
+own. They just don't they trying to
+remind yourself if you think about how
+much you've forgotten about GU I bet
+it's huge. Right. Right. And then you
+have to refresh it. Okay. I'd forgotten
+all sorts of stuff I'd already done. One
+of the things I'd forgotten is that you
+end up with a 3a 7 metric on the fiber
+which can't work. And so while I'm
+giving the talk in Oxford, I'm thinking
+I know this works, but I have to be
+honest that I'm coming up with three and
+se seven and three. And right at the end
+I say are are there things left to do?
+Certainly there are. In fact, you have
+to get somehow. Sure. I'm trying to be
+honest, but I'd forgotten. Oh yes, it's
+the trace reversal of the Fbinius
+metric. Most people don't know that
+Fbinius metrics even exist because
+they've never it is not typical in an
+entire career in mathematics that you
+had to in induce a metric on the space
+of metrics. Well, the space of metrics
+isn't even talked about much. I mean I I
+I think it is it's not it's not never
+discussed. It's just I actually there's
+two different ways, right? There's a
+language problem. Do you mean the space
+of metric sections or do you mean the
+space of pointwise metrics? So certainly
+the space of metric sections is is very
+much discussed. Pointwise metrics has
+never really been focused
+on. Now if you say something like that I
+guarantee you somebody will pull out
+papers from 1957 and Bryce Stewit looked
+at this who knows what I don't
+know but most people never induce a
+Fbinius metric in their lives. And so it
+come and this is one of the taxes that
+you see is that if you do something
+really different even if it's not like
+developing a
+new a new collection of
+mathematics people have an idea I bet
+there's one or two or maybe three
+changes from what we usually do
+and gu says I accept the standard model
+I accept general relativity but
+everything we do is slightly wrong. We
+call we call Patise along by the wrong
+name. We have the wrong grand unified
+real forms of the group. SU5 is really
+SU3 comma uh SU3 comma
+2. SO10 is really spin 10 and spin 10 is
+really spin 6 comma 4. Like the amount
+of wear and tear on the mind to hear
+somebody say no no no I I accept all
+these things but we we've minorly got
+everything shifted. I think is a huge
+barrier to entry into
+Gio. But anyway, you asked me why the
+Fbinius metric. I don't
+think you there are many different
+metrics. I think there are
+exactly four metrics if you don't add a
+parameter to figure out how much trace
+to how much traceless you want. In other
+words, if it's only plus or minus one,
+there are precisely four metrics you can
+define and only four metrics you can
+define. And two of them are consistent
+with experiment and two of them are
+ruled out by experiment. And the two
+obvious ones are ruled out by
+experiment. The trace reverse ones
+remain in the game. And I, you
+know, it is kind of fun because Einstein
+forgot to trace reverse the reachi
+tensor.
+Mhm. And you know, it's like if I could
+recapitulate anyone's mistake, that
+would be the one I'd recapitulate.
+So the observers, yeah, is it the same
+as the metric bundle or is it the
+tangent space of the metric bundle? the
+tangent bundle to the metric. Well, the
+observer is the package, you know, and
+and here I was thinking actually a
+little bit about growth and dee where
+growth and dee replaced the concept of a
+variety with the concept of a
+scheme.
+Um I don't want to say that the total
+space is the observers. I it is the
+bundles and the relationships and the
+pullbacks like it is the package that is
+the observers. Okay. So think about if
+we
+can I love the fact that you trust your
+audience. So let's trust your audience.
+Take an uh take a page from
+object-oriented programming. In a class
+definition, you've got member variables
+and you've got bound
+methods. So that's like stuff and stuff
+you can do with and method and it's
+you've got nouns, you got verbs. You got
+stuff and you got things you can do with
+the stuff. So that's what the observer
+is. It's two
+spaces with a a fiber and sections
+connecting them and then it's bundles on
+top of them. And if you wanted to talk
+about like the the shift in perspective
+from
+Einstein, most of what we're going to do
+in GU takes place not on X4, but on
+Y14. Mostly we're not dealing with the
+tangent bundle on Y14. the way Einstein
+dealt mostly with the tangent bundle.
+You're dealing with the spinner bundle
+on
+Y14. Mostly you're not dealing with the
+Einstein Hilbert action. You're dealing
+with this new action that has homology
+to both the Einstein Hilbert action and
+the churn Simons's action and additional
+components that you've never there's
+homology to both or analogy to both.
+Sorry, you want to know funny the
+biologists use homology to mean
+similarity and so somehow I was in the
+wrong part of my head. Um yeah, it has
+similarity and analogy. I thought I
+missed something. No, it's but it it's
+it's very interesting. I I always tell
+people that if somebody has a meaning to
+the word ham puts a meaning to the word
+Hamiltonian, you
+know that they're in only one field
+because it means one thing in civics,
+one thing in physics and one thing in
+===== TRANSCRIPT LINES 1840,1960 =====
+should be. We don't follow it. We pass
+laws, we don't know that they exist.
+We're living in like looney land. And so
+what I'm doing is I'm saying I see your
+collective fictions. I have collective
+fictions of my own. It's not like I I
+don't understand what a collective
+fiction is, but I'm not going to get any
+science done if I live in your collected
+fictions. So my claim is I took those
+that's a core set of assumptions. If you
+have additional
+assumptions, I understand that. But I'm
+claiming that nothing passes even
+those. Like for example, GU is not
+phrased as a quantum theory.
+So what do you imagine the quantization
+procedure to be for GU ultimately? It's
+a little confusing. It's not so
+confusing if you think about it
+downstairs on the base
+space. The big problem is is that it's
+not
+one. The difference between zero
+temporal dimensions, one temporal
+dimension, and multiple temporal
+dimensions is enormous. With zero
+temporal dimensions, you're an elliptic
+theory and you have access to a TS
+singer and all the great stuff that
+comes with that. If you have one
+dimension, we know a lot about
+Hamiltonian dynamics and development and
+initial
+conditions. Problem is, if you have two
+or more temporal dimensions, you're in
+something called ultra hyperbolic
+equations. And very few people can think
+in two or more temporal
+dimensions. GU has several things. This
+is something that like is a great
+pleasure to be able to talk about. What
+am I critical about? GU, you know, like
+that's not a question that I get much. I
+didn't ask that, but I'm curious to
+know. I'm glad you asked that of
+yourself. So, for
+example, I don't know how to deal with
+ultra hyperbolic
+equations. So, if I think upstairs on
+the 14 manifold, I'm not there are no
+initial conditions because that's a
+co-dimension one concept. really what
+you have is boundary conditions and now
+good luck I I don't I think I had to be
+told that the koshi problem was well
+posed in ultra hyperbolic equations it's
+not something I yeah but this is not
+stuff I know so it's a good
+example if I'm not if you know the
+entire concept of physics is that I have
+an initial state I wouldn't that mean
+there's no koshi horizon
+I don't I believe that they are well
+posed but I I don't
+know. I don't know how to push
+Hamiltonian
+dynamics in multiple temporal
+dimensions. Is the bundle trivial?
+Which bundle? The metric bundle?
+Uh, it depends on the topology. Well,
+the reason I say that is cuz in GU
+there's a global section. So, you can't
+take a global section unless the
+bundle's trivial.
+There isn't a global section. You're
+talking about the metric section. No,
+no, no. That that was a thing that you
+actually cut. This is fun because like I
+I now get to actually have a meaningful
+argument. Um, didn't we agree that there
+are patches on which there's only a
+connection defined on the tangent
+bundle? And then where you're doing
+observations is where you have the
+metric defined. And that's one of the
+ways in which we get around some of the
+quantum gravity problems. Okay. So,
+let's let's let's go, man. Because just
+like you've forgotten much of GU or you
+have to reintroduce it to yourself. Same
+with myself. But by the way, thank you
+for saying that because when when I when
+when I say things like I forgot aspects
+of this, this is like a city where you
+you don't remember what your work is
+from 17 years ago and it's stored in
+some piece of paper you can't find all
+that kind of stuff. Yeah. My
+recollection is the PDF has IOTA which
+is a local section and then it has
+Gimmel which is a global section. But
+I'm saying that the existence of the
+gimmel implies that the bundle's
+trivial. This is interesting. This is a
+problem I never had before because
+occasionally I would have to do a
+refactor of the theory because I
+realized that the the notation was
+cumbersome or it conflicted with some
+there only so many letters all that kind
+of
+stuff. Uh so then this was my other
+critique Hebrew.
+So there are other letters that are used
+not much by mathematicians other than in
+cardality Hebrew letters that were used
+in GU. So and then there were some that
+I chose to keep in and if I was to
+introduce this to a friend a fresh I
+wouldn't use the variation pi which was
+===== TRANSCRIPT LINES 2330,2445 =====
+find critiques then I can retreat up
+here and say but what GU is has not been
+disproved. You've disproved my
+explanation of GU. Yeah. So what is G?
+Like what is it that you see is up here.
+Sure. What makes GU GU such that if you
+were to see it in the wild, someone
+would say a wild GU appears? This is
+such a great question, Kurt. I really
+appreciate this. Um, you ever you ever
+seen the zen of Python?
+No. There's this thing called the zen of
+Python, which tries to reduce the Python
+programming aesthetic
+to, you know,
+uh, to a list of 24 zen colons. and or
+or 26 or whatever it is. Yeah.
+Um you know you're in
+GU where you when you replace the
+inhomogeneous Lorent group with the
+inhomogeneous gauge group. You know
+you're in GU where you spend most of
+your time on a 14 manifold rather than
+on a four manifold where the 14 manifold
+is constructed from the four manifold.
+You know you're in GU when there are no
+internal symmetry groups. You know
+you're in GU when the Higs
+field comes out of an advalued one form.
+You know you're in GU when you begin
+with a four manifold. Use it to
+construct a 14 manifold that behaves
+like a three
+manifold. You know you're in GU. Just a
+moment. So you're referring to churn
+simus theory.
+And
+yeah, there are two beautiful lrangeians
+that are incredibly different that both
+result in oiler lrange equations where
+there's a curvature tensor and then you
+called me out on this very well. I
+really appreciate it. I often say that
+something is a projection operator and
+you point out that it's a contraction
+operator which is quite you were
+correct. I'm wrong. Cool. Yeah.
+Um my belief is that Einstein was the
+first person to really
+relate a curvature to
+form to an implied gauge potential by
+taking his contraction operator to get
+the Einstein tensor capital G mu new
+from the remon tensor. That thing
+there's two branches, right? There's a a
+branch that uses the star operator to do
+this little trick which is called the
+churn Simons branch and then there's the
+Einstein
+contraction and both of those result in
+oiler lrange equations with the
+curvature tensor with a contraction
+um that gets you from two forms to one
+forms. That's how you know you're in GU
+because you're using the equivariance
+that's provided in having the gauge
+group like why why are we failing to
+quantize gravity from I I claim that
+there answers to
+this there are people that I didn't know
+about until I started talking about GU
+called McDow and Mansuri who tried to
+get
+uh gravity to come out of a gauge theory
+on potentials. Now, their thing I think
+doesn't work because you don't use the
+space A of gauge potentials. You work on
+a group. By the way, there's another
+one. You know, you're in GU when you
+take Einstein's unified field concept
+much more seriously than the need to
+quantize
+gravity. Right? In GU, unified field
+means something. It's algebraically
+unified. And the idea is you start with
+the inhomogeneous gauge group and then
+you effectively super symmetriize it and
+that is the gauge content. So you're
+doing I I love this aspect. You're doing
+field content that is an algebraic
+gadget. Um boy there's so many
+questions. Okay. May I linger? Yeah. By
+the way, we can also do a multi-part
+series at some point later. But this is
+the teaser. Effectively super
+symmetriized. Yeah. So that was
+something that confused me before. So my
+understanding and you can correct me if
+I'm incorrect is that in the '7s there
+was super symmetry. Yes. So I forget who
+invented it in 1971. In 1973 there was
+Wesumino as far as I recall. In 1974
+there was Strati and Salam who created
+some wizardry or machinery called the
+Strati Salam construction. could be took
+in spaceime and outputed a super field
+or took in fields and outputed a super
+field or the pankaray group. I would say
+it took in an aphine space and gave you
+a super an automatically super symmetric
+field theory. So the idea is you didn't
+have to ad hoc construct an action and
+then check laboriously that this crazy
+term cancellation happens.
+uh up to a surface turn. So when you say
+super symmetry is in your theory, I'm
+===== TRANSCRIPT LINES 2480,2535 =====
+honest
+group and I
+do but the input is not Minkovski space.
+Minkovski space doesn't exist.
+It's a fugazi, right? It's a it's an
+approximation. The space of connections
+is a legitimate aphine space. It is an
+aphine space. It's not okay, well, we
+won't ding it and put curvature into it.
+It just it's it's a flat space.
+That was always
+meant to be what the Salam Strati
+machine did. Now, I believe that there
+are super symmetric theories that don't
+come from a Salam Strati thing.
+But the cool thing about Salam Stratthy,
+by the way, if we're mangling this name,
+I I apologize to the Stratthy family.
+Um, the cool thing about the machine is
+is that it guarantees you that your
+output will have good characteristics.
+And so what I'm claiming is what fixes
+the number of generations at an
+effective level at
+three is the extension of the
+inhomogeneous gauge group to include
+supercharges.
+Now, you call them supercharges because
+they're fractional spin fields that
+should
+have commuting rather than
+anti-commuting products that land you in
+the SP. Look, if you want, you know, the
+informal claim that super symmetry,
+you're taking the square root of the um
+momentum. Gu says no, no, no, that idea
+should be you're taking the square root
+of connections.
+You're taking the square root of the
+gauge potentials. That's a powerful idea
+because the gauge potentials are
+typically associated with first order
+differential operators. So you're taking
+a square root not like of a lelassian
+the way D
+did, but you're taking a square root of
+a first order operator.
+So the thing is is that I don't want to
+get the reason I say super symmetry like
+things is that I
+notice we we have an epidemic of spell
+checkers and if you spell like something
+wrong they pretend that they can't read
+it and that it's garbage and that
+there's nothing. I don't quite know what
+they're going to object to. Like, you
+===== TRANSCRIPT LINES 3310,3450 =====
+is here's the formula for the dark
+energy like I write down a formula and I
+say you know from this new desi
+experiment that if it continues there
+isn't a cosmological constant it's
+variable and it's already a problem that
+the cosmological constant would be so
+many orders of magnitude lower than it
+should be
+right so what if it what if there's a
+term that can respond imagine that you
+set tu stress energy tensor equal to
+zero if there's a a capital G mu new
+curvature tensor Einstein
+curvature then you need the dark energy
+term to go up and down with it right you
+need it to be able to achieve a ve if
+you
+will the reason that the we're stuck
+with the cosmological constant is that
+there's an automatic identity inside of
+the Einstein curvature which is that the
+full remon curvature has a bianke
+identity the contracted version the
+Einstein tensor is what has the
+divergence free due to the bianc key
+identity. Therefore, set tu equal to
+zero. Throw the dark energy term to the
+other side. It better have an automatic
+differential equation because it's equal
+to something that has one. Okay. So now
+the only equation there only three real
+tensors again say something slightly
+inaccurate. There only three real
+tensors in Romanian geometry. There's
+the metric tensor, there's the torsion
+tensor and there's the curvature tensor.
+Sure. Curvature tensor is used by
+Einstein to do gravity.
+The torsion tensor is the weak sister
+that never makes it to the big dance. So
+all you've got is G mu and it's got one
+equation which is that it's annihilated
+by its own levy connection. Therefore
+all you can do is put a lambda in front
+of
+that. So that the divergence has a
+product rule. The derivative of lambda
+with g mu left alone plus lambda* the
+derivative of g mu. But the derivative
+of g mu dies. That means that the only
+thing that you can count on is that the
+derivative of lambda has to die. That is
+what doomed Einstein to having to
+include this goddamn term in his
+equation which he never liked cuz it was
+just there were three terms. There was
+the beautiful
+term, there was the greatest blunder
+term, and then there was the cheap wood
+relative to the pure marble, which was
+what the stress energy tensor was as he
+described it. And torsion
+Well, the the torsion isn't in the
+Einstein field equations because of the
+palletin the fact that if you open
+yourself up to torsion then the oiler
+lrange doesn't select for it. So the
+reason was that so one of the
+contentions you know you're in GU when
+instead of using the torsion you think
+about contortion and then instead of
+using contoursion contortion is not
+called contortion to me. What is it
+called? What do I call it? What do you
+call it? I don't know because you're
+using a different term. Okay. So if you
+take the displacement tensor,
+displacement torsion tensor, we haven't
+gotten to distortion yet.
+Torsion is something involving some
+commutation of X and Y vector fields as
+you've seen in Romanian geometry. Then
+there's a an equivalent augmented
+torsion, but that's the thing I'm
+introducing. We haven't gotten there
+yet. Contoursion isn't something I've
+introduced. Okay, got it. Great.
+My understanding again I've been out of
+academics for a long time so maybe I'm
+screwing it up. If I have a bundle and I
+have a Levicha
+connection I can ask for what's the
+difference between any connection and
+the levy chvita connection that has to
+be an add value one
+form that is called the contorion and
+you can get the regular torsion from the
+contorion or the contorion from the
+regular. In other words they have
+equivalent I didn't know that had a
+name. Yeah, I believe that and this is
+stuff that nobody knows, so I'm going to
+be a little bit careful. I believe that
+the torsion and contorsion have three
+separate representational theoretic
+components. So the ad in the advalued
+one form is lambda 2 and the one form
+valued in the two forms breaks into a
+sum of three irreducible representations
+under a lorren
+group. that thing if you take different
+proportions of them, one proportion
+combination is the torsion, one
+proportional combination is the
+conttors. They're
+equivalent. Neither one of those works.
+And so the whole one you know you know
+you're in geometric unity when you use
+the gauge rotated levy chvita connection
+in what would be the contorion instead
+of the torsion tensor because that thing
+has incredible
+uh invariance properties and
+equivariance properties under the gauge
+group acting on the inhomogeneous gauge
+group. Do I know that as the tilted
+gauge group? The tilted gauge group.
+This is I love this tilted gauge group.
+The terra for our Hindi speaking friends
+uh gauge group is mapped in by this what
+I now call toao
+subplus and you can multiply on the
+right or you can multiply on the left by
+the inverse so that you get a right
+action on both sides. You can take the
+double coset construction the double
+coset of the inhomogeneous gauge group
+by the proper tow tilted
+homorphisms acting on both
+sides results in something equivalent to
+===== TRANSCRIPT LINES 3470,3535 =====
+There's two different because they're
+multiple homorphisms. But think about
+this an inom an inhomogene sorry a
+semiirect product topologically is a
+cartisian product. It's just the algebra
+that's the semiirect. Okay. So what if
+you had
+G cross or G? Now you're speaking of a
+group G.
+Yes, thank you. Thank you for keeping me
+honest. So you have a gauge group
+cartisian product with the space of add
+valued one
+forms up to an origin add valued one
+forms is the same as the space of
+connections. So first start with the
+inhomogeneous gauge group. Realize that
+that's equivalent to gauge group
+cartisian product gauge potentials.
+Realize that the gauge potentials are
+equivalent to the space of connections.
+So therefore that's the whole in
+homogeneous gauge group is equal to
+gauge group cartisian product
+connections. Now mod out by G. Just try
+to cancel the G. So G mod G goes away.
+Now you're left with an A. Now you're
+mod out by another G and you get a mod
+G.
+You know you're you know you're in GU
+when uh a mod G is replaced
+by the double co-et of the enhomogeneous
+gauge group by its own tilted
+subgroup. And you'll know you're in GU
+when the
+um dark energy term which is the
+cosmological constant times the metric
+is replaced by
+Var pi an add valued one form
+minus the epsilon gauge transformation
+inverted
+counterrotating the ex the exterior
+derivative coupled to the oliff
+connection
+applied to the epsilon gauge
+transformation the sort of the mora
+cartan form that thing is what solves
+the cosmological constant problem in G.
+Now it's just a ve. Now your only
+question is why is it so flat where I
+live? Because you have this different
+term that doesn't have to be
+constant. Look, Eric, I have this
+geometric unity iceberg. I can see the
+reaction from the comments and people
+who email me. It comprises professors,
+lay people, researchers, graduate
+students in string theory, by the way.
+and in not string theory. So, it's not
+as if string theorists don't like you or
+you don't like string theorist as a
+whole. But I don't know what the
+reaction to GU or the iceberg, but GU
+itself is in the academic world. I know
+what the reaction is like from the pop
+academics that we talked about earlier.
+===== TRANSCRIPT LINES 3860,4050 =====
+drop. If the mass drops sufficiently
+then a dack type operator decouples into
+wild vial type operators.
+So the claim is is that what we have is
+we have a non-chyro world where there
+were two chyro halves that were coupled
+because of a ve and then when gravity
+gets low
+enough what I believe you have is you
+have a
+decoupling into matter sectors and we
+what we call
+luminous will be connected to matter
+that is currently dark when gravity
+becomes strong
+F. Oh, this is like a mathematician
+trying to sound cool, but like that's
+what I think the equation said. Durac
+Rorita Schwinger. Yeah, there's a
+complex and there's an operator. Let's
+take a duram complex where d^2= 0 on a
+manifold and let's put a bundle on top
+of that manifold with a
+connection. Let's imagine the connection
+is flat.
+So we've tensored this bundle, this
+vector bundle with the DAM complex with
+a flat connection. D^2 will continue to
+be
+zero. Now let's say okay, let's relax
+the flatness
+condition. D ^2 is no longer equal to
+zero. d^2 actually becomes
+definitionally the curvature.
+Okay? Right? Right? Because you need
+like you need to go from I forms to I +2
+forms and instead of it being a second
+order differential operator, it's a
+zeroith order differential operator
+equivalent to a degree to form valued in
+the adjint bundle which is the
+curvature. Okay. Yeah.
+So sometimes in such situations you're
+like oh no that ruined my complex the
+curvature which I love ruined the
+complex structure of the tensored DM
+complex. So what do you do? You say okay
+I'm going to roll it up into an
+operator.
+Instead of having a multi-step complex,
+I'm just going to say let let's take
+even forms on one side, odd forms on the
+other, and I'll map the even forms up
+via D, and I'll map them down via D
+star. Both coupled to a connection. So
+now you get a one-step operator rather
+than a multi-step operator. It's not a
+complex, but that thing would be the
+DRAM complex. the best you can do with a
+drram complex with a vector bundle
+tensored with it where the connection
+was not trivial which was did not have
+trivial curvature rather let's say it
+that way so this is a rolled up
+complex that normally one would find on
+a three manifold remember I said
+that your NGU when a four manifold
+births a 14 manifold which behaves like
+a three
+manifold there two ways that that
+happens. You pointed to one of them,
+which is, oh, you mean churn silence.
+That was part of the truth. But then
+there's a second part of the truth. Only
+on a three manifold do I get a cheap
+version of
+a complex that
+has zero forms to one forms, one forms
+to two forms, two forms to three
+forms. Right? So there are three
+non-trivial steps in that complex.
+This one goes zero forms to one forms,
+one forms to two forms, but the two
+forms then get
+contracted to d minus1 forms. And then
+the d minus one forms get taken to d
+forms. So if you put those together, it
+looks like a three complex cuz you cut
+out almost all of the middle of the
+duram
+sequence. Right? Now that gadget gets
+rolled
+up and that's what this direct fit
+swinger operator is all about. That's
+what the firmian sector looks like. And
+by the way, the idea that I haven't
+heard any commentary on this idea at
+all. It's just weird. It's like here
+is a bold clear idea. Take the 14
+manifold and that 14
+manifold has a
+chimeic bundle which is equivalent to
+the tangent and the co-angent bundles.
+In fact, it's semiconically equivalent
+and is endowed with natural metric
+information. So you can build spinners
+without ever making a metric choice.
+Okay, that guy because you can build
+spinners, you can think of that as a
+um bundle with a U64, 64 structure
+group. And what we're going to do is
+we're going to take the DAM complex on
+that thing, which would normally have
+degree 0, degree 1, degree 2, 3, 4, all
+the way up to 14 before it died. So it'
+have 15 different terms, 14 different
+operators.
+You're going to cut out almost all of
+them in the middle. So you're going to
+go 0 to 1 to 13 to 14 and then die. And
+so how did you get from two to 13? Oh.
+Well, you took two. Yes. You did a
+contraction that got you back to one.
+Yeah. And then you did a star. Yes. And
+so that thing when rolled up has that
+zero in the
+south east corner of the mat of a 2x2
+matrix of operators which is what I
+think will be found to be a seessaw
+mechanism.
+So there's an entire there's a wonderful
+book by Michael Aia called the physics
+and geometry of knots and you see this
+complex in that
+book. So that the reason that the 14
+manifold behaves like a three manifold
+three is magical just a magical
+dimension.
+There's the Bzonic magic which is churn
+Simon's like theories and there's the
+firmianic magic which is that you roll
+up this very simple
+thing and that's what leads to three
+generations.
+Do you still have the d squ property in
+this complex that's only 3 to four long?
+This is something I've never said
+anywhere. There is a new dsqu I think
+it's as cyclic crazy beautiful
+complex that if you have two connections
+uh I created and have never released to
+anyone I haven't even mentioned it
+because it's going to it's going to
+engender more confusion but suffice it
+to say there's something that looks
+like oh god what is
+it da
+A f subb for the second connection
+identity db I think that's the four
+entry oh sorry there there two negative
+signs in the second column so there is a
+new d squed which is unbelievable and
+one of the coolest things about this is
+that on shell where the equations get
+satisfied a complex is birthed so If you
+think about it and this is you know this
+is like this is more with my old math
+buddies. My interpretation is that the
+Einstein condition is a co logical
+condition. Okay. Because what it says is
+the curvature has some special property.
+But if the curvature is the
+obstruction to d^2 equaling 0 then maybe
+on shell what that's telling you is that
+a new colum columnies theory is born on
+shell.
+So you're going to get a modulized space
+of
+connections and then you can look at the
+kernel and co- kernel of a colomology
+theory on that space and you get this
+gorgeous structure. But the thing is is
+that look I went into math to avoid
+string
+theory. And you know, there's just this
+very weird story which I had couldn't
+sort out in my mind where
+I I was a 17-year-old kid at the
+University of
+Pennsylvania who went to a lecture of Ed
+Whitten on string theory in
+===== TRANSCRIPT LINES 4330,4400 =====
+unexampled phenomenon that what you're
+actually asking is for people to use a
+huristic. Look, I'm not going to read
+all that. Just tell me whether it's
+right or wrong, whether he's, you know,
+full of it or whether there's anything
+to it. And by the way, here's a story
+that I I don't think I've told much.
+There's a guy named Eugenio Bianke who's
+I think still running around in physics.
+I went to a conference right after the
+Oxford talk in 2013.
+and he said you know we've been at this
+conference for three days this is our
+last day the fourth and everybody in the
+world because like Lemon had written
+about this was a big you know the
+Guardian had written about it and he
+said everybody wants to know is there
+anything to this or is there nothing to
+this so let's go and we'll ditch the
+conference so we ditch the conference we
+sit
+down and I start explaining it to him I
+don't know where he went and he finally
+he just said stop right there we're like
+20 minutes
+And I should have listened to this. I
+was just like I didn't have the
+confidence to hear what he had to say.
+He
+said, forgive me you Jenny if you're out
+there. He said the only thing that's
+occurring to people is that there are
+either zero new ideas or one new
+idea. And nobody imagines that there are
+two or more. And the most likely number
+is zero.
+And then he pointed
+at the displaced torsion of the
+augmented torsion tensor and he said
+just take
+that he said that's an entire
+field. He
+said that one idea is worthy of a field.
+Now I didn't know how to process that.
+And he said the problem is there's new
+idea after new idea after new idea and
+nobody no one has budgeted that this is
+a
+possibility. It was
+like remember when you said something
+nice and I said thank you and I said
+it's a struggle to figure out what to
+say. I don't know how to receive the
+idea like it's a weird thing that you
+work on the theory of everything and you
+think it's right. You take those two
+statements that shouldn't be a weird
+thing for anyone with a PhD in a
+technical subject. Like of course that's
+what you're working on. If I was in
+biology, I'd be trying to cure
+cancer. You know, if I if I owned a
+rocket company, I'd be trying to go to
+Mars.
+And to me, it's like we're in
+theoretical physics to solve
+physics. Like, you know, I know Jim
+Watson as a person. That guy's name will
+be around for 10,000 years if humans

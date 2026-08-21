@@ -1,0 +1,33 @@
+{
+  "schema": "sov.falsification_register",
+  "schema_version": "0.1.0",
+  "entries": [
+    {
+      "id": "H-LANG-01",
+      "title": "Hyperbolic lexical hierarchy recovery",
+      "status": "tested_fail",
+      "statement": "A declared Poincare representation improves held-out WordNet hypernym recovery over matched Euclidean and random controls.",
+      "contrary_result": "The v0 public pilot did not show a hyperbolic advantage on its pinned sample.",
+      "evidence": "artifacts/hierarchy_recovery_v0/EXPERIMENT_REPORT.md",
+      "next_obligation": "Choose an independently pinned lexical benchmark and predeclare a new representation family before another run."
+    },
+    {
+      "id": "H-DNA-01",
+      "title": "Hyperbolic DNA representation advantage",
+      "status": "tested_fail",
+      "statement": "A declared hyperbolic DNA sequence representation improves held-out classification over matched Euclidean and random controls on a pinned public dataset.",
+      "contrary_result": "On the pinned public Genomic Benchmarks non-TATA promoter pilot, the Poincare prototype had no fixed-seed positive 95% paired-bootstrap AUROC lower bound over the matched Euclidean prototype.",
+      "evidence": "artifacts/m0_sequence_geometry_v0/evaluation_bundle.json",
+      "next_obligation": "Retain this negative result. A new candidate requires a new frozen protocol and an independent replication on a separately pinned task; it may not alter the original result."
+    },
+    {
+      "id": "H-E8-01",
+      "title": "Legacy E8 transform adds predictive value",
+      "status": "blocked",
+      "statement": "A precisely specified legacy E8 feature transform adds held-out value beyond matched non-E8 controls on a public source-derived task.",
+      "contrary_result": "A hash/modulo assignment, a non-reproducible transform, or no incremental value rejects the hypothesis.",
+      "evidence": "projects/sov-e4e91854/DEFERRED_MATHEMATICS_FEEDBACK_LOOP_AND_LANGUAGE_GEOMETRY.md",
+      "next_obligation": "Write an adapter dossier and source-derived feature contract before any evaluation."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "sov.empirical_claim_packet.v0.1",
+  "title": "Sovereign empirical claim packet v0.1",
+  "type": "object",
+  "required": ["schema", "schema_version", "packet_id", "claim_id", "claim_class", "statement", "target_quantity", "datasets", "provenance", "uncertainty", "analysis_binding", "governance", "non_claims"],
+  "properties": {
+    "schema": {"const": "sov.empirical_claim_packet"},
+    "schema_version": {"const": "0.1.0"},
+    "packet_id": {"type": "string", "minLength": 1},
+    "claim_id": {"type": "string", "minLength": 1},
+    "claim_class": {"const": "empirical"},
+    "statement": {"type": "string", "minLength": 1},
+    "datasets": {"type": "array", "minItems": 1},
+    "non_claims": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}}
+  },
+  "additionalProperties": true
+}
